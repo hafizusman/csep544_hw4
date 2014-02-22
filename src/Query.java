@@ -21,7 +21,7 @@ public class Query {
 
 	// DB Connection
 	private Connection conn;
-        private Connection customerConn;
+    private Connection customerConn;
 
 	// Canned queries
 
@@ -95,7 +95,10 @@ public class Query {
 		   customerConn.setAutoCommit(true); //by default automatically commit after each statement
 		   customerConn.setTransactionIsolation(...); //
 		*/
-	        
+        jSQLUrl	   = configProps.getProperty("videostore.customer_url");
+        customerConn = DriverManager.getConnection(jSQLUrl, // database
+                            jSQLUser, // user
+                            jSQLPassword); // password
 	}
 
 	public void closeConnection() throws Exception {
