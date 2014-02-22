@@ -6,134 +6,23 @@
 > return <movie id>
 > fastsearch <movie title>
 > quit
-> Searching for the movie 'Nixon'
+> Searching for the movie 'nixon'
 ID: 32573 NAME: A Night with Nixon YEAR: 2008
-		Director: Cormack  Alex
-ID: 107448 NAME: David Frost Interviews Richard Nixon YEAR: 1977
-		Director: Winther  Jrn
-ID: 141877 NAME: Frost/Nixon YEAR: 2008
-		Director: Howard  Ron
-ID: 166994 NAME: Dad's in Heaven with Nixon YEAR: 2010
-		Director: Murray  Tom
-ID: 167917 NAME: Dark Days at the White House: The Watergate Scandal and the Resignation of President Richard M. Nixon YEAR: 1989
-ID: 196668 NAME: Elvis Meets Nixon YEAR: 1997
-		Director: Arkush  Allan
-ID: 215261 NAME: Kissinger and Nixon YEAR: 1995
-		Director: Petrie  Daniel
-ID: 224787 NAME: Inside the Presidency: Eisenhower vs. Nixon YEAR: 2001
-ID: 286571 NAME: Inside Oliver Stone's 'Nixon' YEAR: 1995
-		Director: Jopson  John
-ID: 344057 NAME: Nixon YEAR: 1995
-		Director: Stone  Oliver
-ID: 350181 NAME: Nixon kommt nach Berlin YEAR: 1969
-		Director: Farocki  Harun
-ID: 357818 NAME: Nixon Visions YEAR: 1969
-		Director: Esselius  Hans
-ID: 516566 NAME: The Plot to Kill Nixon YEAR: 2005
-		Director: Hawkins  Kim
-		Director: Taulre  Patrick
-ID: 527660 NAME: The Speeches of Richard Nixon YEAR: 1995
-ID: 529826 NAME: The Secret Life of Richard Nixon YEAR: 2000
-ID: 589583 NAME: The Assassination of Richard Nixon YEAR: 2004
-		Director: Mueller  Niels
-ID: 590556 NAME: The Real Richard Nixon YEAR: 1995
-ID: 650822 NAME: When Elvis Met Nixon YEAR: 2009
-		Director: Gostisha  Dave
-ID: 693529 NAME: Wladimir Nixon YEAR: 1971
-		Director: Pilz  Michael
-ID: 708348 NAME: Nixon's Birthplace YEAR: null
-ID: 713146 NAME: The Seventh Crisis of Richard M. Nixon YEAR: null
-ID: 728571 NAME: Richard Nixon: Man and President YEAR: 1996
-ID: 747944 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-ID: 803711 NAME: Ollie North and Nixon Plan to Take Over the Western Hemisphere YEAR: 1987
-ID: 811449 NAME: Nixon YEAR: 2003
-		Director: Bartlett  David
-ID: 819642 NAME: Nixon Impersonates Dangerfield, Dolly Parton and Bette Midler YEAR: 1987
-ID: 825232 NAME: Nixon Acts as Princess Di's Divorce Lawyer YEAR: null
-		Director: Locke  Rick
-ID: 835274 NAME: Nixon's Presidential Library Is a Bookmobile YEAR: null
-		Director: Locke  Rick
-ID: 840816 NAME: Nixon Has Romantic Fantasies About Bo Derek YEAR: 1987
-ID: 848231 NAME: Nixon Impeached from Cub Scouts YEAR: null
-		Director: Locke  Rick
-ID: 859660 NAME: David Nixon's Comedy Bandbox YEAR: 1966
-ID: 859875 NAME: Nixon Schemes to Make Money by Becoming a Surrogate Mother YEAR: 1987
-ID: 877680 NAME: Carter, Nixon and Ford Perform Ex-President Do-Wop Blues YEAR: 1987
-ID: 879194 NAME: Nixon Gives Fred Financial Advice... and He Loses His Shirt YEAR: null
-		Director: Locke  Rick
-ID: 883802 NAME: Nixon Hawks the Watergate Tapes for $29.99 YEAR: 1987
-ID: 886245 NAME: David Nixon's Magic Box YEAR: 1970
-ID: 890062 NAME: Nixon Impersonates Elvis in a Moneymaking Scheme YEAR: 1987
-ID: 907834 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-ID: 923216 NAME: The Political Obituary of Richard M. Nixon YEAR: null
-ID: 976073 NAME: Nixon in China YEAR: 1988
-		Director: Large  Brian
-ID: 997594 NAME: Nixon in Chicago YEAR: null
-ID: 1004306 NAME: Agnes Nixon YEAR: 1999
-ID: 1020598 NAME: Cynthia Nixon YEAR: 2002
-ID: 1132522 NAME: Nixon vs. Kennedy YEAR: null
-		Director: Taylor  Alan
-ID: 1318719 NAME: David Nixon's Christmas Magic YEAR: 1972
-		Director: Mayoh  Royston
-ID: 1318830 NAME: 100 Nixon, Derek Lee YEAR: null
-ID: 1324885 NAME: Nixon: Part III YEAR: null
-		Director: Deane  Elizabeth
-		Director: Espar  David
-		Director: Mellowes  Marilyn
-ID: 1330940 NAME: The David Nixon Show YEAR: 1972
-ID: 1350418 NAME: Richard Nixon: Part II YEAR: null
-		Director: Deane  Elizabeth
-		Director: Espar  David
-		Director: Mellowes  Marilyn
-ID: 1363425 NAME: David Nixon's Magic Hour YEAR: 1972
-		Director: Frazer-Jones  Peter
-ID: 1373063 NAME: Nixon's China Game YEAR: null
-		Director: Anderson  Mark
-		Director: Simkin  Michael
-ID: 1373625 NAME: Nixon: Part I YEAR: null
-		Director: Espar  David
-ID: 1404404 NAME: Frost/Nixon YEAR: null
-		Director: Pearce  Juliette
-ID: 1488454 NAME: David Nixon YEAR: 1973
-ID: 1517926 NAME: Tonight with David Nixon YEAR: 1969
-
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-> Searching for the movie 'braveheart'
-ID: 7104 NAME: Braveheart: Tales of William Wallace YEAR: 2007
-ID: 23418 NAME: Braveheart: A Writer's Journey YEAR: 2007
-ID: 32055 NAME: Braveheart YEAR: 1925
-		Director: Hale  Alan
-ID: 93055 NAME: Braveheart YEAR: 1995
-		Director: Gibson  Mel
-ID: 125966 NAME: Fact or Fiction: Braveheart YEAR: 2001
-		Director: Willcock  David
-ID: 315879 NAME: Mel Gibson's 'Braveheart': A Filmmaker's Passion YEAR: 2000
-		Director: Reisz  Toby
-ID: 576822 NAME: The Braveheart of Sussex YEAR: 2012
-		Director: Socha  Raphael
-ID: 918792 NAME: The True Story of Braveheart YEAR: 1999
-		Director: Fincke  SueAnn
-ID: 973330 NAME: Braveheart: A Hero in Focus YEAR: 2002
-ID: 1134342 NAME: Filmen 'Braveheart' YEAR: null
-ID: 1178224 NAME: Braveheart's Scotland YEAR: null
-		Director: Markham  Bill
-ID: 1332835 NAME: Braveheart YEAR: 2004
-		Director: Inch  Kevin
-ID: 1551769 NAME: Braveheart YEAR: null
-
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-> 
+Exception in thread "main" com.microsoft.sqlserver.jdbc.SQLServerException: Connection reset by peer: socket write error
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:1368)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:1355)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.write(IOBuffer.java:1548)
+	at com.microsoft.sqlserver.jdbc.TDSWriter.flush(IOBuffer.java:2368)
+	at com.microsoft.sqlserver.jdbc.TDSWriter.writePacket(IOBuffer.java:2270)
+	at com.microsoft.sqlserver.jdbc.TDSWriter.endMessage(IOBuffer.java:1877)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:4403)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:386)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:338)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:185)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:160)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:281)
+	at Query.transaction_search(Query.java:211)
+	at VideoStore.menu(VideoStore.java:49)
+	at VideoStore.main(VideoStore.java:124)

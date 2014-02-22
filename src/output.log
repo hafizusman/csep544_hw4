@@ -6,4 +6,27 @@
 > return <movie id>
 > fastsearch <movie title>
 > quit
+> Error: need to type in movie title
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+> Searching for the movie 'm'
+ID: 1 NAME: plan1 MAXRENTALS: 1 FEE: 10
+ID: 2 NAME: plan2 MAXRENTALS: 2 FEE: 20
+ID: 3 NAME: plan3 MAXRENTALS: 3 FEE: 30
+ID: 4 NAME: plan4 MAXRENTALS: 4 FEE: 40
+
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
 > 
