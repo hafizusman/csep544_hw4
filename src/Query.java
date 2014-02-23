@@ -72,6 +72,10 @@ public class Query {
             "SELECT COUNT(*) FROM PLANS AS P WHERE P.id=?";
     private PreparedStatement isValidPlanIdStatement;
 
+    private static final String CUSTOMER_ID_FROM_RENTAL_SQL =
+            "SELECT R.customerid FROM RENTALS AS R WHERE R.movieid=?";
+    private PreparedStatement customerIdFromRentalStatement;
+
 
 	/*
 	private static final String BEGIN_TRANSACTION_SQL =
@@ -162,6 +166,7 @@ public class Query {
         customerNameStatement = customerConn.prepareStatement(CUSTOMER_NAME_SQL);
         isValidMovieIdStatement = conn.prepareStatement(IS_VALID_MOVIE_ID_SQL);
         isValidPlanIdStatement = customerConn.prepareStatement(IS_VALID_PLAN_ID_SQL);
+        customerIdFromRentalStatement = customerConn.prepareStatement(CUSTOMER_ID_FROM_RENTAL_SQL);
     }
 
 
@@ -230,7 +235,16 @@ public class Query {
 
     private int getRenterID(int mid) throws Exception {
 		/* Find the customer id (cid) of whoever currently rents the movie mid; return -1 if none */
-        return (77);
+        int renter_id = -1;
+
+        customerIdFromRentalStatement.clearParameters();
+        customerIdFromRentalStatement.setInt(1, mid);
+        ResultSet renter_id_set = customerIdFromRentalStatement.executeQuery();
+        if (renter_id_set.next())
+            renter_id = renter_id_set.getInt(1);
+        renter_id_set.close();
+
+        return renter_id;
     }
 
     /**********************************************************/
