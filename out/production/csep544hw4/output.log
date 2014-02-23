@@ -1,5 +1,5 @@
-Customer Name: micro soft
-Remaining RENTALS for cid=3 is 0
+Hello micro soft!
+You can rent 0 more movies
 
  *** Please enter one of the following commands *** 
 > search <movie title>
@@ -8,17 +8,103 @@ Remaining RENTALS for cid=3 is 0
 > return <movie id>
 > fastsearch <movie title>
 > quit
-> Searching for the movie 'schindler's list'
-Exception in thread "main" com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near 's'.
-	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:196)
-	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1454)
-	at com.microsoft.sqlserver.jdbc.SQLServerStatement.doExecuteStatement(SQLServerStatement.java:786)
-	at com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd.doExecute(SQLServerStatement.java:685)
-	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
-	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:185)
-	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:160)
-	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeQuery(SQLServerStatement.java:620)
-	at Query.transaction_search(Query.java:294)
-	at VideoStore.menu(VideoStore.java:49)
-	at VideoStore.main(VideoStore.java:124)
+> Fast Searching for the movie 'nixon'
+ 1 ID: 32573 NAME: A Night with Nixon YEAR: 2008
+	DIRECTOR: Cormack  Alex
+ 2 ID: 107448 NAME: David Frost Interviews Richard Nixon YEAR: 1977
+	DIRECTOR: Winther  Jrn
+ 3 ID: 141877 NAME: Frost/Nixon YEAR: 2008
+	DIRECTOR: Howard  Ron
+ 4 ID: 166994 NAME: Dad's in Heaven with Nixon YEAR: 2010
+	DIRECTOR: Murray  Tom
+ 5 ID: 167917 NAME: Dark Days at the White House: The Watergate Scandal and the Resignation of President Richard M. Nixon YEAR: 1989
+ 6 ID: 196668 NAME: Elvis Meets Nixon YEAR: 1997
+	DIRECTOR: Arkush  Allan
+ 7 ID: 215261 NAME: Kissinger and Nixon YEAR: 1995
+	DIRECTOR: Petrie  Daniel
+ 8 ID: 224787 NAME: Inside the Presidency: Eisenhower vs. Nixon YEAR: 2001
+ 9 ID: 286571 NAME: Inside Oliver Stone's 'Nixon' YEAR: 1995
+	DIRECTOR: Jopson  John
+ 10 ID: 344057 NAME: Nixon YEAR: 1995
+	DIRECTOR: Stone  Oliver
+ 11 ID: 350181 NAME: Nixon kommt nach Berlin YEAR: 1969
+	DIRECTOR: Farocki  Harun
+ 12 ID: 357818 NAME: Nixon Visions YEAR: 1969
+	DIRECTOR: Esselius  Hans
+ 13 ID: 516566 NAME: The Plot to Kill Nixon YEAR: 2005
+	DIRECTOR: Hawkins  Kim
+	DIRECTOR: Taulre  Patrick
+ 14 ID: 527660 NAME: The Speeches of Richard Nixon YEAR: 1995
+ 15 ID: 529826 NAME: The Secret Life of Richard Nixon YEAR: 2000
+ 16 ID: 589583 NAME: The Assassination of Richard Nixon YEAR: 2004
+	DIRECTOR: Mueller  Niels
+ 17 ID: 590556 NAME: The Real Richard Nixon YEAR: 1995
+ 18 ID: 650822 NAME: When Elvis Met Nixon YEAR: 2009
+	DIRECTOR: Gostisha  Dave
+ 19 ID: 693529 NAME: Wladimir Nixon YEAR: 1971
+	DIRECTOR: Pilz  Michael
+ 20 ID: 708348 NAME: Nixon's Birthplace YEAR: null
+ 21 ID: 713146 NAME: The Seventh Crisis of Richard M. Nixon YEAR: null
+ 22 ID: 728571 NAME: Richard Nixon: Man and President YEAR: 1996
+ 23 ID: 747944 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
+ 24 ID: 803711 NAME: Ollie North and Nixon Plan to Take Over the Western Hemisphere YEAR: 1987
+ 25 ID: 811449 NAME: Nixon YEAR: 2003
+	DIRECTOR: Bartlett  David
+ 26 ID: 819642 NAME: Nixon Impersonates Dangerfield, Dolly Parton and Bette Midler YEAR: 1987
+ 27 ID: 825232 NAME: Nixon Acts as Princess Di's Divorce Lawyer YEAR: null
+	DIRECTOR: Locke  Rick
+ 28 ID: 835274 NAME: Nixon's Presidential Library Is a Bookmobile YEAR: null
+	DIRECTOR: Locke  Rick
+ 29 ID: 840816 NAME: Nixon Has Romantic Fantasies About Bo Derek YEAR: 1987
+ 30 ID: 848231 NAME: Nixon Impeached from Cub Scouts YEAR: null
+	DIRECTOR: Locke  Rick
+ 31 ID: 859660 NAME: David Nixon's Comedy Bandbox YEAR: 1966
+ 32 ID: 859875 NAME: Nixon Schemes to Make Money by Becoming a Surrogate Mother YEAR: 1987
+ 33 ID: 877680 NAME: Carter, Nixon and Ford Perform Ex-President Do-Wop Blues YEAR: 1987
+ 34 ID: 879194 NAME: Nixon Gives Fred Financial Advice... and He Loses His Shirt YEAR: null
+	DIRECTOR: Locke  Rick
+ 35 ID: 883802 NAME: Nixon Hawks the Watergate Tapes for $29.99 YEAR: 1987
+ 36 ID: 886245 NAME: David Nixon's Magic Box YEAR: 1970
+ 37 ID: 890062 NAME: Nixon Impersonates Elvis in a Moneymaking Scheme YEAR: 1987
+ 38 ID: 907834 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
+ 39 ID: 923216 NAME: The Political Obituary of Richard M. Nixon YEAR: null
+ 40 ID: 976073 NAME: Nixon in China YEAR: 1988
+	DIRECTOR: Large  Brian
+ 41 ID: 997594 NAME: Nixon in Chicago YEAR: null
+ 42 ID: 1004306 NAME: Agnes Nixon YEAR: 1999
+ 43 ID: 1020598 NAME: Cynthia Nixon YEAR: 2002
+ 44 ID: 1132522 NAME: Nixon vs. Kennedy YEAR: null
+	DIRECTOR: Taylor  Alan
+ 45 ID: 1318719 NAME: David Nixon's Christmas Magic YEAR: 1972
+	DIRECTOR: Mayoh  Royston
+ 46 ID: 1318830 NAME: 100 Nixon, Derek Lee YEAR: null
+ 47 ID: 1324885 NAME: Nixon: Part III YEAR: null
+	DIRECTOR: Mellowes  Marilyn
+	DIRECTOR: Deane  Elizabeth
+	DIRECTOR: Espar  David
+ 48 ID: 1330940 NAME: The David Nixon Show YEAR: 1972
+ 49 ID: 1350418 NAME: Richard Nixon: Part II YEAR: null
+	DIRECTOR: Espar  David
+	DIRECTOR: Deane  Elizabeth
+	DIRECTOR: Mellowes  Marilyn
+ 50 ID: 1363425 NAME: David Nixon's Magic Hour YEAR: 1972
+	DIRECTOR: Frazer-Jones  Peter
+ 51 ID: 1373063 NAME: Nixon's China Game YEAR: null
+	DIRECTOR: Anderson  Mark
+	DIRECTOR: Simkin  Michael
+ 52 ID: 1373625 NAME: Nixon: Part I YEAR: null
+	DIRECTOR: Espar  David
+ 53 ID: 1404404 NAME: Frost/Nixon YEAR: null
+	DIRECTOR: Pearce  Juliette
+ 54 ID: 1488454 NAME: David Nixon YEAR: 1973
+ 55 ID: 1517926 NAME: Tonight with David Nixon YEAR: 1969
+
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+> 

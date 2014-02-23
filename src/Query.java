@@ -76,6 +76,24 @@ public class Query {
             "SELECT R.customerid FROM RENTALS AS R WHERE R.movieid=? AND R.status = " + RENTAL_STATUS_OPENED;
     private PreparedStatement customerIdFromRentalStatement;
 
+    private static final String FAST_SEARCH_SQL_BEGIN =
+            "SELECT * FROM MOVIE AS M WHERE LOWER(M.name) LIKE '%";
+    private static final String FAST_SEARCH_SQL_END =
+            "%' ORDER BY M.id";
+
+    private static final String FAST_SEARCH_DIRECTORS_SQL_BEGIN =
+            "SELECT X.id AS mid, X.name AS mname, X.year AS myear, D.* " +
+            "FROM MOVIE_DIRECTORS AS MD " +
+            "INNER JOIN DIRECTORS AS D ON MD.did = D.id " +
+            "RIGHT OUTER JOIN ( " +
+                    "SELECT * " +
+                    "FROM MOVIE AS M " +
+                    "WHERE LOWER(M.name) LIKE '%";
+    private static final String FAST_SEARCH_DIRECTORS_SQL_END =
+                    "%') AS X " +
+                    "ON X.id = MD.mid " +
+                    "ORDER BY X.id";
+
 
 	/*
 	private static final String BEGIN_TRANSACTION_SQL =
@@ -264,8 +282,8 @@ public class Query {
 
         if (TEST==1)
         {
-            System.out.println("Customer Name: " + getCustomerName(cid));
-            System.out.println("Remaining RENTALS for cid=" + cid + " is " + getRemainingRentals(cid));
+            System.out.println("Hello " + getCustomerName(cid) + "!");
+            System.out.println("You can rent " + getRemainingRentals(cid) + " more movies");
         }
 
         return(cid);
@@ -286,15 +304,19 @@ public class Query {
 		/* searches for movies with matching titles: SELECT * FROM movie WHERE name LIKE movie_title */
 		/* prints the movies, directors, actors, and the availability status:
 		   AVAILABLE, or UNAVAILABLE, or YOU CURRENTLY RENT IT */
+        int count = 0;
 
 		/* Interpolate the movie title into the SQL string */
         String searchSql = SEARCH_SQL_BEGIN + movie_title + SEARCH_SQL_END;
 
         Statement searchStatement = conn.createStatement();
         ResultSet movie_set = searchStatement.executeQuery(searchSql);
+        count = 0;
         while (movie_set.next()) {
             int mid = movie_set.getInt(1);
-            System.out.println("ID: " + mid + " NAME: "
+            System.out.println(
+                    " " + ++count +
+                    " ID: " + mid + " NAME: "
                     + movie_set.getString(2) + " YEAR: "
                     + movie_set.getString(3));
 
@@ -359,6 +381,52 @@ public class Query {
 		   Needs to run three SQL queries: (a) movies, (b) movies join directors, (c) movies join actors
 		   Answers are sorted by mid.
 		   Then merge-joins the three answer sets */
+        int count = 0;
+
+        String searchSql = FAST_SEARCH_SQL_BEGIN + movie_title + FAST_SEARCH_SQL_END;
+        Statement searchStatement = conn.createStatement();
+        ResultSet movie_set = searchStatement.executeQuery(searchSql);
+        if (false){
+        count = 0;
+        while (movie_set.next()) {
+            int mid = movie_set.getInt(1);
+            System.out.println(
+                    " " + ++count +
+                    " ID: " + mid + " NAME: "
+                    + movie_set.getString(2) + " YEAR: "
+                    + movie_set.getString(3));
+
+        }
+        }
+
+        String directorSql = FAST_SEARCH_DIRECTORS_SQL_BEGIN + movie_title + FAST_SEARCH_DIRECTORS_SQL_END;
+        Statement directorStatement = conn.createStatement();
+        ResultSet director_set = directorStatement.executeQuery(directorSql);
+        count = 0;
+        int prev_mid = -1;
+        while (director_set.next()) {
+            int mid = director_set.getInt(1);
+            if (mid != prev_mid) {
+                System.out.println(
+                        " " + ++count +
+                        " ID: " + mid +
+                        " NAME: " + director_set.getString(2) +
+                        " YEAR: " + director_set.getString(3));
+                if (director_set.getString(5) != null || director_set.getString(6) != null) {
+                    System.out.println("\tDIRECTOR: " + director_set.getString(6) + " " + director_set.getString(5));
+                }
+            }
+            else {
+                if (director_set.getString(6) != null || director_set.getString(5) != null) {
+                    System.out.println("\tDIRECTOR: " + director_set.getString(6) + " " + director_set.getString(5));
+                }
+            }
+            prev_mid = mid;
+        }
+
+        director_set.close();
+        movie_set.close();
+        System.out.println();
     }
 
 
