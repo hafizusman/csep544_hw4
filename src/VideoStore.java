@@ -88,10 +88,11 @@ public class VideoStore {
 			else if (t.equals("fastsearch")) {
 				/* same as search, only faster (and single words only) */
 				if (st.hasMoreTokens()) {
-					String movie_word = st.nextToken();
+                    String movie_title = st.nextToken("\n").trim(); /* read the rest of the line */
 					System.out.println("Fast Searching for the movie '"
-									   + movie_word + "'");
-					q.transaction_fastSearch(cid, movie_word);
+									   + movie_title + "'");
+                    q.transaction_fastSearch(cid, movie_title);
+
 				} else {
 					System.out
 						.println("Error: need to type in movie title");

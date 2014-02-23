@@ -29,11 +29,9 @@ public class Query {
 
     // Canned queries
 
-    // LIKE does a case-insensitive match
-    private static final String SEARCH_SQL_BEGIN =
-            "SELECT * FROM movie WHERE name LIKE '%";
-    private static final String SEARCH_SQL_END =
-            "%' ORDER BY id";
+    private static final String SEARCH_SQL =
+            "SELECT * FROM movie WHERE name LIKE ? ORDER BY id";
+    private PreparedStatement searchStatement;
 
     private static final String DIRECTOR_MID_SQL = "SELECT y.* "
             + "FROM movie_directors x, directors y "
@@ -76,39 +74,34 @@ public class Query {
             "SELECT R.customerid FROM RENTALS AS R WHERE R.movieid=? AND R.status = " + RENTAL_STATUS_OPENED;
     private PreparedStatement customerIdFromRentalStatement;
 
-    private static final String FAST_SEARCH_SQL_BEGIN =
-            "SELECT * FROM MOVIE AS M WHERE LOWER(M.name) LIKE '%";
-    private static final String FAST_SEARCH_SQL_END =
-            "%' ORDER BY M.id";
+    private static final String FAST_SEARCH_SQL =
+            "SELECT * FROM MOVIE AS M WHERE LOWER(M.name) LIKE ? ORDER BY M.id";
+    private PreparedStatement fastSearchStatement;
 
-    private static final String FAST_SEARCH_DIRECTORS_SQL_BEGIN =
+    private static final String FAST_SEARCH_DIRECTORS_SQL =
             "SELECT X.id AS mid, X.name AS mname, X.year AS myear, D.* " +
             "FROM MOVIE_DIRECTORS AS MD " +
             "INNER JOIN DIRECTORS AS D ON MD.did = D.id " +
             "RIGHT OUTER JOIN ( " +
                     "SELECT * " +
                     "FROM MOVIE AS M " +
-                    "WHERE LOWER(M.name) LIKE '%";
-    private static final String FAST_SEARCH_DIRECTORS_SQL_END =
-                    "%') AS X " +
+                    "WHERE LOWER(M.name) LIKE ?) AS X " +
                     "ON X.id = MD.mid " +
                     "ORDER BY X.id";
+    private PreparedStatement fastSearchDirectorsStatement;
 
-    private static final String FAST_SEARCH_ACTORS_SQL_BEGIN =
+    private static final String FAST_SEARCH_ACTORS_SQL =
             "SELECT X.id AS mid, A.id, A.fname, A.lname " +
             "FROM CASTS AS C " +
             "INNER JOIN ACTOR A ON A.id = C.pid " +
             "RIGHT OUTER JOIN ( " +
                 "SELECT * " +
                 "FROM MOVIE AS M " +
-                "WHERE LOWER(M.name) LIKE '%";
-
-    private static final String FAST_SEARCH_ACTORS_SQL_END =
-                "%') AS X " +
+                "WHERE LOWER(M.name) LIKE ?) AS X " +
             "ON X.id = C.mid " +
             "GROUP BY X.id, A.id, A.fname, A.lname " +
             "ORDER BY X.id";
-
+    private PreparedStatement fastSearchActorsStatement;
 
 	/*
 	private static final String BEGIN_TRANSACTION_SQL =
@@ -182,8 +175,11 @@ public class Query {
 
     public void prepareStatements() throws Exception {
 
+        searchStatement = conn.prepareStatement(SEARCH_SQL);
         directorMidStatement = conn.prepareStatement(DIRECTOR_MID_SQL);
-
+        fastSearchStatement = conn.prepareStatement(FAST_SEARCH_SQL);
+        fastSearchDirectorsStatement = conn.prepareStatement(FAST_SEARCH_DIRECTORS_SQL);
+        fastSearchActorsStatement = conn.prepareStatement(FAST_SEARCH_ACTORS_SQL);
         customerLoginStatement = customerConn.prepareStatement(CUSTOMER_LOGIN_SQL);
 
 		/* uncomment after you create your customers database */
@@ -321,12 +317,11 @@ public class Query {
 		   AVAILABLE, or UNAVAILABLE, or YOU CURRENTLY RENT IT */
         int count = 0;
         int acount = 0;
+        ResultSet movie_set = null;
 
-		/* Interpolate the movie title into the SQL string */
-        String searchSql = SEARCH_SQL_BEGIN + movie_title + SEARCH_SQL_END;
-
-        Statement searchStatement = conn.createStatement();
-        ResultSet movie_set = searchStatement.executeQuery(searchSql);
+        searchStatement.clearParameters();
+        searchStatement.setString(1, "%" + movie_title + "%");
+        movie_set = searchStatement.executeQuery();
         count = 0;
         while (movie_set.next()) {
             int mid = movie_set.getInt(1);
@@ -399,9 +394,9 @@ public class Query {
 		   Then merge-joins the three answer sets */
         int count = 0;
 
-        String searchSql = FAST_SEARCH_SQL_BEGIN + movie_title + FAST_SEARCH_SQL_END;
-        Statement searchStatement = conn.createStatement();
-        ResultSet movie_set = searchStatement.executeQuery(searchSql);
+        fastSearchStatement.clearParameters();
+        fastSearchStatement.setString(1, "%" + movie_title + "%");
+        ResultSet movie_set = fastSearchStatement.executeQuery();
         if (false && TEST == 1){
         count = 0;
         while (movie_set.next()) {
@@ -413,9 +408,9 @@ public class Query {
                     + movie_set.getString(3));
         }
 
-        String directorSql = FAST_SEARCH_DIRECTORS_SQL_BEGIN + movie_title + FAST_SEARCH_DIRECTORS_SQL_END;
-        Statement directorStatement = conn.createStatement();
-        ResultSet director_set = directorStatement.executeQuery(directorSql);
+        fastSearchDirectorsStatement.clearParameters();
+        fastSearchDirectorsStatement.setString(1, "%" + movie_title + "%");
+        ResultSet director_set = fastSearchDirectorsStatement.executeQuery();
         count = 0;
         int prev_mid = -1;
         while (director_set.next()) {
@@ -439,9 +434,9 @@ public class Query {
         }
         }
 
-        String actorSql = FAST_SEARCH_ACTORS_SQL_BEGIN + movie_title + FAST_SEARCH_ACTORS_SQL_END;
-        Statement actorStatement = conn.createStatement();
-        ResultSet actor_set = actorStatement.executeQuery(actorSql);
+        fastSearchActorsStatement.clearParameters();
+        fastSearchActorsStatement.setString(1, "%" + movie_title + "%");
+        ResultSet actor_set = fastSearchActorsStatement.executeQuery();
         count = 0;
         while (actor_set.next()) {
             int mid = actor_set.getInt(1);
