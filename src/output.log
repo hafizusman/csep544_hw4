@@ -8,793 +8,122 @@ You can rent 0 more movies
 > return <movie id>
 > fastsearch <movie title>
 > quit
-> Searching for the movie 'nixon'
- 1 ID: 32573 NAME: A Night with Nixon YEAR: 2008
-		Director: Cormack  Alex
-		Actor: Alex Cormack
-		Actor: Ashley Cook
-		Status: AVAILABLE
- 2 ID: 107448 NAME: David Frost Interviews Richard Nixon YEAR: 1977
-		Director: Winther  Jrn
-		Actor: David Frost
-		Actor: Richard Nixon
-		Status: AVAILABLE
- 3 ID: 141877 NAME: Frost/Nixon YEAR: 2008
-		Director: Howard  Ron
-		Actor: Antony Acker
-		Actor: Wil Albert
-		Actor: Gregory Alpert
-		Actor: Kevin Bacon
-		Actor: Mayank Bhatter
-		Actor: Jay Bird
-		Actor: Geoffrey Blake
-		Actor: Michael Patrick Breen
-		Actor: Scott Bryson
-		Actor: Eloy Casados
-		Actor: John Chancellor
-		Actor: Kaine Bennett Charleston
-		Actor: Noah Craft
-		Actor: Walter Cronkite
-		Actor: John Dean
-		Actor: Sam Ervin
-		Actor: Joe Fedio
-		Actor: Gerald Ford
-		Actor: Alan Gray
-		Actor: Gavin Grazer
-		Actor: Googy Gress
-		Actor: Christopher Haskell
-		Actor: Jimmy Heck
-		Actor: Clint Howard
-		Actor: Rance Howard
-		Actor: Simon James
-		Actor: Gabriel Jarret
-		Actor: Dave Johnson
-		Actor: Toby Jones
-		Actor: Christopher Jude
-		Actor: Adam Karst
-		Actor: Kevin P. Kearns
-		Actor: Steve Kehela
-		Actor: David Kelsey
-		Actor: John Kerry
-		Actor: Frank Langella
-		Actor: Steve Longmuir
-		Actor: Matthew Macfadyen
-		Actor: Keith MacKechnie
-		Actor: Les Mahoney
-		Actor: Marc McClure
-		Actor: Louie Mejia
-		Actor: Jim Meskimen
-		Actor: Andy Milder
-		Actor: Albert Miranda
-		Actor: Roger Mudd
-		Actor: Eddie Napolillo
-		Actor: Robert Pastoriza
-		Actor: David Ross Paterson
-		Actor: Ben Pauley
-		Actor: Robert Phares
-		Actor: Oliver Platt
-		Actor: James Ritz
-		Actor: John Robert
-		Actor: Pete Rockwell
-		Actor: Sam Rockwell
-		Actor: Howard Rosen
-		Actor: Andrea Russell
-		Actor: Eric Sevareid
-		Actor: Michael Sheen
-		Actor: Evan Silverman
-		Actor: Mark Simich
-		Actor: Talley Singer
-		Actor: Joe Spano
-		Actor: Arne Starr
-		Actor: Mark Strohman
-		Actor: Jason Suhrke
-		Actor: Ned Vaughn
-		Actor: Robson Vieira
-		Actor: Jay White
-		Actor: Janneke Arent
-		Actor: Shannah Barrett
-		Actor: Marianne Chambers
-		Actor: Danielle Cooper
-		Actor: Alexandria Cree
-		Actor: Eve Curtis
-		Actor: Jenn Gotzon
-		Actor: Kate Jennings Grant
-		Actor: Maggie Grant
-		Actor: Darbi Gwynn
-		Actor: Rebecca Hall
-		Actor: Jennifer Hanley
-		Actor: Kristina Hughes
-		Actor: Candy Ibarra
-		Actor: Simone Kessell
-		Actor: Michelle Manhart
-		Actor: Patty McCormack
-		Actor: Victoria Monroe
-		Actor: Penny L. Moore
-		Actor: Susanna Musotto
-		Actor: Rachael Owens
-		Actor: Yvette Rachelle
-		Actor: Kimberly Robin
-		Actor: Holly Weber
-		Status: AVAILABLE
- 4 ID: 166994 NAME: Dad's in Heaven with Nixon YEAR: 2010
-		Director: Murray  Tom
-		Status: AVAILABLE
- 5 ID: 167917 NAME: Dark Days at the White House: The Watergate Scandal and the Resignation of President Richard M. Nixon YEAR: 1989
-		Actor: Richard Nixon
-		Status: AVAILABLE
- 6 ID: 196668 NAME: Elvis Meets Nixon YEAR: 1997
-		Director: Arkush  Allan
-		Actor: Philip Akin
-		Actor: Michael Anderson Jr.
-		Actor: Curtis Armstrong
-		Actor: Stewart Arnott
-		Actor: Richard Beymer
-		Actor: Alexander Butterfield
-		Actor: Desmond Campbell
-		Actor: Dick Cavett
-		Actor: Vernon Chapman
-		Actor: David Crean
-		Actor: Tony Curtis
-		Actor: Joe Dinicol
-		Actor: Denny Doherty
-		Actor: Colin Fox
-		Actor: Bob Gunton
-		Actor: Glenn Hall
-		Actor: Gabriel Hogan
-		Actor: Ephraim Hylton
-		Actor: Jeff Jones
-		Actor: Keith Jones
-		Actor: Peter Keleghan
-		Actor: Christopher Kennedy
-		Actor: Jesse Lachapelle
-		Actor: John Liddle
-		Actor: James Loxley
-		Actor: Thomas Lundy
-		Actor: Kevin McCarthy
-		Actor: Ronnie McDowell
-		Actor: Hamish McEwan
-		Actor: Patrick McKenna
-		Actor: Richard McMillan
-		Actor: Graham Nash
-		Actor: Edwin Newman
-		Actor: Wayne Newton
-		Actor: Panou null
-		Actor: Rick Peters
-		Actor: Arnold Pinnock
-		Actor: Dan Redican
-		Actor: Martin Roach
-		Actor: Hadley Sandiford
-		Actor: Thom Sears
-		Actor: Jake Simons
-		Actor: Rob Stefaniuk
-		Actor: Bill Tarling
-		Actor: Wayne Ward
-		Actor: Rick Wharton
-		Actor: Scott Wickware
-		Actor: Gordon Michael Woolvett
-		Actor: Richard Yearwood
-		Actor: Marilyn Boyle
-		Actor: Jackie Burroughs
-		Actor: Laura Catalano
-		Actor: A.J. Cook
-		Actor: Alyson Court
-		Actor: Alana Fletcher
-		Actor: Jennifer Irwin
-		Actor: Tammy Isbell
-		Actor: Roxanne MacKenzie
-		Actor: Julia Paton
-		Actor: Robyn Stevan
-		Actor: Maria Syrgiannis
-		Actor: Robbi Jay Thuet
-		Actor: Angela Vint
-		Status: AVAILABLE
- 7 ID: 215261 NAME: Kissinger and Nixon YEAR: 1995
-		Director: Petrie  Daniel
-		Actor: Beau Bridges
-		Actor: Henry Chan
-		Actor: Matt Frewer
-		Actor: Brett Halsey
-		Actor: Ron Hartmann
-		Actor: Adrian Hough
-		Actor: Graham McPherson
-		Actor: Paul Miller
-		Actor: Tony Rosato
-		Actor: Ron Silver
-		Actor: George Takei
-		Actor: Tom Tran
-		Actor: Kenneth Welsh
-		Actor: Ron White
-		Actor: Lori Alter
-		Actor: Ping Cheung
-		Actor: Barbara Radecki
-		Status: AVAILABLE
- 8 ID: 224787 NAME: Inside the Presidency: Eisenhower vs. Nixon YEAR: 2001
-		Status: AVAILABLE
- 9 ID: 286571 NAME: Inside Oliver Stone's 'Nixon' YEAR: 1995
-		Director: Jopson  John
-		Status: AVAILABLE
- 10 ID: 344057 NAME: Nixon YEAR: 1995
-		Director: Stone  Oliver
-		Actor: Dean Acheson
-		Actor: Salvador Allende
-		Actor: John Bedford Lloyd
-		Actor: Brian Bedford
-		Actor: John Bellucci
-		Actor: Robert Beltran
-		Actor: Bill Bolender
-		Actor: Powers Boothe
-		Actor: Robert Bork
-		Actor: Tom Bower
-		Actor: Arthur Bremer
-		Actor: David Brinkley
-		Actor: Edmund G. Brown
-		Actor: George Bush
-		Actor: Alexander Butterfield
-		Actor: Ian Calip
-		Actor: Peter Carlin
-		Actor: Corey Carrier
-		Actor: Jimmy Carter
-		Actor: Enrique Castillo
-		Actor: Fidel Castro
-		Actor: Whittaker Chambers
-		Actor: Michael Chiklis
-		Actor: Bill Clinton
-		Actor: O'Neal Compton
-		Actor: Archibald Cox
-		Actor: Edward Cox
-		Actor: Wilson Cruz
-		Actor: John Cunningham
-		Actor: Kamar De Los Reyes
-		Actor: John Diehl
-		Actor: Bob Dole
-		Actor: Kevin Dunn
-		Actor: Dwight D. Eisenhower
-		Actor: Daniel Ellsberg
-		Actor: Sam Ervin
-		Actor: Richard Fancy
-		Actor: Fyvush Finkel
-		Actor: Gerald Ford
-		Actor: Tony Goldwyn
-		Actor: David Barry Gray
-		Actor: Michael Haddad
-		Actor: Larry Hagman
-		Actor: Ed Harris
-		Actor: Charles Haugk
-		Actor: Dan Hedaya
-		Actor: Richard Helms
-		Actor: Edward Herrmann
-		Actor: Alger Hiss
-		Actor: Anthony Hopkins
-		Actor: Bob Hoskins
-		Actor: David Hyde Pierce
-		Actor: Lyndon Johnson
-		Actor: James Karen
-		Actor: Michael Kaufman
-		Actor: John Kennedy Jr.
-		Actor: John F. Kennedy
-		Actor: Mike Kennedy
-		Actor: Robert F. Kennedy
-		Actor: Ted Kennedy
-		Actor: Nikita Khrushchev
-		Actor: King George VI null
-		Actor: Martin Luther King
-		Actor: Albert Leon
-		Actor: Tony Lo Bianco
-		Actor: Dave Mallow
-		Actor: E.G. Marshall
-		Actor: Robert Marshall
-		Actor: Joseph McCarthy
-		Actor: John C. McGinley
-		Actor: George McGovern
-		Actor: Robert McNamara
-		Actor: Harry Murphy
-		Actor: Tom Nicoletti
-		Actor: Richard Nixon
-		Actor: Fima Noveck
-		Actor: J. Robert Oppenheimer
-		Actor: Lee Harvey Oswald
-		Actor: Shah Mohammed Reza Pahlavi
-		Actor: Michael Pasby
-		Actor: David Paymer
-		Actor: Chuck Pfeiffer
-		Actor: James Pickens Jr.
-		Actor: Tony Plana
-		Actor: Howard Platt
-		Actor: George Plimpton
-		Actor: Joshua Preston
-		Actor: Ronald Reagan
-		Actor: Chris Renna
-		Actor: Elliot Richardson
-		Actor: Victor Rivers
-		Actor: Franklin Delano Roosevelt
-		Actor: Julius Rosenberg
-		Actor: Saul Rubinek
-		Actor: William Ruckelshaus
-		Actor: Boris Sichkin
-		Actor: Drew Snyder
-		Actor: Paul Sorvino
-		Actor: Peter P. Starson Jr.
-		Actor: Mark Steines
-		Actor: Wass Stevens
-		Actor: Adlai Stevenson
-		Actor: John Stockwell
-		Actor: Mikey Stone
-		Actor: Oliver Stone
-		Actor: Sean Stone
-		Actor: Robert Taylor
-		Actor: Jon Tenney
-		Actor: Clayton Townsend
-		Actor: Harry S. Truman
-		Actor: Ronald von Klaussen
-		Actor: Jerry Voorhis
-		Actor: Lenny Vullo
-		Actor: George Wallace
-		Actor: Jack Wallace
-		Actor: J.T. Walsh
-		Actor: Earl Warren
-		Actor: Ray Wills
-		Actor: Breck Wilson
-		Actor: James Woods
-		Actor: Ric Young
-		Actor: Mao Zedong
-		Actor: Joan Allen
-		Actor: Julie Araskog
-		Actor: Ling Bai
-		Actor: Barbara Bush
-		Actor: Rosalynn Carter
-		Actor: Hillary Rodham Clinton
-		Actor: Julie Condra
-		Actor: Nellie Connally
-		Actor: Raissa Danilova
-		Actor: Nancy Davis
-		Actor: Pamela Dickerson
-		Actor: Donna Dixon
-		Actor: Mamie Eisenhower
-		Actor: Betty Ford
-		Actor: Helen Gahagan
-		Actor: Annabeth Gish
-		Actor: Joanna Going
-		Actor: Angie Gray
-		Actor: Annette Helde
-		Actor: Madeline Kahn
-		Actor: Eunice Kennedy Shriver
-		Actor: Caroline Kennedy
-		Actor: Ethel Kennedy
-		Actor: Jacqueline Kennedy
-		Actor: Michelle Krusiec
-		Actor: Suzanne Schnulle Murphy
-		Actor: Nicole Nagel
-		Actor: Pat Nixon
-		Actor: Tricia Nixon
-		Actor: Melinda Renna
-		Actor: Marilyn Rockafellow
-		Actor: Eleanor Roosevelt
-		Actor: Ethel Rosenberg
-		Actor: Mary Rudolph
-		Actor: Marley Shelton
-		Actor: Mary Steenburgen
-		Actor: Bridgette Wilson
-		Actor: Zoey Zimmerman
-		Status: AVAILABLE
- 11 ID: 350181 NAME: Nixon kommt nach Berlin YEAR: 1969
-		Director: Farocki  Harun
-		Status: AVAILABLE
- 12 ID: 357818 NAME: Nixon Visions YEAR: 1969
-		Director: Esselius  Hans
-		Status: AVAILABLE
- 13 ID: 516566 NAME: The Plot to Kill Nixon YEAR: 2005
-		Director: Hawkins  Kim
-		Director: Taulre  Patrick
-		Actor: Matthew Dargert
-		Actor: Robert Davi
-		Actor: James Evans
-		Actor: David Patrick Green
-		Actor: David Kenneth
-		Actor: Corky Loesch
-		Actor: P. David Miller
-		Actor: Barry J. Ratcliffe
-		Actor: Milton Snell
-		Actor: Dan Swett
-		Actor: J. Matthew Wallace
-		Actor: Linna Carter
-		Actor: Kristin Pfeifer
-		Actor: Pamela Wells
-		Status: AVAILABLE
- 14 ID: 527660 NAME: The Speeches of Richard Nixon YEAR: 1995
-		Actor: Spiro Agnew
-		Actor: Edward Cox
-		Actor: David Eisenhower
-		Actor: Andrei Gromyko
-		Actor: John F. Kennedy
-		Actor: Nikita Khrushchev
-		Actor: Henry Kissinger
-		Actor: Richard Nixon
-		Actor: Nelson Rockefeller
-		Actor: Pierre Salinger
-		Actor: Ben Stein
-		Actor: Betty Ford
-		Actor: Caroline Kennedy
-		Actor: Jacqueline Kennedy
-		Actor: Julie Nixon
-		Actor: Pat Nixon
-		Actor: Tricia Nixon
-		Status: AVAILABLE
- 15 ID: 529826 NAME: The Secret Life of Richard Nixon YEAR: 2000
-		Actor: Richard Nixon
-		Status: AVAILABLE
- 16 ID: 589583 NAME: The Assassination of Richard Nixon YEAR: 2004
-		Director: Mueller  Niels
-		Actor: Salvador Allende
-		Actor: Ian Baptiste
-		Actor: Pete Boughn
-		Actor: Brandon Brizendine
-		Actor: Frank Brown Jr.
-		Actor: Doug Campbell
-		Actor: James Carraway
-		Actor: Cabran E. Chamberlain
-		Actor: Don Cheadle
-		Actor: Robert Kenneth Cooper
-		Actor: James Cotner
-		Actor: Jared Dorrance
-		Actor: Johnny Drocco
-		Actor: Ryan Else
-		Actor: Sam Ervin
-		Actor: Derek Greene
-		Actor: Tim Halpin
-		Actor: Brad William Henke
-		Actor: David Hilliard
-		Actor: Jay Jacobus
-		Actor: Donald Lett II
-		Actor: Gary L. Mack
-		Actor: J.C. MacKenzie
-		Actor: Joe Marinelli
-		Actor: Russell Means
-		Actor: Richard Nixon
-		Actor: Shah Mohammed Reza Pahlavi
-		Actor: Sean Penn
-		Actor: Augusto Pinochet
-		Actor: James Morrison Reese
-		Actor: Brett Rickaby
-		Actor: Tony Rocha
-		Actor: Nick Searcy
-		Actor: John Patrick Shulak
-		Actor: Jack Thompson
-		Actor: Kenneth White
-		Actor: Mykelti Williamson
-		Actor: Michael Wincott
-		Actor: Matthew Wood
-		Actor: Denise Balthrop Cassidy
-		Actor: April Grace
-		Actor: Kathryn Howell
-		Actor: Lily Knight
-		Actor: Janean Christine Mariani
-		Actor: Mariah Massa
-		Actor: Debi McCoy
-		Actor: Tracy Middendorf
-		Actor: Jenna Milton
-		Actor: AnnieScott Rogers
-		Actor: Eileen Ryan
-		Actor: Melissa Saltzman
-		Actor: Teresa Anne Volgenau
-		Actor: Cindy Warner
-		Actor: Naomi Watts
-		Actor: Sherrie La'Marr Wheeler
-		Status: AVAILABLE
- 17 ID: 590556 NAME: The Real Richard Nixon YEAR: 1995
-		Actor: Frank Gannon
-		Actor: Richard Nixon
-		Status: AVAILABLE
- 18 ID: 650822 NAME: When Elvis Met Nixon YEAR: 2009
-		Director: Gostisha  Dave
-		Actor: Gwenna Gostisha
-		Actor: Joseph Preiser
-		Status: AVAILABLE
- 19 ID: 693529 NAME: Wladimir Nixon YEAR: 1971
-		Director: Pilz  Michael
-		Actor: Lui Dimanche
-		Actor: Yuuko Ikewada
-		Status: AVAILABLE
- 20 ID: 708348 NAME: Nixon's Birthplace YEAR: null
-		Status: AVAILABLE
- 21 ID: 713146 NAME: The Seventh Crisis of Richard M. Nixon YEAR: null
-		Actor: Eric Sevareid
-		Status: AVAILABLE
- 22 ID: 728571 NAME: Richard Nixon: Man and President YEAR: 1996
-		Actor: Richard Nixon
-		Actor: Pat Nixon
-		Status: AVAILABLE
- 23 ID: 747944 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-		Actor: David Pietrusza
-		Status: AVAILABLE
- 24 ID: 803711 NAME: Ollie North and Nixon Plan to Take Over the Western Hemisphere YEAR: 1987
-		Actor: Fred Willard
-		Status: AVAILABLE
- 25 ID: 811449 NAME: Nixon YEAR: 2003
-		Director: Bartlett  David
-		Actor: Don Berger
-		Actor: Ken Freehill
-		Actor: Joe Stokes
-		Actor: Mark Vargas
-		Actor: Pam Boyd
-		Status: AVAILABLE
- 26 ID: 819642 NAME: Nixon Impersonates Dangerfield, Dolly Parton and Bette Midler YEAR: 1987
-		Actor: Fred Willard
-		Actor: Whoopi Goldberg
-		Status: AVAILABLE
- 27 ID: 825232 NAME: Nixon Acts as Princess Di's Divorce Lawyer YEAR: null
-		Director: Locke  Rick
-		Actor: Mort Sahl
-		Status: AVAILABLE
- 28 ID: 835274 NAME: Nixon's Presidential Library Is a Bookmobile YEAR: null
-		Director: Locke  Rick
-		Actor: Robin Leach
-		Status: AVAILABLE
- 29 ID: 840816 NAME: Nixon Has Romantic Fantasies About Bo Derek YEAR: 1987
-		Actor: Fred Willard
-		Actor: Bo Derek
-		Status: AVAILABLE
- 30 ID: 848231 NAME: Nixon Impeached from Cub Scouts YEAR: null
-		Director: Locke  Rick
-		Status: AVAILABLE
- 31 ID: 859660 NAME: David Nixon's Comedy Bandbox YEAR: 1966
-		Status: AVAILABLE
- 32 ID: 859875 NAME: Nixon Schemes to Make Money by Becoming a Surrogate Mother YEAR: 1987
-		Actor: Fred Willard
-		Status: AVAILABLE
- 33 ID: 877680 NAME: Carter, Nixon and Ford Perform Ex-President Do-Wop Blues YEAR: 1987
-		Actor: Greg Louganis
-		Actor: Fred Willard
-		Status: AVAILABLE
- 34 ID: 879194 NAME: Nixon Gives Fred Financial Advice... and He Loses His Shirt YEAR: null
-		Director: Locke  Rick
-		Actor: Robert Klein
-		Status: AVAILABLE
- 35 ID: 883802 NAME: Nixon Hawks the Watergate Tapes for $29.99 YEAR: 1987
-		Actor: Harry Anderson
-		Actor: Fred Willard
-		Status: AVAILABLE
- 36 ID: 886245 NAME: David Nixon's Magic Box YEAR: 1970
-		Status: AVAILABLE
- 37 ID: 890062 NAME: Nixon Impersonates Elvis in a Moneymaking Scheme YEAR: 1987
-		Actor: Fred Willard
-		Status: AVAILABLE
- 38 ID: 907834 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-		Actor: Logan Crawford
-		Actor: David Pietrusza
-		Status: AVAILABLE
- 39 ID: 923216 NAME: The Political Obituary of Richard M. Nixon YEAR: null
-		Actor: Gerald Ford
-		Actor: Alger Hiss
-		Actor: Howard K. Smith
-		Status: AVAILABLE
- 40 ID: 976073 NAME: Nixon in China YEAR: 1988
-		Director: Large  Brian
-		Actor: Walter Cronkite
-		Actor: John Duykers
-		Actor: James Maddalena
-		Actor: Sanford Sylvan
-		Actor: Trudy Ellen Craney
-		Actor: Carolann Page
-		Status: AVAILABLE
- 41 ID: 997594 NAME: Nixon in Chicago YEAR: null
-		Actor: David Frost
-		Actor: Richard Nixon
-		Status: AVAILABLE
- 42 ID: 1004306 NAME: Agnes Nixon YEAR: 1999
-		Actor: Laurence Fishburne
-		Actor: James Mitchell
-		Actor: Ellen Holly
-		Actor: Judith Light
-		Actor: Susan Lucci
-		Actor: Agnes Nixon
-		Status: AVAILABLE
- 43 ID: 1020598 NAME: Cynthia Nixon YEAR: 2002
-		Actor: Douglas Carter Beane
-		Actor: Michael Patrick King
-		Actor: Robert Sean Leonard
-		Actor: Danny Mozes
-		Actor: Darren Star
-		Actor: Kim Cattrall
-		Actor: Blythe Danner
-		Actor: Kristin Davis
-		Actor: Anne Nixon
-		Actor: Cynthia Nixon
-		Actor: Sarah Jessica Parker
-		Status: AVAILABLE
- 44 ID: 1132522 NAME: Nixon vs. Kennedy YEAR: null
-		Director: Taylor  Alan
-		Actor: Bryan Batt
-		Actor: Michael Gladis
-		Actor: Jon Hamm
-		Actor: Vincent Kartheiser
-		Actor: David Kronenberg
-		Actor: Tim Mars
-		Actor: Robert Morse
-		Actor: Mark Moses
-		Actor: Troy Ruptash
-		Actor: Morgan Rusler
-		Actor: Stewart Skelton
-		Actor: Rich Sommer
-		Actor: Aaron Staton
-		Actor: Kevin Symons
-		Actor: Cassius Willis
-		Actor: Dared Wright
-		Actor: Alexa Alemanni
-		Actor: Dawn Marie Anderson
-		Actor: Claire Bocking
-		Actor: Alison Brie
-		Actor: Stephanie Courtney
-		Actor: Kristin Crandall
-		Actor: Candice Cunningham
-		Actor: Eve Curtis
-		Actor: Emelle null
-		Actor: Monica Ford
-		Actor: Christina Hendricks
-		Actor: Brynn Horrocks
-		Actor: Britt Hysen
-		Actor: January Jones
-		Actor: Julie McNiven
-		Actor: Elisabeth Moss
-		Actor: Sarah Jannett Parish
-		Actor: Heather Seiffert
-		Actor: Kiernan Shipka
-		Actor: Maggie Siff
-		Actor: Jennifer Sims
-		Status: AVAILABLE
- 45 ID: 1318719 NAME: David Nixon's Christmas Magic YEAR: 1972
-		Director: Mayoh  Royston
-		Actor: Robert Harbin
-		Actor: Fred Kaps
-		Actor: David Nixon
-		Actor: Lynsey De Paul
-		Actor: Shari Lewis
-		Actor: Aimi MacDonald
-		Status: AVAILABLE
- 46 ID: 1318830 NAME: 100 Nixon, Derek Lee YEAR: null
-		Actor: Derek Lee Nixon
-		Status: AVAILABLE
- 47 ID: 1324885 NAME: Nixon: Part III YEAR: null
-		Director: Deane  Elizabeth
-		Director: Espar  David
-		Director: Mellowes  Marilyn
-		Actor: Will Lyman
-		Status: AVAILABLE
- 48 ID: 1330940 NAME: The David Nixon Show YEAR: 1972
-		Status: AVAILABLE
- 49 ID: 1350418 NAME: Richard Nixon: Part II YEAR: null
-		Director: Deane  Elizabeth
-		Director: Espar  David
-		Director: Mellowes  Marilyn
-		Actor: Will Lyman
-		Status: AVAILABLE
- 50 ID: 1363425 NAME: David Nixon's Magic Hour YEAR: 1972
-		Director: Frazer-Jones  Peter
-		Actor: George Carl
-		Actor: Champagne null
-		Actor: Rolf Harris
-		Actor: David Nixon
-		Actor: Anita Harris
-		Actor: Caterina Valente
-		Status: AVAILABLE
- 51 ID: 1373063 NAME: Nixon's China Game YEAR: null
-		Director: Anderson  Mark
-		Director: Simkin  Michael
-		Actor: Bill Lattanzi
-		Actor: David Ogden Stiers
-		Status: AVAILABLE
- 52 ID: 1373625 NAME: Nixon: Part I YEAR: null
-		Director: Espar  David
-		Actor: Will Lyman
-		Status: AVAILABLE
- 53 ID: 1404404 NAME: Frost/Nixon YEAR: null
-		Director: Pearce  Juliette
-		Actor: Amanda Palmer
-		Status: AVAILABLE
- 54 ID: 1488454 NAME: David Nixon YEAR: 1973
-		Actor: Eamonn Andrews
-		Actor: David Nixon
-		Status: AVAILABLE
- 55 ID: 1517926 NAME: Tonight with David Nixon YEAR: 1969
-		Status: AVAILABLE
-
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-> Fast Searching for the movie 'nixon'
- 1 ID: 32573 NAME: A Night with Nixon YEAR: 2008
-	DIRECTOR: Cormack  Alex
- 2 ID: 107448 NAME: David Frost Interviews Richard Nixon YEAR: 1977
-	DIRECTOR: Winther  Jrn
- 3 ID: 141877 NAME: Frost/Nixon YEAR: 2008
-	DIRECTOR: Howard  Ron
- 4 ID: 166994 NAME: Dad's in Heaven with Nixon YEAR: 2010
-	DIRECTOR: Murray  Tom
- 5 ID: 167917 NAME: Dark Days at the White House: The Watergate Scandal and the Resignation of President Richard M. Nixon YEAR: 1989
- 6 ID: 196668 NAME: Elvis Meets Nixon YEAR: 1997
-	DIRECTOR: Arkush  Allan
- 7 ID: 215261 NAME: Kissinger and Nixon YEAR: 1995
-	DIRECTOR: Petrie  Daniel
- 8 ID: 224787 NAME: Inside the Presidency: Eisenhower vs. Nixon YEAR: 2001
- 9 ID: 286571 NAME: Inside Oliver Stone's 'Nixon' YEAR: 1995
-	DIRECTOR: Jopson  John
- 10 ID: 344057 NAME: Nixon YEAR: 1995
-	DIRECTOR: Stone  Oliver
- 11 ID: 350181 NAME: Nixon kommt nach Berlin YEAR: 1969
-	DIRECTOR: Farocki  Harun
- 12 ID: 357818 NAME: Nixon Visions YEAR: 1969
-	DIRECTOR: Esselius  Hans
- 13 ID: 516566 NAME: The Plot to Kill Nixon YEAR: 2005
-	DIRECTOR: Hawkins  Kim
-	DIRECTOR: Taulre  Patrick
- 14 ID: 527660 NAME: The Speeches of Richard Nixon YEAR: 1995
- 15 ID: 529826 NAME: The Secret Life of Richard Nixon YEAR: 2000
- 16 ID: 589583 NAME: The Assassination of Richard Nixon YEAR: 2004
-	DIRECTOR: Mueller  Niels
- 17 ID: 590556 NAME: The Real Richard Nixon YEAR: 1995
- 18 ID: 650822 NAME: When Elvis Met Nixon YEAR: 2009
-	DIRECTOR: Gostisha  Dave
- 19 ID: 693529 NAME: Wladimir Nixon YEAR: 1971
-	DIRECTOR: Pilz  Michael
- 20 ID: 708348 NAME: Nixon's Birthplace YEAR: null
- 21 ID: 713146 NAME: The Seventh Crisis of Richard M. Nixon YEAR: null
- 22 ID: 728571 NAME: Richard Nixon: Man and President YEAR: 1996
- 23 ID: 747944 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
- 24 ID: 803711 NAME: Ollie North and Nixon Plan to Take Over the Western Hemisphere YEAR: 1987
- 25 ID: 811449 NAME: Nixon YEAR: 2003
-	DIRECTOR: Bartlett  David
- 26 ID: 819642 NAME: Nixon Impersonates Dangerfield, Dolly Parton and Bette Midler YEAR: 1987
- 27 ID: 825232 NAME: Nixon Acts as Princess Di's Divorce Lawyer YEAR: null
-	DIRECTOR: Locke  Rick
- 28 ID: 835274 NAME: Nixon's Presidential Library Is a Bookmobile YEAR: null
-	DIRECTOR: Locke  Rick
- 29 ID: 840816 NAME: Nixon Has Romantic Fantasies About Bo Derek YEAR: 1987
- 30 ID: 848231 NAME: Nixon Impeached from Cub Scouts YEAR: null
-	DIRECTOR: Locke  Rick
- 31 ID: 859660 NAME: David Nixon's Comedy Bandbox YEAR: 1966
- 32 ID: 859875 NAME: Nixon Schemes to Make Money by Becoming a Surrogate Mother YEAR: 1987
- 33 ID: 877680 NAME: Carter, Nixon and Ford Perform Ex-President Do-Wop Blues YEAR: 1987
- 34 ID: 879194 NAME: Nixon Gives Fred Financial Advice... and He Loses His Shirt YEAR: null
-	DIRECTOR: Locke  Rick
- 35 ID: 883802 NAME: Nixon Hawks the Watergate Tapes for $29.99 YEAR: 1987
- 36 ID: 886245 NAME: David Nixon's Magic Box YEAR: 1970
- 37 ID: 890062 NAME: Nixon Impersonates Elvis in a Moneymaking Scheme YEAR: 1987
- 38 ID: 907834 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
- 39 ID: 923216 NAME: The Political Obituary of Richard M. Nixon YEAR: null
- 40 ID: 976073 NAME: Nixon in China YEAR: 1988
-	DIRECTOR: Large  Brian
- 41 ID: 997594 NAME: Nixon in Chicago YEAR: null
- 42 ID: 1004306 NAME: Agnes Nixon YEAR: 1999
- 43 ID: 1020598 NAME: Cynthia Nixon YEAR: 2002
- 44 ID: 1132522 NAME: Nixon vs. Kennedy YEAR: null
-	DIRECTOR: Taylor  Alan
- 45 ID: 1318719 NAME: David Nixon's Christmas Magic YEAR: 1972
-	DIRECTOR: Mayoh  Royston
- 46 ID: 1318830 NAME: 100 Nixon, Derek Lee YEAR: null
- 47 ID: 1324885 NAME: Nixon: Part III YEAR: null
-	DIRECTOR: Mellowes  Marilyn
-	DIRECTOR: Deane  Elizabeth
-	DIRECTOR: Espar  David
- 48 ID: 1330940 NAME: The David Nixon Show YEAR: 1972
- 49 ID: 1350418 NAME: Richard Nixon: Part II YEAR: null
-	DIRECTOR: Espar  David
-	DIRECTOR: Deane  Elizabeth
-	DIRECTOR: Mellowes  Marilyn
- 50 ID: 1363425 NAME: David Nixon's Magic Hour YEAR: 1972
-	DIRECTOR: Frazer-Jones  Peter
- 51 ID: 1373063 NAME: Nixon's China Game YEAR: null
-	DIRECTOR: Anderson  Mark
-	DIRECTOR: Simkin  Michael
- 52 ID: 1373625 NAME: Nixon: Part I YEAR: null
-	DIRECTOR: Espar  David
- 53 ID: 1404404 NAME: Frost/Nixon YEAR: null
-	DIRECTOR: Pearce  Juliette
- 54 ID: 1488454 NAME: David Nixon YEAR: 1973
- 55 ID: 1517926 NAME: Tonight with David Nixon YEAR: 1969
+> Fast Searching for the movie 'braveheart'
+ 1 ID: 32055 ACTOR: (296832) Robert Edeson
+ 2 ID: 32055 ACTOR: (421726) Frank Hagney
+ 3 ID: 32055 ACTOR: (473666) Arthur Housman
+ 4 ID: 32055 ACTOR: (582109) Rod La Rocque
+ 5 ID: 32055 ACTOR: (845399) Tyrone Power Sr.
+ 6 ID: 32055 ACTOR: (1019095) Nipo T. Strongheart
+ 7 ID: 32055 ACTOR: (1033643) Chief Tahachee
+ 8 ID: 32055 ACTOR: (1098551) Henry Victor
+ 9 ID: 32055 ACTOR: (1180034) Jean Acker
+ 10 ID: 32055 ACTOR: (1684566) Sally Rand
+ 11 ID: 32055 ACTOR: (1694643) Lillian Rich
+ 12 ID: 93055 ACTOR: (39179) Alun Armstrong
+ 13 ID: 93055 ACTOR: (61138) Ian Bannen
+ 14 ID: 93055 ACTOR: (96494) Stephen Billington
+ 15 ID: 93055 ACTOR: (144162) John Burns
+ 16 ID: 93055 ACTOR: (148353) Michael Byrne
+ 17 ID: 93055 ACTOR: (163427) Liam Carney
+ 18 ID: 93055 ACTOR: (187364) Jimmy Chisholm
+ 19 ID: 93055 ACTOR: (187635) Fred Chiverton
+ 20 ID: 93055 ACTOR: (203426) Daniel Coll
+ 21 ID: 93055 ACTOR: (215664) James Cosmo
+ 22 ID: 93055 ACTOR: (219110) Brian Cox
+ 23 ID: 93055 ACTOR: (259773) Martin Dempsey
+ 24 ID: 93055 ACTOR: (289524) Martin Dunne
+ 25 ID: 93055 ACTOR: (335556) Tommy Flanagan
+ 26 ID: 93055 ACTOR: (363390) David Gant
+ 27 ID: 93055 ACTOR: (374674) Declan Geraghty
+ 28 ID: 93055 ACTOR: (378480) Donal Gibson
+ 29 ID: 93055 ACTOR: (378637) Mel Gibson
+ 30 ID: 93055 ACTOR: (384838) Brendan Gleeson
+ 31 ID: 93055 ACTOR: (429219) Peter Hanly
+ 32 ID: 93055 ACTOR: (471980) Bernard Horsfall
+ 33 ID: 93055 ACTOR: (505374) Greg Jeloudov
+ 34 ID: 93055 ACTOR: (535710) John Kavanagh
+ 35 ID: 93055 ACTOR: (540691) Phil Kelly
+ 36 ID: 93055 ACTOR: (543386) Jimmy Keogh
+ 37 ID: 93055 ACTOR: (597224) Sean Lawlor
+ 38 ID: 93055 ACTOR: (599906) Richard Leaf
+ 39 ID: 93055 ACTOR: (628834) Dean Lopata
+ 40 ID: 93055 ACTOR: (643742) Angus Macfadyen
+ 41 ID: 93055 ACTOR: (689169) Sean McGinley
+ 42 ID: 93055 ACTOR: (689406) Patrick McGoohan
+ 43 ID: 93055 ACTOR: (689441) Barry McGovern
+ 44 ID: 93055 ACTOR: (691106) David McKay
+ 45 ID: 93055 ACTOR: (695417) Gerard McSorley
+ 46 ID: 93055 ACTOR: (741200) Peter Mullan
+ 47 ID: 93055 ACTOR: (743443) Bill Murdoch
+ 48 ID: 93055 ACTOR: (744392) Martin Murphy
+ 49 ID: 93055 ACTOR: (745477) John Murtagh
+ 50 ID: 93055 ACTOR: (759172) Sandy Nelson
+ 51 ID: 93055 ACTOR: (771903) Alex Norton
+ 52 ID: 93055 ACTOR: (776418) Niall O'Brien
+ 53 ID: 93055 ACTOR: (778109) David O'Hara
+ 54 ID: 93055 ACTOR: (778502) Jer O'Leary
+ 55 ID: 93055 ACTOR: (809820) Robert Paterson
+ 56 ID: 93055 ACTOR: (854403) Derek Pykett
+ 57 ID: 93055 ACTOR: (881191) Ralph Riach
+ 58 ID: 93055 ACTOR: (893687) James Robinson
+ 59 ID: 93055 ACTOR: (937355) Joe Savino
+ 60 ID: 93055 ACTOR: (951449) William Scott-Masson
+ 61 ID: 93055 ACTOR: (1035555) Alan Tall
+ 62 ID: 93055 ACTOR: (1054553) Malcolm Tierney
+ 63 ID: 93055 ACTOR: (1072092) Paul Tucker
+ 64 ID: 93055 ACTOR: (1090046) Rupert Vansittart
+ 65 ID: 93055 ACTOR: (1114135) Ryan Wallace
+ 66 ID: 93055 ACTOR: (1125933) Andrew Weir
+ 67 ID: 93055 ACTOR: (1133467) Tam White
+ 68 ID: 93055 ACTOR: (1134794) Mal Whyte
+ 69 ID: 93055 ACTOR: (1206512) Julie Austin
+ 70 ID: 93055 ACTOR: (1232048) Joanne Bett
+ 71 ID: 93055 ACTOR: (1266791) Mhairi Calvey
+ 72 ID: 93055 ACTOR: (1564488) Sophie Marceau
+ 73 ID: 93055 ACTOR: (1566813) Jeanne Marine
+ 74 ID: 93055 ACTOR: (1580407) Catherine McCormack
+ 75 ID: 93055 ACTOR: (1610165) Rana Morrison
+ 76 ID: 93055 ACTOR: (1769334) Gerda Stevenson
+ 77 ID: 125966 ACTOR: (894243) Tony Robinson
+ 78 ID: 315879 ACTOR: (220864) Simon Crane
+ 79 ID: 315879 ACTOR: (240910) Bruce Davey
+ 80 ID: 315879 ACTOR: (248479) Kevin De La Noy
+ 81 ID: 315879 ACTOR: (378637) Mel Gibson
+ 82 ID: 315879 ACTOR: (429219) Peter Hanly
+ 83 ID: 315879 ACTOR: (583741) Alan Ladd Jr.
+ 84 ID: 315879 ACTOR: (643742) Angus Macfadyen
+ 85 ID: 315879 ACTOR: (688143) Stephen McEveety
+ 86 ID: 315879 ACTOR: (896196) Mic Rodgers
+ 87 ID: 315879 ACTOR: (965299) Tom Shelly
+ 88 ID: 315879 ACTOR: (1114105) Randall Wallace
+ 89 ID: 315879 ACTOR: (1564488) Sophie Marceau
+ 90 ID: 315879 ACTOR: (1580407) Catherine McCormack
+ 91 ID: 918792 ACTOR: (1833027) Fiona Watson
+ 92 ID: 973330 ACTOR: (384348) Frankie Glass
+ 93 ID: 1134342 ACTOR: (219110) Brian Cox
+ 94 ID: 1134342 ACTOR: (378637) Mel Gibson
+ 95 ID: 1134342 ACTOR: (1024203) Nils-Petter Sundgren
+ 96 ID: 1134342 ACTOR: (1136279) Hans Wiklund
+ 97 ID: 1134342 ACTOR: (1564488) Sophie Marceau
+ 98 ID: 1178224 ACTOR: (16335) Derek Alexander
+ 99 ID: 1178224 ACTOR: (184863) Campbell Chesterman
+ 100 ID: 1178224 ACTOR: (321968) Richard Fawcett
+ 101 ID: 1178224 ACTOR: (511474) Corey Johnson
+ 102 ID: 1178224 ACTOR: (788621) Richard Oram
+ 103 ID: 1178224 ACTOR: (906539) David Ross
+ 104 ID: 1178224 ACTOR: (1221628) Amanda Beam
+ 105 ID: 1178224 ACTOR: (1833027) Fiona Watson
+ 106 ID: 1332835 ACTOR: (491818) Chris Isaak
+ 107 ID: 1332835 ACTOR: (1145899) Greg Winter
+ 108 ID: 1332835 ACTOR: (1227176) Brittaney Bennett
+ 109 ID: 1332835 ACTOR: (1304831) Christina Cox
+ 110 ID: 1332835 ACTOR: (1317166) Kristin Dattilo
+ 111 ID: 1332835 ACTOR: (1374242) Carrie Fleming
+ 112 ID: 1332835 ACTOR: (1410775) Stacy Grant
+ 113 ID: 1332835 ACTOR: (1411824) Maureen Grealish
+ 114 ID: 1332835 ACTOR: (1575792) Alison Matthews
+ 115 ID: 1332835 ACTOR: (1758431) Laura Soltis
 
 
  *** Please enter one of the following commands *** 

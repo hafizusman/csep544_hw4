@@ -94,6 +94,21 @@ public class Query {
                     "ON X.id = MD.mid " +
                     "ORDER BY X.id";
 
+    private static final String FAST_SEARCH_ACTORS_SQL_BEGIN =
+            "SELECT X.id AS mid, A.id, A.fname, A.lname " +
+            "FROM CASTS AS C " +
+            "INNER JOIN ACTOR A ON A.id = C.pid " +
+            "RIGHT OUTER JOIN ( " +
+                "SELECT * " +
+                "FROM MOVIE AS M " +
+                "WHERE LOWER(M.name) LIKE '%";
+
+    private static final String FAST_SEARCH_ACTORS_SQL_END =
+                "%') AS X " +
+            "ON X.id = C.mid " +
+            "GROUP BY X.id, A.id, A.fname, A.lname " +
+            "ORDER BY X.id";
+
 
 	/*
 	private static final String BEGIN_TRANSACTION_SQL =
@@ -305,6 +320,7 @@ public class Query {
 		/* prints the movies, directors, actors, and the availability status:
 		   AVAILABLE, or UNAVAILABLE, or YOU CURRENTLY RENT IT */
         int count = 0;
+        int acount = 0;
 
 		/* Interpolate the movie title into the SQL string */
         String searchSql = SEARCH_SQL_BEGIN + movie_title + SEARCH_SQL_END;
@@ -335,7 +351,7 @@ public class Query {
             actorMidStatement.setInt(1, mid);
             ResultSet actor_set = actorMidStatement.executeQuery();
             while (actor_set.next()) {
-                System.out.println("\t\tActor: " + actor_set.getString(1)
+                System.out.println("\t\t " + ++acount + " Actor: " + actor_set.getString(1)
                         + " " + actor_set.getString(2));
             }
             actor_set.close();
@@ -386,7 +402,7 @@ public class Query {
         String searchSql = FAST_SEARCH_SQL_BEGIN + movie_title + FAST_SEARCH_SQL_END;
         Statement searchStatement = conn.createStatement();
         ResultSet movie_set = searchStatement.executeQuery(searchSql);
-        if (false){
+        if (false && TEST == 1){
         count = 0;
         while (movie_set.next()) {
             int mid = movie_set.getInt(1);
@@ -395,8 +411,6 @@ public class Query {
                     " ID: " + mid + " NAME: "
                     + movie_set.getString(2) + " YEAR: "
                     + movie_set.getString(3));
-
-        }
         }
 
         String directorSql = FAST_SEARCH_DIRECTORS_SQL_BEGIN + movie_title + FAST_SEARCH_DIRECTORS_SQL_END;
@@ -423,8 +437,26 @@ public class Query {
             }
             prev_mid = mid;
         }
+        }
 
-        director_set.close();
+        String actorSql = FAST_SEARCH_ACTORS_SQL_BEGIN + movie_title + FAST_SEARCH_ACTORS_SQL_END;
+        Statement actorStatement = conn.createStatement();
+        ResultSet actor_set = actorStatement.executeQuery(actorSql);
+        count = 0;
+        while (actor_set.next()) {
+            int mid = actor_set.getInt(1);
+            if (actor_set.getString(2) != null) {
+                System.out.println(
+                    " " + ++count +
+                    " ID: " + mid +
+                    " ACTOR: (" + actor_set.getString(2) + ") " +
+                            actor_set.getString(3) + " " + actor_set.getString(4));
+            }
+        }
+
+
+        actor_set.close();
+//        director_set.close(); // TODO: open me
         movie_set.close();
         System.out.println();
     }
