@@ -73,7 +73,7 @@ public class Query {
     private PreparedStatement isValidPlanIdStatement;
 
     private static final String CUSTOMER_ID_FROM_RENTAL_SQL =
-            "SELECT R.customerid FROM RENTALS AS R WHERE R.movieid=?";
+            "SELECT R.customerid FROM RENTALS AS R WHERE R.movieid=? AND R.status = " + RENTAL_STATUS_OPENED;
     private PreparedStatement customerIdFromRentalStatement;
 
 
@@ -317,7 +317,19 @@ public class Query {
                         + " " + actor_set.getString(2));
             }
             actor_set.close();
+
+
 			/* then you have to find the status: of "AVAILABLE" "YOU HAVE IT", "UNAVAILABLE" */
+            int temp_cid = getRenterID(mid);
+            if (temp_cid == -1) {
+                System.out.println("\t\tStatus: AVAILABLE");
+            }
+            else if (temp_cid == cid) {
+                System.out.println("\t\tStatus: YOU HAVE IT");
+            }
+            else {
+                System.out.println("\t\tStatus: UNAVAILABLE");
+            }
         }
         movie_set.close();
         System.out.println();

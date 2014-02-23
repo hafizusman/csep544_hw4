@@ -8,4 +8,17 @@ Remaining RENTALS for cid=3 is 0
 > return <movie id>
 > fastsearch <movie title>
 > quit
-> 
+> Searching for the movie 'schindler's list'
+Exception in thread "main" com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near 's'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:196)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1454)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.doExecuteStatement(SQLServerStatement.java:786)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd.doExecute(SQLServerStatement.java:685)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:185)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:160)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeQuery(SQLServerStatement.java:620)
+	at Query.transaction_search(Query.java:294)
+	at VideoStore.menu(VideoStore.java:49)
+	at VideoStore.main(VideoStore.java:124)
