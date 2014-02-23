@@ -1,28 +1,3 @@
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-> Searching for the movie 'nixon'
-ID: 32573 NAME: A Night with Nixon YEAR: 2008
-Exception in thread "main" com.microsoft.sqlserver.jdbc.SQLServerException: Connection reset by peer: socket write error
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:1368)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:1355)
-	at com.microsoft.sqlserver.jdbc.TDSChannel.write(IOBuffer.java:1548)
-	at com.microsoft.sqlserver.jdbc.TDSWriter.flush(IOBuffer.java:2368)
-	at com.microsoft.sqlserver.jdbc.TDSWriter.writePacket(IOBuffer.java:2270)
-	at com.microsoft.sqlserver.jdbc.TDSWriter.endMessage(IOBuffer.java:1877)
-	at com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:4403)
-	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:386)
-	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:338)
-	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
-	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:185)
-	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:160)
-	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:281)
-	at Query.transaction_search(Query.java:211)
-	at VideoStore.menu(VideoStore.java:49)
-	at VideoStore.main(VideoStore.java:124)
+Customer Name: null
+Remaining RENTALS for cid=-1 is 0
+Sorry, login failed...

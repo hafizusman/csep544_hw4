@@ -20,6 +20,9 @@ public class Query {
     private String jSQLUser;
     private String jSQLPassword;
 
+    private static final Integer RENTAL_STATUS_OPENED = 1;
+    private static final Integer RENTAL_STATUS_CLOSED = 0;
+
     // DB Connection
     private Connection conn;
     private Connection customerConn;
@@ -37,13 +40,33 @@ public class Query {
             + "WHERE x.mid = ? and x.did = y.id";
     private PreparedStatement directorMidStatement;
 
-	/* uncomment, and edit, after your create your own customer database */
-	/*
-	private static final String CUSTOMER_LOGIN_SQL = 
-		"SELECT * FROM customer WHERE login = ? and password = ?";
-	private PreparedStatement customerLoginStatement;
+    private static final String ACTOR_MID_SQL =
+            "SELECT A.fname, A.lname "
+            + "FROM CASTS AS C "
+            + "INNER JOIN MOVIE M ON M.id = C.mid "
+            + "INNER JOIN ACTOR A ON A.id = C.pid "
+            + "WHERE M.id = ? "
+            + "GROUP BY A.id, A.fname, A.lname";
+    private PreparedStatement actorMidStatement;
 
-	private static final String BEGIN_TRANSACTION_SQL = 
+    private static final String CUSTOMER_LOGIN_SQL =
+            "SELECT * FROM CUSTOMERS WHERE login = ? and password = ?";
+    private PreparedStatement customerLoginStatement;
+
+    private static final String REMAINING_RENTALS_SQL =
+            "SELECT "
+            + "(SELECT P.maxrentals FROM CUSTOMERS AS C INNER JOIN PLANS AS P ON P.id=C.plan_id WHERE C.id=? GROUP BY P.maxrentals) "
+            + "- "
+            + "(SELECT COUNT(*) FROM CUSTOMERS AS C INNER JOIN PLANS AS P ON P.id=C.plan_id INNER JOIN RENTALS AS R ON R.customerid=C.id WHERE C.id=? AND R.status=" + RENTAL_STATUS_OPENED + ")";
+    private PreparedStatement remainingRentalsStatement;
+
+    private static final String CUSTOMER_NAME_SQL =
+            "SELECT C.fname, C.lname FROM CUSTOMERS AS C WHERE C.id=?";
+    private PreparedStatement customerNameStatement;
+
+
+	/*
+	private static final String BEGIN_TRANSACTION_SQL =
 		"SET TRANSACTION ISOLATION LEVEL SERIALIZABLE; BEGIN TRANSACTION;";
 	private PreparedStatement beginTransactionStatement;
 
@@ -116,16 +139,19 @@ public class Query {
 
         directorMidStatement = conn.prepareStatement(DIRECTOR_MID_SQL);
 
+        customerLoginStatement = customerConn.prepareStatement(CUSTOMER_LOGIN_SQL);
+
 		/* uncomment after you create your customers database */
 		/*
-		customerLoginStatement = customerConn.prepareStatement(CUSTOMER_LOGIN_SQL);
 		beginTransactionStatement = customerConn.prepareStatement(BEGIN_TRANSACTION_SQL);
 		commitTransactionStatement = customerConn.prepareStatement(COMMIT_SQL);
 		rollbackTransactionStatement = customerConn.prepareStatement(ROLLBACK_SQL);
 		*/
 
 		/* add here more prepare statements for all the other queries you need */
-		/* . . . . . . */
+		actorMidStatement = conn.prepareStatement(ACTOR_MID_SQL);
+        remainingRentalsStatement = customerConn.prepareStatement(REMAINING_RENTALS_SQL);
+        customerNameStatement = customerConn.prepareStatement(CUSTOMER_NAME_SQL);
     }
 
 
@@ -137,13 +163,31 @@ public class Query {
 		/* How many movies can she/he still rent?
 		   You have to compute and return the difference between the customer's plan
 		   and the count of outstanding rentals */
-        return (99);
+        int remaining_rentals = 0;
+
+        remainingRentalsStatement.clearParameters();
+        remainingRentalsStatement.setInt(1, cid);
+        remainingRentalsStatement.setInt(2, cid);
+        ResultSet remaining_rentals_set = remainingRentalsStatement.executeQuery();
+        if (remaining_rentals_set.next())
+            remaining_rentals = remaining_rentals_set.getInt(1);
+        remaining_rentals_set.close();
+
+        return (remaining_rentals);
     }
 
     public String getCustomerName(int cid) throws Exception {
 		/* Find the first and last name of the current customer. */
-        return ("JoeFirstName" + " " + "JoeLastName");
+        String customer_name = null;
 
+        customerNameStatement.clearParameters();
+        customerNameStatement.setInt(1, cid);
+        ResultSet customer_name_set = customerNameStatement.executeQuery();
+        if (customer_name_set.next())
+            customer_name = customer_name_set.getString(1) + " " + customer_name_set.getString(2);
+        customer_name_set.close();
+
+        return customer_name;
     }
 
     public boolean isValidPlan(int planid) throws Exception {
@@ -166,8 +210,6 @@ public class Query {
     public int transaction_login(String name, String password) throws Exception {
 		/* authenticates the user, and returns the user id, or -1 if authentication fails */
 
-		/* Uncomment after you create your own customers database */
-		/*
 		int cid;
 
 		customerLoginStatement.clearParameters();
@@ -177,13 +219,19 @@ public class Query {
 		if (cid_set.next()) cid = cid_set.getInt(1);
 		else cid = -1;
 		cid_set.close();
-		return(cid);
-		 */
-        return (55);
+
+        if (TEST==1)
+        {
+            System.out.println("Customer Name: " + getCustomerName(cid));
+            System.out.println("Remaining RENTALS for cid=" + cid + " is " + getRemainingRentals(cid));
+        }
+
+        return(cid);
     }
 
     public void transaction_printPersonalData(int cid) throws Exception {
 		/* println the customer's personal data: name, and plan number */
+
     }
 
 
@@ -192,25 +240,6 @@ public class Query {
 
     public void transaction_search(int cid, String movie_title)
             throws Exception {
-
-        if (TEST==1)
-        {
-            String testSql = "SELECT * FROM PLANS";
-            Statement testSearchStatement = customerConn.createStatement();
-            ResultSet testPlansSet = testSearchStatement.executeQuery(testSql);
-            while(testPlansSet.next())
-            {
-                System.out.println(
-                        "ID: " + testPlansSet.getInt(1) +
-                        " NAME: " + testPlansSet.getString(2) +
-                        " MAXRENTALS: " + testPlansSet.getInt(3) +
-                        " FEE: " + testPlansSet.getInt(4)
-                );
-            }
-            testPlansSet.close();
-            System.out.println();
-            return;
-        }
 
 		/* searches for movies with matching titles: SELECT * FROM movie WHERE name LIKE movie_title */
 		/* prints the movies, directors, actors, and the availability status:
@@ -226,6 +255,7 @@ public class Query {
             System.out.println("ID: " + mid + " NAME: "
                     + movie_set.getString(2) + " YEAR: "
                     + movie_set.getString(3));
+
 			/* do a dependent join with directors */
             directorMidStatement.clearParameters();
             directorMidStatement.setInt(1, mid);
@@ -235,7 +265,16 @@ public class Query {
                         + " " + director_set.getString(2));
             }
             director_set.close();
+
 			/* now you need to retrieve the actors, in the same manner */
+            actorMidStatement.clearParameters();
+            actorMidStatement.setInt(1, mid);
+            ResultSet actor_set = actorMidStatement.executeQuery();
+            while (actor_set.next()) {
+                System.out.println("\t\tActor: " + actor_set.getString(1)
+                        + " " + actor_set.getString(2));
+            }
+            actor_set.close();
 			/* then you have to find the status: of "AVAILABLE" "YOU HAVE IT", "UNAVAILABLE" */
         }
         movie_set.close();
