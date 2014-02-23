@@ -64,6 +64,14 @@ public class Query {
             "SELECT C.fname, C.lname FROM CUSTOMERS AS C WHERE C.id=?";
     private PreparedStatement customerNameStatement;
 
+    private static final String IS_VALID_MOVIE_ID_SQL =
+            "SELECT COUNT(*) FROM MOVIE AS M WHERE M.id=?";
+    private PreparedStatement isValidMovieIdStatement;
+
+    private static final String IS_VALID_PLAN_ID_SQL =
+            "SELECT COUNT(*) FROM PLANS AS P WHERE P.id=?";
+    private PreparedStatement isValidPlanIdStatement;
+
 
 	/*
 	private static final String BEGIN_TRANSACTION_SQL =
@@ -152,6 +160,8 @@ public class Query {
 		actorMidStatement = conn.prepareStatement(ACTOR_MID_SQL);
         remainingRentalsStatement = customerConn.prepareStatement(REMAINING_RENTALS_SQL);
         customerNameStatement = customerConn.prepareStatement(CUSTOMER_NAME_SQL);
+        isValidMovieIdStatement = conn.prepareStatement(IS_VALID_MOVIE_ID_SQL);
+        isValidPlanIdStatement = customerConn.prepareStatement(IS_VALID_PLAN_ID_SQL);
     }
 
 
@@ -192,12 +202,30 @@ public class Query {
 
     public boolean isValidPlan(int planid) throws Exception {
 		/* Is planid a valid plan ID?  You have to figure it out */
-        return true;
+        int plan_id_count = 0;
+
+        isValidPlanIdStatement.clearParameters();
+        isValidPlanIdStatement.setInt(1, planid);
+        ResultSet is_valid_plan_set = isValidPlanIdStatement.executeQuery();
+        if (is_valid_plan_set.next())
+            plan_id_count = is_valid_plan_set.getInt(1);
+        is_valid_plan_set.close();
+
+        return (plan_id_count==1);
     }
 
     public boolean isValidMovie(int mid) throws Exception {
 		/* is mid a valid movie ID?  You have to figure it out */
-        return true;
+        int movie_id_count = 0;
+
+        isValidMovieIdStatement.clearParameters();
+        isValidMovieIdStatement.setInt(1, mid);
+        ResultSet is_valid_movie_set = isValidMovieIdStatement.executeQuery();
+        if (is_valid_movie_set.next())
+            movie_id_count = is_valid_movie_set.getInt(1);
+        is_valid_movie_set.close();
+
+        return (movie_id_count==1);
     }
 
     private int getRenterID(int mid) throws Exception {
