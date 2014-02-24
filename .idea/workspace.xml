@@ -76,9 +76,12 @@
       <file leaf-file-name="Query.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Query.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="428" column="28" selection-start="17112" selection-end="17112" vertical-scroll-proportion="0.19621749" vertical-offset="7193" max-vertical-offset="8262">
+            <state line="398" column="9" selection-start="15958" selection-end="15958" vertical-scroll-proportion="0.40189126" vertical-offset="6596" max-vertical-offset="8483">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#15750#15767#0" expanded="true" />
+                <element signature="e#16270#16298#0" expanded="true" />
+                <element signature="e#17338#17366#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +90,7 @@
       <file leaf-file-name="output.log" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/output.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1253" column="0" selection-start="46425" selection-end="46425" vertical-scroll-proportion="0.0" vertical-offset="21301" max-vertical-offset="21522">
+            <state line="702" column="0" selection-start="20989" selection-end="20989" vertical-scroll-proportion="0.0" vertical-offset="11934" max-vertical-offset="12121">
               <folding />
             </state>
           </provider>
@@ -109,9 +112,9 @@
       <list>
         <option value="$PROJECT_DIR$/dbconn.properties" />
         <option value="$PROJECT_DIR$/src/output.log" />
-        <option value="$PROJECT_DIR$/src/Query.java" />
         <option value="$PROJECT_DIR$/src/dbconn.properties" />
         <option value="$PROJECT_DIR$/src/VideoStore.java" />
+        <option value="$PROJECT_DIR$/src/Query.java" />
       </list>
     </option>
   </component>
@@ -415,7 +418,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -424,7 +427,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38911563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38911563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -488,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/output.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1253" column="0" selection-start="46425" selection-end="46425" vertical-scroll-proportion="0.0" vertical-offset="21301" max-vertical-offset="21522">
+        <state line="702" column="0" selection-start="20989" selection-end="20989" vertical-scroll-proportion="0.0" vertical-offset="11934" max-vertical-offset="12121">
           <folding />
         </state>
       </provider>
@@ -516,9 +519,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Query.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="428" column="28" selection-start="17112" selection-end="17112" vertical-scroll-proportion="0.19621749" vertical-offset="7193" max-vertical-offset="8262">
+        <state line="398" column="9" selection-start="15958" selection-end="15958" vertical-scroll-proportion="0.40189126" vertical-offset="6596" max-vertical-offset="8483">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#15750#15767#0" expanded="true" />
+            <element signature="e#16270#16298#0" expanded="true" />
+            <element signature="e#17338#17366#0" expanded="true" />
           </folding>
         </state>
       </provider>

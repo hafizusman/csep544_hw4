@@ -1,9 +1,5 @@
-import java.util.Properties;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.*;
 
 import java.io.FileInputStream;
 
@@ -79,7 +75,7 @@ public class Query {
     private PreparedStatement fastSearchStatement;
 
     private static final String FAST_SEARCH_DIRECTORS_SQL =
-            "SELECT X.id AS mid, X.name AS mname, X.year AS myear, D.* " +
+            "SELECT X.id AS mid, D.fname, D.lname " +
             "FROM MOVIE_DIRECTORS AS MD " +
             "INNER JOIN DIRECTORS AS D ON MD.did = D.id " +
             "RIGHT OUTER JOIN ( " +
@@ -340,7 +336,6 @@ public class Query {
                         + " " + director_set.getString(2));
             }
             director_set.close();
-
 			/* now you need to retrieve the actors, in the same manner */
             actorMidStatement.clearParameters();
             actorMidStatement.setInt(1, mid);
@@ -392,67 +387,85 @@ public class Query {
 		   Needs to run three SQL queries: (a) movies, (b) movies join directors, (c) movies join actors
 		   Answers are sorted by mid.
 		   Then merge-joins the three answer sets */
-        int count = 0;
+        int mid = -1, prev_mid = -1;
 
         fastSearchStatement.clearParameters();
         fastSearchStatement.setString(1, "%" + movie_title + "%");
         ResultSet movie_set = fastSearchStatement.executeQuery();
-        if (false && TEST == 1){
-        count = 0;
-        while (movie_set.next()) {
-            int mid = movie_set.getInt(1);
-            System.out.println(
-                    " " + ++count +
-                    " ID: " + mid + " NAME: "
-                    + movie_set.getString(2) + " YEAR: "
-                    + movie_set.getString(3));
+        HashMap<Integer, String> movies = new HashMap<Integer, String>();
+        while(movie_set.next()) {
+            movies.put( movie_set.getInt(1),
+                        ("NAME: " + movie_set.getString(2) + " YEAR: " + movie_set.getString(3)));
         }
+        movie_set.close();
 
         fastSearchDirectorsStatement.clearParameters();
         fastSearchDirectorsStatement.setString(1, "%" + movie_title + "%");
         ResultSet director_set = fastSearchDirectorsStatement.executeQuery();
-        count = 0;
-        int prev_mid = -1;
-        while (director_set.next()) {
-            int mid = director_set.getInt(1);
+        HashMap<Integer, ArrayList<String>> movie_directors = new HashMap<Integer, ArrayList<String>>();
+        ArrayList<String> directors = null;
+        mid = -1;
+        prev_mid = -1;
+        while(director_set.next()) {
+            mid = director_set.getInt(1);
             if (mid != prev_mid) {
-                System.out.println(
-                        " " + ++count +
-                        " ID: " + mid +
-                        " NAME: " + director_set.getString(2) +
-                        " YEAR: " + director_set.getString(3));
-                if (director_set.getString(5) != null || director_set.getString(6) != null) {
-                    System.out.println("\tDIRECTOR: " + director_set.getString(6) + " " + director_set.getString(5));
+                if (prev_mid != -1) {
+                    movie_directors.put(prev_mid, directors);
                 }
+                directors = new ArrayList<String>();
+                directors.add( director_set.getString(3) + " " +  director_set.getString(2));
             }
             else {
-                if (director_set.getString(6) != null || director_set.getString(5) != null) {
-                    System.out.println("\tDIRECTOR: " + director_set.getString(6) + " " + director_set.getString(5));
-                }
+                directors.add( director_set.getString(3) + " " +  director_set.getString(2));
             }
             prev_mid = mid;
         }
+        if (prev_mid != -1) {
+            movie_directors.put(prev_mid, directors);
         }
+        director_set.close();
 
         fastSearchActorsStatement.clearParameters();
         fastSearchActorsStatement.setString(1, "%" + movie_title + "%");
         ResultSet actor_set = fastSearchActorsStatement.executeQuery();
-        count = 0;
-        while (actor_set.next()) {
-            int mid = actor_set.getInt(1);
-            if (actor_set.getString(2) != null) {
-                System.out.println(
-                    " " + ++count +
-                    " ID: " + mid +
-                    " ACTOR: (" + actor_set.getString(2) + ") " +
-                            actor_set.getString(3) + " " + actor_set.getString(4));
+        HashMap<Integer, ArrayList<String>> movie_actors = new HashMap<Integer, ArrayList<String>>();
+        ArrayList<String> actors = null;
+        mid = -1;
+        prev_mid = -1;
+        while(actor_set.next()) {
+            mid = actor_set.getInt(1);
+            if (mid != prev_mid) {
+                if (prev_mid != -1) {
+                    movie_actors.put(prev_mid, actors);
+                }
+                actors = new ArrayList<String>();
+                actors.add( actor_set.getString(4) + " " +  actor_set.getString(3));
+            }
+            else {
+                actors.add( actor_set.getString(4) + " " +  actor_set.getString(3));
+            }
+            prev_mid = mid;
+        }
+        if (prev_mid != -1) {
+            movie_actors.put(prev_mid, actors);
+        }
+        actor_set.close();
+
+        for(Map.Entry<Integer, String> m_entry : movies.entrySet()) {
+            Integer m_id = m_entry.getKey();
+            String value = m_entry.getValue();
+            System.out.println("ID: " + m_id + " " + value);
+
+            ArrayList <String> temp = movie_directors.get(m_id);
+            for (String s : temp) {
+                System.out.println("\t\tDirector: " + s);
+            }
+
+            temp = movie_actors.get(m_id);
+            for (String s : temp) {
+                System.out.println("\t\tActor: " + s);
             }
         }
-
-
-        actor_set.close();
-//        director_set.close(); // TODO: open me
-        movie_set.close();
         System.out.println();
     }
 
