@@ -7,7 +7,6 @@ import java.io.FileInputStream;
  * Runs queries against a back-end database
  */
 public class Query {
-    private Integer TEST = 1;
     private String configFilename;
     private Properties configProps = new Properties();
 
@@ -262,7 +261,6 @@ public class Query {
     /* login transaction: invoked only once, when the app is started  */
     public int transaction_login(String name, String password) throws Exception {
 		/* authenticates the user, and returns the user id, or -1 if authentication fails */
-
 		int cid;
 
 		customerLoginStatement.clearParameters();
@@ -273,18 +271,20 @@ public class Query {
 		else cid = -1;
 		cid_set.close();
 
-        if (TEST==1)
-        {
-            System.out.println("Hello " + getCustomerName(cid) + "!");
-            System.out.println("You can rent " + getRemainingRentals(cid) + " more movies");
-        }
-
         return(cid);
     }
 
     public void transaction_printPersonalData(int cid) throws Exception {
 		/* println the customer's personal data: name, and plan number */
+        beginTransaction();
 
+        String name = getCustomerName(cid);
+        int remaining_rentals = getRemainingRentals(cid);
+
+        commitTransaction();
+
+        System.out.println("HELLO " + name + "!");
+        System.out.println("REMAINING RENTALS: " + remaining_rentals);
     }
 
 

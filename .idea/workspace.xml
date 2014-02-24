@@ -67,12 +67,33 @@
       <file leaf-file-name="Query.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Query.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="261" column="7" selection-start="10988" selection-end="10988" vertical-scroll-proportion="0.37352246" vertical-offset="4279" max-vertical-offset="8194">
+            <state line="286" column="70" selection-start="11939" selection-end="11939" vertical-scroll-proportion="0.64775413" vertical-offset="2395" max-vertical-offset="3230">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#15473#15490#0" expanded="true" />
-                <element signature="e#15993#16021#0" expanded="true" />
-                <element signature="e#17293#17321#0" expanded="true" />
+                <element signature="docComment;class#Query#0" expanded="false" />
+                <element signature="method#Query#0;class#Query#0" expanded="false" />
+                <element signature="docComment;method#openConnection#0;class#Query#0" expanded="false" />
+                <element signature="method#openConnection#0;class#Query#0" expanded="false" />
+                <element signature="method#closeConnection#0;class#Query#0" expanded="false" />
+                <element signature="docComment;method#prepareStatements#0;class#Query#0" expanded="false" />
+                <element signature="method#prepareStatements#0;class#Query#0" expanded="false" />
+                <element signature="docComment;method#getRemainingRentals#0;class#Query#0" expanded="false" />
+                <element signature="method#getRemainingRentals#0;class#Query#0" expanded="false" />
+                <element signature="method#getCustomerName#0;class#Query#0" expanded="false" />
+                <element signature="method#isValidPlan#0;class#Query#0" expanded="false" />
+                <element signature="method#isValidMovie#0;class#Query#0" expanded="false" />
+                <element signature="method#getRenterID#0;class#Query#0" expanded="false" />
+                <element signature="docComment;method#transaction_login#0;class#Query#0" expanded="false" />
+                <element signature="method#transaction_login#0;class#Query#0" expanded="false" />
+                <element signature="docComment;method#transaction_search#0;class#Query#0" expanded="false" />
+                <element signature="method#transaction_search#0;class#Query#0" expanded="false" />
+                <element signature="method#transaction_choosePlan#0;class#Query#0" expanded="false" />
+                <element signature="method#transaction_listPlans#0;class#Query#0" expanded="false" />
+                <element signature="method#transaction_rent#0;class#Query#0" expanded="false" />
+                <element signature="method#transaction_return#0;class#Query#0" expanded="false" />
+                <element signature="method#transaction_fastSearch#0;class#Query#0" expanded="false" />
+                <element signature="method#beginTransaction#0;class#Query#0" expanded="false" />
+                <element signature="method#commitTransaction#0;class#Query#0" expanded="false" />
+                <element signature="method#rollbackTransaction#0;class#Query#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -508,12 +529,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Query.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="7" selection-start="10988" selection-end="10988" vertical-scroll-proportion="0.37352246" vertical-offset="4279" max-vertical-offset="8194">
+        <state line="286" column="70" selection-start="11939" selection-end="11939" vertical-scroll-proportion="0.64775413" vertical-offset="2395" max-vertical-offset="3230">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#15473#15490#0" expanded="true" />
-            <element signature="e#15993#16021#0" expanded="true" />
-            <element signature="e#17293#17321#0" expanded="true" />
+            <element signature="docComment;class#Query#0" expanded="false" />
+            <element signature="method#Query#0;class#Query#0" expanded="false" />
+            <element signature="docComment;method#openConnection#0;class#Query#0" expanded="false" />
+            <element signature="method#openConnection#0;class#Query#0" expanded="false" />
+            <element signature="method#closeConnection#0;class#Query#0" expanded="false" />
+            <element signature="docComment;method#prepareStatements#0;class#Query#0" expanded="false" />
+            <element signature="method#prepareStatements#0;class#Query#0" expanded="false" />
+            <element signature="docComment;method#getRemainingRentals#0;class#Query#0" expanded="false" />
+            <element signature="method#getRemainingRentals#0;class#Query#0" expanded="false" />
+            <element signature="method#getCustomerName#0;class#Query#0" expanded="false" />
+            <element signature="method#isValidPlan#0;class#Query#0" expanded="false" />
+            <element signature="method#isValidMovie#0;class#Query#0" expanded="false" />
+            <element signature="method#getRenterID#0;class#Query#0" expanded="false" />
+            <element signature="docComment;method#transaction_login#0;class#Query#0" expanded="false" />
+            <element signature="method#transaction_login#0;class#Query#0" expanded="false" />
+            <element signature="docComment;method#transaction_search#0;class#Query#0" expanded="false" />
+            <element signature="method#transaction_search#0;class#Query#0" expanded="false" />
+            <element signature="method#transaction_choosePlan#0;class#Query#0" expanded="false" />
+            <element signature="method#transaction_listPlans#0;class#Query#0" expanded="false" />
+            <element signature="method#transaction_rent#0;class#Query#0" expanded="false" />
+            <element signature="method#transaction_return#0;class#Query#0" expanded="false" />
+            <element signature="method#transaction_fastSearch#0;class#Query#0" expanded="false" />
+            <element signature="method#beginTransaction#0;class#Query#0" expanded="false" />
+            <element signature="method#commitTransaction#0;class#Query#0" expanded="false" />
+            <element signature="method#rollbackTransaction#0;class#Query#0" expanded="false" />
           </folding>
         </state>
       </provider>
