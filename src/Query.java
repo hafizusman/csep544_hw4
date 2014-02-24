@@ -29,18 +29,19 @@ public class Query {
             "SELECT * FROM movie WHERE name LIKE ? ORDER BY id";
     private PreparedStatement searchStatement;
 
-    private static final String DIRECTOR_MID_SQL = "SELECT y.* "
-            + "FROM movie_directors x, directors y "
-            + "WHERE x.mid = ? and x.did = y.id";
+    private static final String DIRECTOR_MID_SQL =
+            "SELECT y.* " +
+            "FROM movie_directors x, directors y " +
+            "WHERE x.mid = ? and x.did = y.id";
     private PreparedStatement directorMidStatement;
 
     private static final String ACTOR_MID_SQL =
-            "SELECT A.fname, A.lname "
-            + "FROM CASTS AS C "
-            + "INNER JOIN MOVIE M ON M.id = C.mid "
-            + "INNER JOIN ACTOR A ON A.id = C.pid "
-            + "WHERE M.id = ? "
-            + "GROUP BY A.id, A.fname, A.lname";
+            "SELECT A.fname, A.lname " +
+            "FROM CASTS AS C " +
+            "INNER JOIN MOVIE M ON M.id = C.mid " +
+            "INNER JOIN ACTOR A ON A.id = C.pid " +
+            "WHERE M.id = ? " +
+            "GROUP BY A.id, A.fname, A.lname";
     private PreparedStatement actorMidStatement;
 
     private static final String CUSTOMER_LOGIN_SQL =
@@ -48,10 +49,10 @@ public class Query {
     private PreparedStatement customerLoginStatement;
 
     private static final String REMAINING_RENTALS_SQL =
-            "SELECT "
-            + "(SELECT P.maxrentals FROM CUSTOMERS AS C INNER JOIN PLANS AS P ON P.id=C.plan_id WHERE C.id=? GROUP BY P.maxrentals) "
-            + "- "
-            + "(SELECT COUNT(*) FROM CUSTOMERS AS C INNER JOIN PLANS AS P ON P.id=C.plan_id INNER JOIN RENTALS AS R ON R.customerid=C.id WHERE C.id=? AND R.status=" + RENTAL_STATUS_OPENED + ")";
+            "SELECT " +
+            "(SELECT P.maxrentals FROM CUSTOMERS AS C INNER JOIN PLANS AS P ON P.id=C.plan_id WHERE C.id=? GROUP BY P.maxrentals) " +
+            "- " +
+            "(SELECT COUNT(*) FROM CUSTOMERS AS C INNER JOIN PLANS AS P ON P.id=C.plan_id INNER JOIN RENTALS AS R ON R.customerid=C.id WHERE C.id=? AND R.status=" + RENTAL_STATUS_OPENED + ")";
     private PreparedStatement remainingRentalsStatement;
 
     private static final String CUSTOMER_NAME_SQL =
