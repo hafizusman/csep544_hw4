@@ -311,18 +311,14 @@ public class Query {
 		/* searches for movies with matching titles: SELECT * FROM movie WHERE name LIKE movie_title */
 		/* prints the movies, directors, actors, and the availability status:
 		   AVAILABLE, or UNAVAILABLE, or YOU CURRENTLY RENT IT */
-        int count = 0;
-        int acount = 0;
         ResultSet movie_set = null;
 
         searchStatement.clearParameters();
         searchStatement.setString(1, "%" + movie_title + "%");
         movie_set = searchStatement.executeQuery();
-        count = 0;
         while (movie_set.next()) {
             int mid = movie_set.getInt(1);
             System.out.println(
-                    " " + ++count +
                     " ID: " + mid + " NAME: "
                     + movie_set.getString(2) + " YEAR: "
                     + movie_set.getString(3));
@@ -341,8 +337,8 @@ public class Query {
             actorMidStatement.setInt(1, mid);
             ResultSet actor_set = actorMidStatement.executeQuery();
             while (actor_set.next()) {
-                System.out.println("\t\t " + ++acount + " Actor: " + actor_set.getString(1)
-                        + " " + actor_set.getString(2));
+                System.out.println("\t\t" + "Actor: " + actor_set.getString(2)
+                        + " " + actor_set.getString(1));
             }
             actor_set.close();
 
@@ -413,10 +409,14 @@ public class Query {
                     movie_directors.put(prev_mid, directors);
                 }
                 directors = new ArrayList<String>();
-                directors.add( director_set.getString(3) + " " +  director_set.getString(2));
+                if (director_set.getString(3) != null || director_set.getString(2) != null) {
+                    directors.add( director_set.getString(3) + " " +  director_set.getString(2));
+                }
             }
             else {
-                directors.add( director_set.getString(3) + " " +  director_set.getString(2));
+                if (director_set.getString(3) != null || director_set.getString(2) != null) {
+                    directors.add( director_set.getString(3) + " " +  director_set.getString(2));
+                }
             }
             prev_mid = mid;
         }
@@ -439,10 +439,14 @@ public class Query {
                     movie_actors.put(prev_mid, actors);
                 }
                 actors = new ArrayList<String>();
-                actors.add( actor_set.getString(4) + " " +  actor_set.getString(3));
+                if (actor_set.getString(4) != null || actor_set.getString(3) != null) {
+                    actors.add( actor_set.getString(4) + " " +  actor_set.getString(3));
+                }
             }
             else {
-                actors.add( actor_set.getString(4) + " " +  actor_set.getString(3));
+                if (actor_set.getString(4) != null || actor_set.getString(3) != null) {
+                    actors.add( actor_set.getString(4) + " " +  actor_set.getString(3));
+                }
             }
             prev_mid = mid;
         }

@@ -8,694 +8,302 @@ You can rent 0 more movies
 > return <movie id>
 > fastsearch <movie title>
 > quit
-> Searching for the movie 'nixon'
- 1 ID: 32573 NAME: A Night with Nixon YEAR: 2008
-		Director: Cormack  Alex
-		 1 Actor: Alex Cormack
-		 2 Actor: Ashley Cook
+> Searching for the movie 'braveheart'
+ ID: 7104 NAME: Braveheart: Tales of William Wallace YEAR: 2007
 		Status: AVAILABLE
- 2 ID: 107448 NAME: David Frost Interviews Richard Nixon YEAR: 1977
-		Director: Winther  Jrn
-		 3 Actor: David Frost
-		 4 Actor: Richard Nixon
+ ID: 23418 NAME: Braveheart: A Writer's Journey YEAR: 2007
 		Status: AVAILABLE
- 3 ID: 141877 NAME: Frost/Nixon YEAR: 2008
-		Director: Howard  Ron
-		 5 Actor: Antony Acker
-		 6 Actor: Wil Albert
-		 7 Actor: Gregory Alpert
-		 8 Actor: Kevin Bacon
-		 9 Actor: Mayank Bhatter
-		 10 Actor: Jay Bird
-		 11 Actor: Geoffrey Blake
-		 12 Actor: Michael Patrick Breen
-		 13 Actor: Scott Bryson
-		 14 Actor: Eloy Casados
-		 15 Actor: John Chancellor
-		 16 Actor: Kaine Bennett Charleston
-		 17 Actor: Noah Craft
-		 18 Actor: Walter Cronkite
-		 19 Actor: John Dean
-		 20 Actor: Sam Ervin
-		 21 Actor: Joe Fedio
-		 22 Actor: Gerald Ford
-		 23 Actor: Alan Gray
-		 24 Actor: Gavin Grazer
-		 25 Actor: Googy Gress
-		 26 Actor: Christopher Haskell
-		 27 Actor: Jimmy Heck
-		 28 Actor: Clint Howard
-		 29 Actor: Rance Howard
-		 30 Actor: Simon James
-		 31 Actor: Gabriel Jarret
-		 32 Actor: Dave Johnson
-		 33 Actor: Toby Jones
-		 34 Actor: Christopher Jude
-		 35 Actor: Adam Karst
-		 36 Actor: Kevin P. Kearns
-		 37 Actor: Steve Kehela
-		 38 Actor: David Kelsey
-		 39 Actor: John Kerry
-		 40 Actor: Frank Langella
-		 41 Actor: Steve Longmuir
-		 42 Actor: Matthew Macfadyen
-		 43 Actor: Keith MacKechnie
-		 44 Actor: Les Mahoney
-		 45 Actor: Marc McClure
-		 46 Actor: Louie Mejia
-		 47 Actor: Jim Meskimen
-		 48 Actor: Andy Milder
-		 49 Actor: Albert Miranda
-		 50 Actor: Roger Mudd
-		 51 Actor: Eddie Napolillo
-		 52 Actor: Robert Pastoriza
-		 53 Actor: David Ross Paterson
-		 54 Actor: Ben Pauley
-		 55 Actor: Robert Phares
-		 56 Actor: Oliver Platt
-		 57 Actor: James Ritz
-		 58 Actor: John Robert
-		 59 Actor: Pete Rockwell
-		 60 Actor: Sam Rockwell
-		 61 Actor: Howard Rosen
-		 62 Actor: Andrea Russell
-		 63 Actor: Eric Sevareid
-		 64 Actor: Michael Sheen
-		 65 Actor: Evan Silverman
-		 66 Actor: Mark Simich
-		 67 Actor: Talley Singer
-		 68 Actor: Joe Spano
-		 69 Actor: Arne Starr
-		 70 Actor: Mark Strohman
-		 71 Actor: Jason Suhrke
-		 72 Actor: Ned Vaughn
-		 73 Actor: Robson Vieira
-		 74 Actor: Jay White
-		 75 Actor: Janneke Arent
-		 76 Actor: Shannah Barrett
-		 77 Actor: Marianne Chambers
-		 78 Actor: Danielle Cooper
-		 79 Actor: Alexandria Cree
-		 80 Actor: Eve Curtis
-		 81 Actor: Jenn Gotzon
-		 82 Actor: Kate Jennings Grant
-		 83 Actor: Maggie Grant
-		 84 Actor: Darbi Gwynn
-		 85 Actor: Rebecca Hall
-		 86 Actor: Jennifer Hanley
-		 87 Actor: Kristina Hughes
-		 88 Actor: Candy Ibarra
-		 89 Actor: Simone Kessell
-		 90 Actor: Michelle Manhart
-		 91 Actor: Patty McCormack
-		 92 Actor: Victoria Monroe
-		 93 Actor: Penny L. Moore
-		 94 Actor: Susanna Musotto
-		 95 Actor: Rachael Owens
-		 96 Actor: Yvette Rachelle
-		 97 Actor: Kimberly Robin
-		 98 Actor: Holly Weber
+ ID: 32055 NAME: Braveheart YEAR: 1925
+		Director: Hale  Alan
+		Actor: Edeson Robert
+		Actor: Hagney Frank
+		Actor: Housman Arthur
+		Actor: La Rocque Rod
+		Actor: Power Sr. Tyrone
+		Actor: Strongheart Nipo T.
+		Actor: Tahachee Chief
+		Actor: Victor Henry
+		Actor: Acker Jean
+		Actor: Rand Sally
+		Actor: Rich Lillian
 		Status: AVAILABLE
- 4 ID: 166994 NAME: Dad's in Heaven with Nixon YEAR: 2010
-		Director: Murray  Tom
+ ID: 93055 NAME: Braveheart YEAR: 1995
+		Director: Gibson  Mel
+		Actor: Armstrong Alun
+		Actor: Bannen Ian
+		Actor: Billington Stephen
+		Actor: Burns John
+		Actor: Byrne Michael
+		Actor: Carney Liam
+		Actor: Chisholm Jimmy
+		Actor: Chiverton Fred
+		Actor: Coll Daniel
+		Actor: Cosmo James
+		Actor: Cox Brian
+		Actor: Dempsey Martin
+		Actor: Dunne Martin
+		Actor: Flanagan Tommy
+		Actor: Gant David
+		Actor: Geraghty Declan
+		Actor: Gibson Donal
+		Actor: Gibson Mel
+		Actor: Gleeson Brendan
+		Actor: Hanly Peter
+		Actor: Horsfall Bernard
+		Actor: Jeloudov Greg
+		Actor: Kavanagh John
+		Actor: Kelly Phil
+		Actor: Keogh Jimmy
+		Actor: Lawlor Sean
+		Actor: Leaf Richard
+		Actor: Lopata Dean
+		Actor: Macfadyen Angus
+		Actor: McGinley Sean
+		Actor: McGoohan Patrick
+		Actor: McGovern Barry
+		Actor: McKay David
+		Actor: McSorley Gerard
+		Actor: Mullan Peter
+		Actor: Murdoch Bill
+		Actor: Murphy Martin
+		Actor: Murtagh John
+		Actor: Nelson Sandy
+		Actor: Norton Alex
+		Actor: O'Brien Niall
+		Actor: O'Hara David
+		Actor: O'Leary Jer
+		Actor: Paterson Robert
+		Actor: Pykett Derek
+		Actor: Riach Ralph
+		Actor: Robinson James
+		Actor: Savino Joe
+		Actor: Scott-Masson William
+		Actor: Tall Alan
+		Actor: Tierney Malcolm
+		Actor: Tucker Paul
+		Actor: Vansittart Rupert
+		Actor: Wallace Ryan
+		Actor: Weir Andrew
+		Actor: White Tam
+		Actor: Whyte Mal
+		Actor: Austin Julie
+		Actor: Bett Joanne
+		Actor: Calvey Mhairi
+		Actor: Marceau Sophie
+		Actor: Marine Jeanne
+		Actor: McCormack Catherine
+		Actor: Morrison Rana
+		Actor: Stevenson Gerda
+		Status: UNAVAILABLE
+ ID: 125966 NAME: Fact or Fiction: Braveheart YEAR: 2001
+		Director: Willcock  David
+		Actor: Robinson Tony
 		Status: AVAILABLE
- 5 ID: 167917 NAME: Dark Days at the White House: The Watergate Scandal and the Resignation of President Richard M. Nixon YEAR: 1989
-		 99 Actor: Richard Nixon
+ ID: 315879 NAME: Mel Gibson's 'Braveheart': A Filmmaker's Passion YEAR: 2000
+		Director: Reisz  Toby
+		Actor: Crane Simon
+		Actor: Davey Bruce
+		Actor: De La Noy Kevin
+		Actor: Gibson Mel
+		Actor: Hanly Peter
+		Actor: Ladd Jr. Alan
+		Actor: Macfadyen Angus
+		Actor: McEveety Stephen
+		Actor: Rodgers Mic
+		Actor: Shelly Tom
+		Actor: Wallace Randall
+		Actor: Marceau Sophie
+		Actor: McCormack Catherine
 		Status: AVAILABLE
- 6 ID: 196668 NAME: Elvis Meets Nixon YEAR: 1997
-		Director: Arkush  Allan
-		 100 Actor: Philip Akin
-		 101 Actor: Michael Anderson Jr.
-		 102 Actor: Curtis Armstrong
-		 103 Actor: Stewart Arnott
-		 104 Actor: Richard Beymer
-		 105 Actor: Alexander Butterfield
-		 106 Actor: Desmond Campbell
-		 107 Actor: Dick Cavett
-		 108 Actor: Vernon Chapman
-		 109 Actor: David Crean
-		 110 Actor: Tony Curtis
-		 111 Actor: Joe Dinicol
-		 112 Actor: Denny Doherty
-		 113 Actor: Colin Fox
-		 114 Actor: Bob Gunton
-		 115 Actor: Glenn Hall
-		 116 Actor: Gabriel Hogan
-		 117 Actor: Ephraim Hylton
-		 118 Actor: Jeff Jones
-		 119 Actor: Keith Jones
-		 120 Actor: Peter Keleghan
-		 121 Actor: Christopher Kennedy
-		 122 Actor: Jesse Lachapelle
-		 123 Actor: John Liddle
-		 124 Actor: James Loxley
-		 125 Actor: Thomas Lundy
-		 126 Actor: Kevin McCarthy
-		 127 Actor: Ronnie McDowell
-		 128 Actor: Hamish McEwan
-		 129 Actor: Patrick McKenna
-		 130 Actor: Richard McMillan
-		 131 Actor: Graham Nash
-		 132 Actor: Edwin Newman
-		 133 Actor: Wayne Newton
-		 134 Actor: Panou null
-		 135 Actor: Rick Peters
-		 136 Actor: Arnold Pinnock
-		 137 Actor: Dan Redican
-		 138 Actor: Martin Roach
-		 139 Actor: Hadley Sandiford
-		 140 Actor: Thom Sears
-		 141 Actor: Jake Simons
-		 142 Actor: Rob Stefaniuk
-		 143 Actor: Bill Tarling
-		 144 Actor: Wayne Ward
-		 145 Actor: Rick Wharton
-		 146 Actor: Scott Wickware
-		 147 Actor: Gordon Michael Woolvett
-		 148 Actor: Richard Yearwood
-		 149 Actor: Marilyn Boyle
-		 150 Actor: Jackie Burroughs
-		 151 Actor: Laura Catalano
-		 152 Actor: A.J. Cook
-		 153 Actor: Alyson Court
-		 154 Actor: Alana Fletcher
-		 155 Actor: Jennifer Irwin
-		 156 Actor: Tammy Isbell
-		 157 Actor: Roxanne MacKenzie
-		 158 Actor: Julia Paton
-		 159 Actor: Robyn Stevan
-		 160 Actor: Maria Syrgiannis
-		 161 Actor: Robbi Jay Thuet
-		 162 Actor: Angela Vint
+ ID: 576822 NAME: The Braveheart of Sussex YEAR: 2012
+		Director: Socha  Raphael
 		Status: AVAILABLE
- 7 ID: 215261 NAME: Kissinger and Nixon YEAR: 1995
-		Director: Petrie  Daniel
-		 163 Actor: Beau Bridges
-		 164 Actor: Henry Chan
-		 165 Actor: Matt Frewer
-		 166 Actor: Brett Halsey
-		 167 Actor: Ron Hartmann
-		 168 Actor: Adrian Hough
-		 169 Actor: Graham McPherson
-		 170 Actor: Paul Miller
-		 171 Actor: Tony Rosato
-		 172 Actor: Ron Silver
-		 173 Actor: George Takei
-		 174 Actor: Tom Tran
-		 175 Actor: Kenneth Welsh
-		 176 Actor: Ron White
-		 177 Actor: Lori Alter
-		 178 Actor: Ping Cheung
-		 179 Actor: Barbara Radecki
+ ID: 918792 NAME: The True Story of Braveheart YEAR: 1999
+		Director: Fincke  SueAnn
+		Actor: Watson Fiona
 		Status: AVAILABLE
- 8 ID: 224787 NAME: Inside the Presidency: Eisenhower vs. Nixon YEAR: 2001
+ ID: 973330 NAME: Braveheart: A Hero in Focus YEAR: 2002
+		Actor: Glass Frankie
 		Status: AVAILABLE
- 9 ID: 286571 NAME: Inside Oliver Stone's 'Nixon' YEAR: 1995
-		Director: Jopson  John
+ ID: 1134342 NAME: Filmen 'Braveheart' YEAR: null
+		Actor: Cox Brian
+		Actor: Gibson Mel
+		Actor: Sundgren Nils-Petter
+		Actor: Wiklund Hans
+		Actor: Marceau Sophie
 		Status: AVAILABLE
- 10 ID: 344057 NAME: Nixon YEAR: 1995
-		Director: Stone  Oliver
-		 180 Actor: Dean Acheson
-		 181 Actor: Salvador Allende
-		 182 Actor: John Bedford Lloyd
-		 183 Actor: Brian Bedford
-		 184 Actor: John Bellucci
-		 185 Actor: Robert Beltran
-		 186 Actor: Bill Bolender
-		 187 Actor: Powers Boothe
-		 188 Actor: Robert Bork
-		 189 Actor: Tom Bower
-		 190 Actor: Arthur Bremer
-		 191 Actor: David Brinkley
-		 192 Actor: Edmund G. Brown
-		 193 Actor: George Bush
-		 194 Actor: Alexander Butterfield
-		 195 Actor: Ian Calip
-		 196 Actor: Peter Carlin
-		 197 Actor: Corey Carrier
-		 198 Actor: Jimmy Carter
-		 199 Actor: Enrique Castillo
-		 200 Actor: Fidel Castro
-		 201 Actor: Whittaker Chambers
-		 202 Actor: Michael Chiklis
-		 203 Actor: Bill Clinton
-		 204 Actor: O'Neal Compton
-		 205 Actor: Archibald Cox
-		 206 Actor: Edward Cox
-		 207 Actor: Wilson Cruz
-		 208 Actor: John Cunningham
-		 209 Actor: Kamar De Los Reyes
-		 210 Actor: John Diehl
-		 211 Actor: Bob Dole
-		 212 Actor: Kevin Dunn
-		 213 Actor: Dwight D. Eisenhower
-		 214 Actor: Daniel Ellsberg
-		 215 Actor: Sam Ervin
-		 216 Actor: Richard Fancy
-		 217 Actor: Fyvush Finkel
-		 218 Actor: Gerald Ford
-		 219 Actor: Tony Goldwyn
-		 220 Actor: David Barry Gray
-		 221 Actor: Michael Haddad
-		 222 Actor: Larry Hagman
-		 223 Actor: Ed Harris
-		 224 Actor: Charles Haugk
-		 225 Actor: Dan Hedaya
-		 226 Actor: Richard Helms
-		 227 Actor: Edward Herrmann
-		 228 Actor: Alger Hiss
-		 229 Actor: Anthony Hopkins
-		 230 Actor: Bob Hoskins
-		 231 Actor: David Hyde Pierce
-		 232 Actor: Lyndon Johnson
-		 233 Actor: James Karen
-		 234 Actor: Michael Kaufman
-		 235 Actor: John Kennedy Jr.
-		 236 Actor: John F. Kennedy
-		 237 Actor: Mike Kennedy
-		 238 Actor: Robert F. Kennedy
-		 239 Actor: Ted Kennedy
-		 240 Actor: Nikita Khrushchev
-		 241 Actor: King George VI null
-		 242 Actor: Martin Luther King
-		 243 Actor: Albert Leon
-		 244 Actor: Tony Lo Bianco
-		 245 Actor: Dave Mallow
-		 246 Actor: E.G. Marshall
-		 247 Actor: Robert Marshall
-		 248 Actor: Joseph McCarthy
-		 249 Actor: John C. McGinley
-		 250 Actor: George McGovern
-		 251 Actor: Robert McNamara
-		 252 Actor: Harry Murphy
-		 253 Actor: Tom Nicoletti
-		 254 Actor: Richard Nixon
-		 255 Actor: Fima Noveck
-		 256 Actor: J. Robert Oppenheimer
-		 257 Actor: Lee Harvey Oswald
-		 258 Actor: Shah Mohammed Reza Pahlavi
-		 259 Actor: Michael Pasby
-		 260 Actor: David Paymer
-		 261 Actor: Chuck Pfeiffer
-		 262 Actor: James Pickens Jr.
-		 263 Actor: Tony Plana
-		 264 Actor: Howard Platt
-		 265 Actor: George Plimpton
-		 266 Actor: Joshua Preston
-		 267 Actor: Ronald Reagan
-		 268 Actor: Chris Renna
-		 269 Actor: Elliot Richardson
-		 270 Actor: Victor Rivers
-		 271 Actor: Franklin Delano Roosevelt
-		 272 Actor: Julius Rosenberg
-		 273 Actor: Saul Rubinek
-		 274 Actor: William Ruckelshaus
-		 275 Actor: Boris Sichkin
-		 276 Actor: Drew Snyder
-		 277 Actor: Paul Sorvino
-		 278 Actor: Peter P. Starson Jr.
-		 279 Actor: Mark Steines
-		 280 Actor: Wass Stevens
-		 281 Actor: Adlai Stevenson
-		 282 Actor: John Stockwell
-		 283 Actor: Mikey Stone
-		 284 Actor: Oliver Stone
-		 285 Actor: Sean Stone
-		 286 Actor: Robert Taylor
-		 287 Actor: Jon Tenney
-		 288 Actor: Clayton Townsend
-		 289 Actor: Harry S. Truman
-		 290 Actor: Ronald von Klaussen
-		 291 Actor: Jerry Voorhis
-		 292 Actor: Lenny Vullo
-		 293 Actor: George Wallace
-		 294 Actor: Jack Wallace
-		 295 Actor: J.T. Walsh
-		 296 Actor: Earl Warren
-		 297 Actor: Ray Wills
-		 298 Actor: Breck Wilson
-		 299 Actor: James Woods
-		 300 Actor: Ric Young
-		 301 Actor: Mao Zedong
-		 302 Actor: Joan Allen
-		 303 Actor: Julie Araskog
-		 304 Actor: Ling Bai
-		 305 Actor: Barbara Bush
-		 306 Actor: Rosalynn Carter
-		 307 Actor: Hillary Rodham Clinton
-		 308 Actor: Julie Condra
-		 309 Actor: Nellie Connally
-		 310 Actor: Raissa Danilova
-		 311 Actor: Nancy Davis
-		 312 Actor: Pamela Dickerson
-		 313 Actor: Donna Dixon
-		 314 Actor: Mamie Eisenhower
-		 315 Actor: Betty Ford
-		 316 Actor: Helen Gahagan
-		 317 Actor: Annabeth Gish
-		 318 Actor: Joanna Going
-		 319 Actor: Angie Gray
-		 320 Actor: Annette Helde
-		 321 Actor: Madeline Kahn
-		 322 Actor: Eunice Kennedy Shriver
-		 323 Actor: Caroline Kennedy
-		 324 Actor: Ethel Kennedy
-		 325 Actor: Jacqueline Kennedy
-		 326 Actor: Michelle Krusiec
-		 327 Actor: Suzanne Schnulle Murphy
-		 328 Actor: Nicole Nagel
-		 329 Actor: Pat Nixon
-		 330 Actor: Tricia Nixon
-		 331 Actor: Melinda Renna
-		 332 Actor: Marilyn Rockafellow
-		 333 Actor: Eleanor Roosevelt
-		 334 Actor: Ethel Rosenberg
-		 335 Actor: Mary Rudolph
-		 336 Actor: Marley Shelton
-		 337 Actor: Mary Steenburgen
-		 338 Actor: Bridgette Wilson
-		 339 Actor: Zoey Zimmerman
+ ID: 1178224 NAME: Braveheart's Scotland YEAR: null
+		Director: Markham  Bill
+		Actor: Alexander Derek
+		Actor: Chesterman Campbell
+		Actor: Fawcett Richard
+		Actor: Johnson Corey
+		Actor: Oram Richard
+		Actor: Ross David
+		Actor: Beam Amanda
+		Actor: Watson Fiona
 		Status: AVAILABLE
- 11 ID: 350181 NAME: Nixon kommt nach Berlin YEAR: 1969
-		Director: Farocki  Harun
+ ID: 1332835 NAME: Braveheart YEAR: 2004
+		Director: Inch  Kevin
+		Actor: Isaak Chris
+		Actor: Winter Greg
+		Actor: Bennett Brittaney
+		Actor: Cox Christina
+		Actor: Dattilo Kristin
+		Actor: Fleming Carrie
+		Actor: Grant Stacy
+		Actor: Grealish Maureen
+		Actor: Matthews Alison
+		Actor: Soltis Laura
 		Status: AVAILABLE
- 12 ID: 357818 NAME: Nixon Visions YEAR: 1969
-		Director: Esselius  Hans
+ ID: 1551769 NAME: Braveheart YEAR: null
 		Status: AVAILABLE
- 13 ID: 516566 NAME: The Plot to Kill Nixon YEAR: 2005
-		Director: Hawkins  Kim
-		Director: Taulre  Patrick
-		 340 Actor: Matthew Dargert
-		 341 Actor: Robert Davi
-		 342 Actor: James Evans
-		 343 Actor: David Patrick Green
-		 344 Actor: David Kenneth
-		 345 Actor: Corky Loesch
-		 346 Actor: P. David Miller
-		 347 Actor: Barry J. Ratcliffe
-		 348 Actor: Milton Snell
-		 349 Actor: Dan Swett
-		 350 Actor: J. Matthew Wallace
-		 351 Actor: Linna Carter
-		 352 Actor: Kristin Pfeifer
-		 353 Actor: Pamela Wells
-		Status: AVAILABLE
- 14 ID: 527660 NAME: The Speeches of Richard Nixon YEAR: 1995
-		 354 Actor: Spiro Agnew
-		 355 Actor: Edward Cox
-		 356 Actor: David Eisenhower
-		 357 Actor: Andrei Gromyko
-		 358 Actor: John F. Kennedy
-		 359 Actor: Nikita Khrushchev
-		 360 Actor: Henry Kissinger
-		 361 Actor: Richard Nixon
-		 362 Actor: Nelson Rockefeller
-		 363 Actor: Pierre Salinger
-		 364 Actor: Ben Stein
-		 365 Actor: Betty Ford
-		 366 Actor: Caroline Kennedy
-		 367 Actor: Jacqueline Kennedy
-		 368 Actor: Julie Nixon
-		 369 Actor: Pat Nixon
-		 370 Actor: Tricia Nixon
-		Status: AVAILABLE
- 15 ID: 529826 NAME: The Secret Life of Richard Nixon YEAR: 2000
-		 371 Actor: Richard Nixon
-		Status: AVAILABLE
- 16 ID: 589583 NAME: The Assassination of Richard Nixon YEAR: 2004
-		Director: Mueller  Niels
-		 372 Actor: Salvador Allende
-		 373 Actor: Ian Baptiste
-		 374 Actor: Pete Boughn
-		 375 Actor: Brandon Brizendine
-		 376 Actor: Frank Brown Jr.
-		 377 Actor: Doug Campbell
-		 378 Actor: James Carraway
-		 379 Actor: Cabran E. Chamberlain
-		 380 Actor: Don Cheadle
-		 381 Actor: Robert Kenneth Cooper
-		 382 Actor: James Cotner
-		 383 Actor: Jared Dorrance
-		 384 Actor: Johnny Drocco
-		 385 Actor: Ryan Else
-		 386 Actor: Sam Ervin
-		 387 Actor: Derek Greene
-		 388 Actor: Tim Halpin
-		 389 Actor: Brad William Henke
-		 390 Actor: David Hilliard
-		 391 Actor: Jay Jacobus
-		 392 Actor: Donald Lett II
-		 393 Actor: Gary L. Mack
-		 394 Actor: J.C. MacKenzie
-		 395 Actor: Joe Marinelli
-		 396 Actor: Russell Means
-		 397 Actor: Richard Nixon
-		 398 Actor: Shah Mohammed Reza Pahlavi
-		 399 Actor: Sean Penn
-		 400 Actor: Augusto Pinochet
-		 401 Actor: James Morrison Reese
-		 402 Actor: Brett Rickaby
-		 403 Actor: Tony Rocha
-		 404 Actor: Nick Searcy
-		 405 Actor: John Patrick Shulak
-		 406 Actor: Jack Thompson
-		 407 Actor: Kenneth White
-		 408 Actor: Mykelti Williamson
-		 409 Actor: Michael Wincott
-		 410 Actor: Matthew Wood
-		 411 Actor: Denise Balthrop Cassidy
-		 412 Actor: April Grace
-		 413 Actor: Kathryn Howell
-		 414 Actor: Lily Knight
-		 415 Actor: Janean Christine Mariani
-		 416 Actor: Mariah Massa
-		 417 Actor: Debi McCoy
-		 418 Actor: Tracy Middendorf
-		 419 Actor: Jenna Milton
-		 420 Actor: AnnieScott Rogers
-		 421 Actor: Eileen Ryan
-		 422 Actor: Melissa Saltzman
-		 423 Actor: Teresa Anne Volgenau
-		 424 Actor: Cindy Warner
-		 425 Actor: Naomi Watts
-		 426 Actor: Sherrie La'Marr Wheeler
-		Status: AVAILABLE
- 17 ID: 590556 NAME: The Real Richard Nixon YEAR: 1995
-		 427 Actor: Frank Gannon
-		 428 Actor: Richard Nixon
-		Status: AVAILABLE
- 18 ID: 650822 NAME: When Elvis Met Nixon YEAR: 2009
-		Director: Gostisha  Dave
-		 429 Actor: Gwenna Gostisha
-		 430 Actor: Joseph Preiser
-		Status: AVAILABLE
- 19 ID: 693529 NAME: Wladimir Nixon YEAR: 1971
-		Director: Pilz  Michael
-		 431 Actor: Lui Dimanche
-		 432 Actor: Yuuko Ikewada
-		Status: AVAILABLE
- 20 ID: 708348 NAME: Nixon's Birthplace YEAR: null
-		Status: AVAILABLE
- 21 ID: 713146 NAME: The Seventh Crisis of Richard M. Nixon YEAR: null
-		 433 Actor: Eric Sevareid
-		Status: AVAILABLE
- 22 ID: 728571 NAME: Richard Nixon: Man and President YEAR: 1996
-		 434 Actor: Richard Nixon
-		 435 Actor: Pat Nixon
-		Status: AVAILABLE
- 23 ID: 747944 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-		 436 Actor: David Pietrusza
-		Status: AVAILABLE
- 24 ID: 803711 NAME: Ollie North and Nixon Plan to Take Over the Western Hemisphere YEAR: 1987
-		 437 Actor: Fred Willard
-		Status: AVAILABLE
- 25 ID: 811449 NAME: Nixon YEAR: 2003
-		Director: Bartlett  David
-		 438 Actor: Don Berger
-		 439 Actor: Ken Freehill
-		 440 Actor: Joe Stokes
-		 441 Actor: Mark Vargas
-		 442 Actor: Pam Boyd
-		Status: AVAILABLE
- 26 ID: 819642 NAME: Nixon Impersonates Dangerfield, Dolly Parton and Bette Midler YEAR: 1987
-		 443 Actor: Fred Willard
-		 444 Actor: Whoopi Goldberg
-		Status: AVAILABLE
- 27 ID: 825232 NAME: Nixon Acts as Princess Di's Divorce Lawyer YEAR: null
-		Director: Locke  Rick
-		 445 Actor: Mort Sahl
-		Status: AVAILABLE
- 28 ID: 835274 NAME: Nixon's Presidential Library Is a Bookmobile YEAR: null
-		Director: Locke  Rick
-		 446 Actor: Robin Leach
-		Status: AVAILABLE
- 29 ID: 840816 NAME: Nixon Has Romantic Fantasies About Bo Derek YEAR: 1987
-		 447 Actor: Fred Willard
-		 448 Actor: Bo Derek
-		Status: AVAILABLE
- 30 ID: 848231 NAME: Nixon Impeached from Cub Scouts YEAR: null
-		Director: Locke  Rick
-		Status: AVAILABLE
- 31 ID: 859660 NAME: David Nixon's Comedy Bandbox YEAR: 1966
-		Status: AVAILABLE
- 32 ID: 859875 NAME: Nixon Schemes to Make Money by Becoming a Surrogate Mother YEAR: 1987
-		 449 Actor: Fred Willard
-		Status: AVAILABLE
- 33 ID: 877680 NAME: Carter, Nixon and Ford Perform Ex-President Do-Wop Blues YEAR: 1987
-		 450 Actor: Greg Louganis
-		 451 Actor: Fred Willard
-		Status: AVAILABLE
- 34 ID: 879194 NAME: Nixon Gives Fred Financial Advice... and He Loses His Shirt YEAR: null
-		Director: Locke  Rick
-		 452 Actor: Robert Klein
-		Status: AVAILABLE
- 35 ID: 883802 NAME: Nixon Hawks the Watergate Tapes for $29.99 YEAR: 1987
-		 453 Actor: Harry Anderson
-		 454 Actor: Fred Willard
-		Status: AVAILABLE
- 36 ID: 886245 NAME: David Nixon's Magic Box YEAR: 1970
-		Status: AVAILABLE
- 37 ID: 890062 NAME: Nixon Impersonates Elvis in a Moneymaking Scheme YEAR: 1987
-		 455 Actor: Fred Willard
-		Status: AVAILABLE
- 38 ID: 907834 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-		 456 Actor: Logan Crawford
-		 457 Actor: David Pietrusza
-		Status: AVAILABLE
- 39 ID: 923216 NAME: The Political Obituary of Richard M. Nixon YEAR: null
-		 458 Actor: Gerald Ford
-		 459 Actor: Alger Hiss
-		 460 Actor: Howard K. Smith
-		Status: AVAILABLE
- 40 ID: 976073 NAME: Nixon in China YEAR: 1988
-		Director: Large  Brian
-		 461 Actor: Walter Cronkite
-		 462 Actor: John Duykers
-		 463 Actor: James Maddalena
-		 464 Actor: Sanford Sylvan
-		 465 Actor: Trudy Ellen Craney
-		 466 Actor: Carolann Page
-		Status: AVAILABLE
- 41 ID: 997594 NAME: Nixon in Chicago YEAR: null
-		 467 Actor: David Frost
-		 468 Actor: Richard Nixon
-		Status: AVAILABLE
- 42 ID: 1004306 NAME: Agnes Nixon YEAR: 1999
-		 469 Actor: Laurence Fishburne
-		 470 Actor: James Mitchell
-		 471 Actor: Ellen Holly
-		 472 Actor: Judith Light
-		 473 Actor: Susan Lucci
-		 474 Actor: Agnes Nixon
-		Status: AVAILABLE
- 43 ID: 1020598 NAME: Cynthia Nixon YEAR: 2002
-		 475 Actor: Douglas Carter Beane
-		 476 Actor: Michael Patrick King
-		 477 Actor: Robert Sean Leonard
-		 478 Actor: Danny Mozes
-		 479 Actor: Darren Star
-		 480 Actor: Kim Cattrall
-		 481 Actor: Blythe Danner
-		 482 Actor: Kristin Davis
-		 483 Actor: Anne Nixon
-		 484 Actor: Cynthia Nixon
-		 485 Actor: Sarah Jessica Parker
-		Status: AVAILABLE
- 44 ID: 1132522 NAME: Nixon vs. Kennedy YEAR: null
-		Director: Taylor  Alan
-		 486 Actor: Bryan Batt
-		 487 Actor: Michael Gladis
-		 488 Actor: Jon Hamm
-		 489 Actor: Vincent Kartheiser
-		 490 Actor: David Kronenberg
-		 491 Actor: Tim Mars
-		 492 Actor: Robert Morse
-		 493 Actor: Mark Moses
-		 494 Actor: Troy Ruptash
-		 495 Actor: Morgan Rusler
-		 496 Actor: Stewart Skelton
-		 497 Actor: Rich Sommer
-		 498 Actor: Aaron Staton
-		 499 Actor: Kevin Symons
-		 500 Actor: Cassius Willis
-		 501 Actor: Dared Wright
-		 502 Actor: Alexa Alemanni
-		 503 Actor: Dawn Marie Anderson
-		 504 Actor: Claire Bocking
-		 505 Actor: Alison Brie
-		 506 Actor: Stephanie Courtney
-		 507 Actor: Kristin Crandall
-		 508 Actor: Candice Cunningham
-		 509 Actor: Eve Curtis
-		 510 Actor: Emelle null
-		 511 Actor: Monica Ford
-		 512 Actor: Christina Hendricks
-		 513 Actor: Brynn Horrocks
-		 514 Actor: Britt Hysen
-		 515 Actor: January Jones
-		 516 Actor: Julie McNiven
-		 517 Actor: Elisabeth Moss
-		 518 Actor: Sarah Jannett Parish
-		 519 Actor: Heather Seiffert
-		 520 Actor: Kiernan Shipka
-		 521 Actor: Maggie Siff
-		 522 Actor: Jennifer Sims
-		Status: AVAILABLE
- 45 ID: 1318719 NAME: David Nixon's Christmas Magic YEAR: 1972
-		Director: Mayoh  Royston
-		 523 Actor: Robert Harbin
-		 524 Actor: Fred Kaps
-		 525 Actor: David Nixon
-		 526 Actor: Lynsey De Paul
-		 527 Actor: Shari Lewis
-		 528 Actor: Aimi MacDonald
-		Status: AVAILABLE
- 46 ID: 1318830 NAME: 100 Nixon, Derek Lee YEAR: null
-		 529 Actor: Derek Lee Nixon
-		Status: AVAILABLE
- 47 ID: 1324885 NAME: Nixon: Part III YEAR: null
-		Director: Deane  Elizabeth
-		Director: Espar  David
-		Director: Mellowes  Marilyn
-		 530 Actor: Will Lyman
-		Status: AVAILABLE
- 48 ID: 1330940 NAME: The David Nixon Show YEAR: 1972
-		Status: AVAILABLE
- 49 ID: 1350418 NAME: Richard Nixon: Part II YEAR: null
-		Director: Deane  Elizabeth
-		Director: Espar  David
-		Director: Mellowes  Marilyn
-		 531 Actor: Will Lyman
-		Status: AVAILABLE
- 50 ID: 1363425 NAME: David Nixon's Magic Hour YEAR: 1972
-		Director: Frazer-Jones  Peter
-		 532 Actor: George Carl
-		 533 Actor: Champagne null
-		 534 Actor: Rolf Harris
-		 535 Actor: David Nixon
-		 536 Actor: Anita Harris
-		 537 Actor: Caterina Valente
-		Status: AVAILABLE
- 51 ID: 1373063 NAME: Nixon's China Game YEAR: null
-		Director: Anderson  Mark
-		Director: Simkin  Michael
-		 538 Actor: Bill Lattanzi
-		 539 Actor: David Ogden Stiers
-		Status: AVAILABLE
- 52 ID: 1373625 NAME: Nixon: Part I YEAR: null
-		Director: Espar  David
-		 540 Actor: Will Lyman
-		Status: AVAILABLE
- 53 ID: 1404404 NAME: Frost/Nixon YEAR: null
-		Director: Pearce  Juliette
-		 541 Actor: Amanda Palmer
-		Status: AVAILABLE
- 54 ID: 1488454 NAME: David Nixon YEAR: 1973
-		 542 Actor: Eamonn Andrews
-		 543 Actor: David Nixon
-		Status: AVAILABLE
- 55 ID: 1517926 NAME: Tonight with David Nixon YEAR: 1969
-		Status: AVAILABLE
+
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+> Fast Searching for the movie 'braveheart'
+ID: 973330 NAME: Braveheart: A Hero in Focus YEAR: 2002
+		Actor: Glass Frankie
+ID: 93055 NAME: Braveheart YEAR: 1995
+		Director: Gibson  Mel
+		Actor: Armstrong Alun
+		Actor: Bannen Ian
+		Actor: Billington Stephen
+		Actor: Burns John
+		Actor: Byrne Michael
+		Actor: Carney Liam
+		Actor: Chisholm Jimmy
+		Actor: Chiverton Fred
+		Actor: Coll Daniel
+		Actor: Cosmo James
+		Actor: Cox Brian
+		Actor: Dempsey Martin
+		Actor: Dunne Martin
+		Actor: Flanagan Tommy
+		Actor: Gant David
+		Actor: Geraghty Declan
+		Actor: Gibson Donal
+		Actor: Gibson Mel
+		Actor: Gleeson Brendan
+		Actor: Hanly Peter
+		Actor: Horsfall Bernard
+		Actor: Jeloudov Greg
+		Actor: Kavanagh John
+		Actor: Kelly Phil
+		Actor: Keogh Jimmy
+		Actor: Lawlor Sean
+		Actor: Leaf Richard
+		Actor: Lopata Dean
+		Actor: Macfadyen Angus
+		Actor: McGinley Sean
+		Actor: McGoohan Patrick
+		Actor: McGovern Barry
+		Actor: McKay David
+		Actor: McSorley Gerard
+		Actor: Mullan Peter
+		Actor: Murdoch Bill
+		Actor: Murphy Martin
+		Actor: Murtagh John
+		Actor: Nelson Sandy
+		Actor: Norton Alex
+		Actor: O'Brien Niall
+		Actor: O'Hara David
+		Actor: O'Leary Jer
+		Actor: Paterson Robert
+		Actor: Pykett Derek
+		Actor: Riach Ralph
+		Actor: Robinson James
+		Actor: Savino Joe
+		Actor: Scott-Masson William
+		Actor: Tall Alan
+		Actor: Tierney Malcolm
+		Actor: Tucker Paul
+		Actor: Vansittart Rupert
+		Actor: Wallace Ryan
+		Actor: Weir Andrew
+		Actor: White Tam
+		Actor: Whyte Mal
+		Actor: Austin Julie
+		Actor: Bett Joanne
+		Actor: Calvey Mhairi
+		Actor: Marceau Sophie
+		Actor: Marine Jeanne
+		Actor: McCormack Catherine
+		Actor: Morrison Rana
+		Actor: Stevenson Gerda
+ID: 125966 NAME: Fact or Fiction: Braveheart YEAR: 2001
+		Director: Willcock  David
+		Actor: Robinson Tony
+ID: 7104 NAME: Braveheart: Tales of William Wallace YEAR: 2007
+ID: 1134342 NAME: Filmen 'Braveheart' YEAR: null
+		Actor: Cox Brian
+		Actor: Gibson Mel
+		Actor: Sundgren Nils-Petter
+		Actor: Wiklund Hans
+		Actor: Marceau Sophie
+ID: 1178224 NAME: Braveheart's Scotland YEAR: null
+		Director: Markham  Bill
+		Actor: Alexander Derek
+		Actor: Chesterman Campbell
+		Actor: Fawcett Richard
+		Actor: Johnson Corey
+		Actor: Oram Richard
+		Actor: Ross David
+		Actor: Beam Amanda
+		Actor: Watson Fiona
+ID: 315879 NAME: Mel Gibson's 'Braveheart': A Filmmaker's Passion YEAR: 2000
+		Director: Reisz  Toby
+		Actor: Crane Simon
+		Actor: Davey Bruce
+		Actor: De La Noy Kevin
+		Actor: Gibson Mel
+		Actor: Hanly Peter
+		Actor: Ladd Jr. Alan
+		Actor: Macfadyen Angus
+		Actor: McEveety Stephen
+		Actor: Rodgers Mic
+		Actor: Shelly Tom
+		Actor: Wallace Randall
+		Actor: Marceau Sophie
+		Actor: McCormack Catherine
+ID: 1551769 NAME: Braveheart YEAR: null
+ID: 32055 NAME: Braveheart YEAR: 1925
+		Director: Hale  Alan
+		Actor: Edeson Robert
+		Actor: Hagney Frank
+		Actor: Housman Arthur
+		Actor: La Rocque Rod
+		Actor: Power Sr. Tyrone
+		Actor: Strongheart Nipo T.
+		Actor: Tahachee Chief
+		Actor: Victor Henry
+		Actor: Acker Jean
+		Actor: Rand Sally
+		Actor: Rich Lillian
+ID: 576822 NAME: The Braveheart of Sussex YEAR: 2012
+		Director: Socha  Raphael
+ID: 1332835 NAME: Braveheart YEAR: 2004
+		Director: Inch  Kevin
+		Actor: Isaak Chris
+		Actor: Winter Greg
+		Actor: Bennett Brittaney
+		Actor: Cox Christina
+		Actor: Dattilo Kristin
+		Actor: Fleming Carrie
+		Actor: Grant Stacy
+		Actor: Grealish Maureen
+		Actor: Matthews Alison
+		Actor: Soltis Laura
+ID: 918792 NAME: The True Story of Braveheart YEAR: 1999
+		Director: Fincke  SueAnn
+		Actor: Watson Fiona
+ID: 23418 NAME: Braveheart: A Writer's Journey YEAR: 2007
 
 
  *** Please enter one of the following commands *** 
