@@ -25,17 +25,17 @@ public class Query {
 
     // Canned queries
 
-    private static final String SEARCH_SQL =
+    private static final String SEARCH_MOVIE_SQL =
             "SELECT * FROM movie WHERE name LIKE ? ORDER BY id";
     private PreparedStatement searchStatement;
 
-    private static final String DIRECTOR_MID_SQL =
+    private static final String SEARCH_DIRECTOR_SQL =
             "SELECT y.* " +
             "FROM movie_directors x, directors y " +
             "WHERE x.mid = ? and x.did = y.id";
     private PreparedStatement directorMidStatement;
 
-    private static final String ACTOR_MID_SQL =
+    private static final String SEARCH_ACTOR_SQL =
             "SELECT A.fname, A.lname " +
             "FROM CASTS AS C " +
             "INNER JOIN MOVIE M ON M.id = C.mid " +
@@ -100,17 +100,17 @@ public class Query {
             "ORDER BY X.id";
     private PreparedStatement fastSearchActorsStatement;
 
-	/*
 	private static final String BEGIN_TRANSACTION_SQL =
-		"SET TRANSACTION ISOLATION LEVEL SERIALIZABLE; BEGIN TRANSACTION;";
+		    "SET TRANSACTION ISOLATION LEVEL SERIALIZABLE; BEGIN TRANSACTION;";
 	private PreparedStatement beginTransactionStatement;
 
-	private static final String COMMIT_SQL = "COMMIT TRANSACTION";
+	private static final String COMMIT_SQL =
+            "COMMIT TRANSACTION";
 	private PreparedStatement commitTransactionStatement;
 
-	private static final String ROLLBACK_SQL = "ROLLBACK TRANSACTION";
+	private static final String ROLLBACK_SQL =
+            "ROLLBACK TRANSACTION";
 	private PreparedStatement rollbackTransactionStatement;
-	*/
 
 
     public Query(String configFilename) {
@@ -131,33 +131,23 @@ public class Query {
         jSQLUser	   = configProps.getProperty("videostore.sqlazure_username");
         jSQLPassword = configProps.getProperty("videostore.sqlazure_password");
 
-
 		/* load jdbc drivers */
         Class.forName(jSQLDriver).newInstance();
 
 		/* open connections to the imdb database */
-
         conn = DriverManager.getConnection(jSQLUrl, // database
                 jSQLUser, // user
                 jSQLPassword); // password
-
         conn.setAutoCommit(true); //by default automatically commit after each statement
+		//conn.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE); // TODO: needed?
 
-		/* You will also want to appropriately set the 
-                   transaction's isolation level through:  
-		   conn.setTransactionIsolation(...) */
-
-		/* Also you will put code here to specify the connection to your
-		   customer DB.  E.g.
-
-		   customerConn = DriverManager.getConnection(...);
-		   customerConn.setAutoCommit(true); //by default automatically commit after each statement
-		   customerConn.setTransactionIsolation(...); //
-		*/
+		/* open connections to the customer DB database */
         jSQLUrl	   = configProps.getProperty("videostore.customer_url");
         customerConn = DriverManager.getConnection(jSQLUrl, // database
-                jSQLUser, // user
-                jSQLPassword); // password
+                        jSQLUser, // user
+                        jSQLPassword); // password
+        customerConn.setAutoCommit(true); //by default automatically commit after each statement
+        //customerConn.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE); // TODO: needed?
     }
 
     public void closeConnection() throws Exception {
@@ -172,25 +162,20 @@ public class Query {
 
     public void prepareStatements() throws Exception {
 
-        searchStatement = conn.prepareStatement(SEARCH_SQL);
-        directorMidStatement = conn.prepareStatement(DIRECTOR_MID_SQL);
+        searchStatement = conn.prepareStatement(SEARCH_MOVIE_SQL);
+        directorMidStatement = conn.prepareStatement(SEARCH_DIRECTOR_SQL);
+        actorMidStatement = conn.prepareStatement(SEARCH_ACTOR_SQL);
         fastSearchStatement = conn.prepareStatement(FAST_SEARCH_SQL);
         fastSearchDirectorsStatement = conn.prepareStatement(FAST_SEARCH_DIRECTORS_SQL);
         fastSearchActorsStatement = conn.prepareStatement(FAST_SEARCH_ACTORS_SQL);
+        isValidMovieIdStatement = conn.prepareStatement(IS_VALID_MOVIE_ID_SQL);
+
+        beginTransactionStatement = customerConn.prepareStatement(BEGIN_TRANSACTION_SQL);
+        commitTransactionStatement = customerConn.prepareStatement(COMMIT_SQL);
+        rollbackTransactionStatement = customerConn.prepareStatement(ROLLBACK_SQL);
         customerLoginStatement = customerConn.prepareStatement(CUSTOMER_LOGIN_SQL);
-
-		/* uncomment after you create your customers database */
-		/*
-		beginTransactionStatement = customerConn.prepareStatement(BEGIN_TRANSACTION_SQL);
-		commitTransactionStatement = customerConn.prepareStatement(COMMIT_SQL);
-		rollbackTransactionStatement = customerConn.prepareStatement(ROLLBACK_SQL);
-		*/
-
-		/* add here more prepare statements for all the other queries you need */
-		actorMidStatement = conn.prepareStatement(ACTOR_MID_SQL);
         remainingRentalsStatement = customerConn.prepareStatement(REMAINING_RENTALS_SQL);
         customerNameStatement = customerConn.prepareStatement(CUSTOMER_NAME_SQL);
-        isValidMovieIdStatement = conn.prepareStatement(IS_VALID_MOVIE_ID_SQL);
         isValidPlanIdStatement = customerConn.prepareStatement(IS_VALID_PLAN_ID_SQL);
         customerIdFromRentalStatement = customerConn.prepareStatement(CUSTOMER_ID_FROM_RENTAL_SQL);
     }
@@ -474,25 +459,18 @@ public class Query {
         System.out.println();
     }
 
+    public void beginTransaction() throws Exception {
+        customerConn.setAutoCommit(false);
+        beginTransactionStatement.executeUpdate();
+    }
 
-    /* Uncomment helpers below once you've got beginTransactionStatement,
-       commitTransactionStatement, and rollbackTransactionStatement setup from
-       prepareStatements():
-    
-       public void beginTransaction() throws Exception {
-	    customerConn.setAutoCommit(false);
-	    beginTransactionStatement.executeUpdate();	
-        }
-
-        public void commitTransaction() throws Exception {
-	    commitTransactionStatement.executeUpdate();	
-	    customerConn.setAutoCommit(true);
-	}
-        public void rollbackTransaction() throws Exception {
-	    rollbackTransactionStatement.executeUpdate();
-	    customerConn.setAutoCommit(true);
-	    } 
-    */
-
+    public void commitTransaction() throws Exception {
+        commitTransactionStatement.executeUpdate();
+        customerConn.setAutoCommit(true);
+    }
+    public void rollbackTransaction() throws Exception {
+        rollbackTransactionStatement.executeUpdate();
+        customerConn.setAutoCommit(true);
+    }
 }
 

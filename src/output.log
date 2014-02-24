@@ -8,1336 +8,342 @@ You can rent 0 more movies
 > return <movie id>
 > fastsearch <movie title>
 > quit
-> Fast Searching for the movie 'nixon'
-ID: 1373063 NAME: Nixon's China Game YEAR: null
-		Director: Anderson  Mark
-		Director: Simkin  Michael
-		Actor: Lattanzi Bill
-		Actor: Stiers David Ogden
-ID: 825232 NAME: Nixon Acts as Princess Di's Divorce Lawyer YEAR: null
-		Director: Locke  Rick
-		Actor: Sahl Mort
-ID: 803711 NAME: Ollie North and Nixon Plan to Take Over the Western Hemisphere YEAR: 1987
-		Actor: Willard Fred
-ID: 589583 NAME: The Assassination of Richard Nixon YEAR: 2004
-		Director: Mueller  Niels
-		Actor: Allende Salvador
-		Actor: Baptiste Ian
-		Actor: Boughn Pete
-		Actor: Brizendine Brandon
-		Actor: Brown Jr. Frank
-		Actor: Campbell Doug
-		Actor: Carraway James
-		Actor: Chamberlain Cabran E.
-		Actor: Cheadle Don
-		Actor: Cooper Robert Kenneth
-		Actor: Cotner James
-		Actor: Dorrance Jared
-		Actor: Drocco Johnny
-		Actor: Else Ryan
-		Actor: Ervin Sam
-		Actor: Greene Derek
-		Actor: Halpin Tim
-		Actor: Henke Brad William
-		Actor: Hilliard David
-		Actor: Jacobus Jay
-		Actor: Lett II Donald
-		Actor: Mack Gary L.
-		Actor: MacKenzie J.C.
-		Actor: Marinelli Joe
-		Actor: Means Russell
-		Actor: Nixon Richard
-		Actor: Pahlavi Shah Mohammed Reza
-		Actor: Penn Sean
-		Actor: Pinochet Augusto
-		Actor: Reese James Morrison
-		Actor: Rickaby Brett
-		Actor: Rocha Tony
-		Actor: Searcy Nick
-		Actor: Shulak John Patrick
-		Actor: Thompson Jack
-		Actor: White Kenneth
-		Actor: Williamson Mykelti
-		Actor: Wincott Michael
-		Actor: Wood Matthew
-		Actor: Cassidy Denise Balthrop
-		Actor: Grace April
-		Actor: Howell Kathryn
-		Actor: Knight Lily
-		Actor: Mariani Janean Christine
-		Actor: Massa Mariah
-		Actor: McCoy Debi
-		Actor: Middendorf Tracy
-		Actor: Milton Jenna
-		Actor: Rogers AnnieScott
-		Actor: Ryan Eileen
-		Actor: Saltzman Melissa
-		Actor: Volgenau Teresa Anne
-		Actor: Warner Cindy
-		Actor: Watts Naomi
-		Actor: Wheeler Sherrie La'Marr
-ID: 196668 NAME: Elvis Meets Nixon YEAR: 1997
-		Director: Arkush  Allan
-		Actor: Akin Philip
-		Actor: Anderson Jr. Michael
-		Actor: Armstrong Curtis
-		Actor: Arnott Stewart
-		Actor: Beymer Richard
-		Actor: Butterfield Alexander
-		Actor: Campbell Desmond
-		Actor: Cavett Dick
-		Actor: Chapman Vernon
-		Actor: Crean David
-		Actor: Curtis Tony
-		Actor: Dinicol Joe
-		Actor: Doherty Denny
-		Actor: Fox Colin
-		Actor: Gunton Bob
-		Actor: Hall Glenn
-		Actor: Hogan Gabriel
-		Actor: Hylton Ephraim
-		Actor: Jones Jeff
-		Actor: Jones Keith
-		Actor: Keleghan Peter
-		Actor: Kennedy Christopher
-		Actor: Lachapelle Jesse
-		Actor: Liddle John
-		Actor: Loxley James
-		Actor: Lundy Thomas
-		Actor: McCarthy Kevin
-		Actor: McDowell Ronnie
-		Actor: McEwan Hamish
-		Actor: McKenna Patrick
-		Actor: McMillan Richard
-		Actor: Nash Graham
-		Actor: Newman Edwin
-		Actor: Newton Wayne
-		Actor: null Panou
-		Actor: Peters Rick
-		Actor: Pinnock Arnold
-		Actor: Redican Dan
-		Actor: Roach Martin
-		Actor: Sandiford Hadley
-		Actor: Sears Thom
-		Actor: Simons Jake
-		Actor: Stefaniuk Rob
-		Actor: Tarling Bill
-		Actor: Ward Wayne
-		Actor: Wharton Rick
-		Actor: Wickware Scott
-		Actor: Woolvett Gordon Michael
-		Actor: Yearwood Richard
-		Actor: Boyle Marilyn
-		Actor: Burroughs Jackie
-		Actor: Catalano Laura
-		Actor: Cook A.J.
-		Actor: Court Alyson
-		Actor: Fletcher Alana
-		Actor: Irwin Jennifer
-		Actor: Isbell Tammy
-		Actor: MacKenzie Roxanne
-		Actor: Paton Julia
-		Actor: Stevan Robyn
-		Actor: Syrgiannis Maria
-		Actor: Thuet Robbi Jay
-		Actor: Vint Angela
-ID: 859660 NAME: David Nixon's Comedy Bandbox YEAR: 1966
-ID: 1324885 NAME: Nixon: Part III YEAR: null
-		Director: Mellowes  Marilyn
-		Director: Deane  Elizabeth
-		Director: Espar  David
-		Actor: Lyman Will
-ID: 224787 NAME: Inside the Presidency: Eisenhower vs. Nixon YEAR: 2001
-ID: 835274 NAME: Nixon's Presidential Library Is a Bookmobile YEAR: null
-		Director: Locke  Rick
-		Actor: Leach Robin
-ID: 1132522 NAME: Nixon vs. Kennedy YEAR: null
-		Director: Taylor  Alan
-		Actor: Batt Bryan
-		Actor: Gladis Michael
-		Actor: Hamm Jon
-		Actor: Kartheiser Vincent
-		Actor: Kronenberg David
-		Actor: Mars Tim
-		Actor: Morse Robert
-		Actor: Moses Mark
-		Actor: Ruptash Troy
-		Actor: Rusler Morgan
-		Actor: Skelton Stewart
-		Actor: Sommer Rich
-		Actor: Staton Aaron
-		Actor: Symons Kevin
-		Actor: Willis Cassius
-		Actor: Wright Dared
-		Actor: Alemanni Alexa
-		Actor: Anderson Dawn Marie
-		Actor: Bocking Claire
-		Actor: Brie Alison
-		Actor: Courtney Stephanie
-		Actor: Crandall Kristin
-		Actor: Cunningham Candice
-		Actor: Curtis Eve
-		Actor: null Emelle
-		Actor: Ford Monica
-		Actor: Hendricks Christina
-		Actor: Horrocks Brynn
-		Actor: Hysen Britt
-		Actor: Jones January
-		Actor: McNiven Julie
-		Actor: Moss Elisabeth
-		Actor: Parish Sarah Jannett
-		Actor: Seiffert Heather
-		Actor: Shipka Kiernan
-		Actor: Siff Maggie
-		Actor: Sims Jennifer
-ID: 728571 NAME: Richard Nixon: Man and President YEAR: 1996
-		Actor: Nixon Richard
-		Actor: Nixon Pat
-ID: 1318719 NAME: David Nixon's Christmas Magic YEAR: 1972
-		Director: Mayoh  Royston
-		Actor: Harbin Robert
-		Actor: Kaps Fred
-		Actor: Nixon David
-		Actor: De Paul Lynsey
-		Actor: Lewis Shari
-		Actor: MacDonald Aimi
-ID: 166994 NAME: Dad's in Heaven with Nixon YEAR: 2010
-		Director: Murray  Tom
-ID: 877680 NAME: Carter, Nixon and Ford Perform Ex-President Do-Wop Blues YEAR: 1987
-		Actor: Louganis Greg
-		Actor: Willard Fred
-ID: 167917 NAME: Dark Days at the White House: The Watergate Scandal and the Resignation of President Richard M. Nixon YEAR: 1989
-		Actor: Nixon Richard
-ID: 708348 NAME: Nixon's Birthplace YEAR: null
-ID: 811449 NAME: Nixon YEAR: 2003
-		Director: Bartlett  David
-		Actor: Berger Don
-		Actor: Freehill Ken
-		Actor: Stokes Joe
-		Actor: Vargas Mark
-		Actor: Boyd Pam
-ID: 976073 NAME: Nixon in China YEAR: 1988
-		Director: Large  Brian
-		Actor: Cronkite Walter
-		Actor: Duykers John
-		Actor: Maddalena James
-		Actor: Sylvan Sanford
-		Actor: Craney Trudy Ellen
-		Actor: Page Carolann
-ID: 344057 NAME: Nixon YEAR: 1995
-		Director: Stone  Oliver
-		Actor: Acheson Dean
-		Actor: Allende Salvador
-		Actor: Bedford Lloyd John
-		Actor: Bedford Brian
-		Actor: Bellucci John
-		Actor: Beltran Robert
-		Actor: Bolender Bill
-		Actor: Boothe Powers
-		Actor: Bork Robert
-		Actor: Bower Tom
-		Actor: Bremer Arthur
-		Actor: Brinkley David
-		Actor: Brown Edmund G.
-		Actor: Bush George
-		Actor: Butterfield Alexander
-		Actor: Calip Ian
-		Actor: Carlin Peter
-		Actor: Carrier Corey
-		Actor: Carter Jimmy
-		Actor: Castillo Enrique
-		Actor: Castro Fidel
-		Actor: Chambers Whittaker
-		Actor: Chiklis Michael
-		Actor: Clinton Bill
-		Actor: Compton O'Neal
-		Actor: Cox Archibald
-		Actor: Cox Edward
-		Actor: Cruz Wilson
-		Actor: Cunningham John
-		Actor: De Los Reyes Kamar
-		Actor: Diehl John
-		Actor: Dole Bob
-		Actor: Dunn Kevin
-		Actor: Eisenhower Dwight D.
-		Actor: Ellsberg Daniel
-		Actor: Ervin Sam
-		Actor: Fancy Richard
-		Actor: Finkel Fyvush
-		Actor: Ford Gerald
-		Actor: Goldwyn Tony
-		Actor: Gray David Barry
-		Actor: Haddad Michael
-		Actor: Hagman Larry
-		Actor: Harris Ed
-		Actor: Haugk Charles
-		Actor: Hedaya Dan
-		Actor: Helms Richard
-		Actor: Herrmann Edward
-		Actor: Hiss Alger
-		Actor: Hopkins Anthony
-		Actor: Hoskins Bob
-		Actor: Hyde Pierce David
-		Actor: Johnson Lyndon
-		Actor: Karen James
-		Actor: Kaufman Michael
-		Actor: Kennedy Jr. John
-		Actor: Kennedy John F.
-		Actor: Kennedy Mike
-		Actor: Kennedy Robert F.
-		Actor: Kennedy Ted
-		Actor: Khrushchev Nikita
-		Actor: null King George VI
-		Actor: King Martin Luther
-		Actor: Leon Albert
-		Actor: Lo Bianco Tony
-		Actor: Mallow Dave
-		Actor: Marshall E.G.
-		Actor: Marshall Robert
-		Actor: McCarthy Joseph
-		Actor: McGinley John C.
-		Actor: McGovern George
-		Actor: McNamara Robert
-		Actor: Murphy Harry
-		Actor: Nicoletti Tom
-		Actor: Nixon Richard
-		Actor: Noveck Fima
-		Actor: Oppenheimer J. Robert
-		Actor: Oswald Lee Harvey
-		Actor: Pahlavi Shah Mohammed Reza
-		Actor: Pasby Michael
-		Actor: Paymer David
-		Actor: Pfeiffer Chuck
-		Actor: Pickens Jr. James
-		Actor: Plana Tony
-		Actor: Platt Howard
-		Actor: Plimpton George
-		Actor: Preston Joshua
-		Actor: Reagan Ronald
-		Actor: Renna Chris
-		Actor: Richardson Elliot
-		Actor: Rivers Victor
-		Actor: Roosevelt Franklin Delano
-		Actor: Rosenberg Julius
-		Actor: Rubinek Saul
-		Actor: Ruckelshaus William
-		Actor: Sichkin Boris
-		Actor: Snyder Drew
-		Actor: Sorvino Paul
-		Actor: Starson Jr. Peter P.
-		Actor: Steines Mark
-		Actor: Stevens Wass
-		Actor: Stevenson Adlai
-		Actor: Stockwell John
-		Actor: Stone Mikey
-		Actor: Stone Oliver
-		Actor: Stone Sean
-		Actor: Taylor Robert
-		Actor: Tenney Jon
-		Actor: Townsend Clayton
-		Actor: Truman Harry S.
-		Actor: von Klaussen Ronald
-		Actor: Voorhis Jerry
-		Actor: Vullo Lenny
-		Actor: Wallace George
-		Actor: Wallace Jack
-		Actor: Walsh J.T.
-		Actor: Warren Earl
-		Actor: Wills Ray
-		Actor: Wilson Breck
-		Actor: Woods James
-		Actor: Young Ric
-		Actor: Zedong Mao
-		Actor: Allen Joan
-		Actor: Araskog Julie
-		Actor: Bai Ling
-		Actor: Bush Barbara
-		Actor: Carter Rosalynn
-		Actor: Clinton Hillary Rodham
-		Actor: Condra Julie
-		Actor: Connally Nellie
-		Actor: Danilova Raissa
-		Actor: Davis Nancy
-		Actor: Dickerson Pamela
-		Actor: Dixon Donna
-		Actor: Eisenhower Mamie
-		Actor: Ford Betty
-		Actor: Gahagan Helen
-		Actor: Gish Annabeth
-		Actor: Going Joanna
-		Actor: Gray Angie
-		Actor: Helde Annette
-		Actor: Kahn Madeline
-		Actor: Kennedy Shriver Eunice
-		Actor: Kennedy Caroline
-		Actor: Kennedy Ethel
-		Actor: Kennedy Jacqueline
-		Actor: Krusiec Michelle
-		Actor: Murphy Suzanne Schnulle
-		Actor: Nagel Nicole
-		Actor: Nixon Pat
-		Actor: Nixon Tricia
-		Actor: Renna Melinda
-		Actor: Rockafellow Marilyn
-		Actor: Roosevelt Eleanor
-		Actor: Rosenberg Ethel
-		Actor: Rudolph Mary
-		Actor: Shelton Marley
-		Actor: Steenburgen Mary
-		Actor: Wilson Bridgette
-		Actor: Zimmerman Zoey
-ID: 1488454 NAME: David Nixon YEAR: 1973
-		Actor: Andrews Eamonn
-		Actor: Nixon David
-ID: 1404404 NAME: Frost/Nixon YEAR: null
-		Director: Pearce  Juliette
-		Actor: Palmer Amanda
-ID: 32573 NAME: A Night with Nixon YEAR: 2008
-		Director: Cormack  Alex
-		Actor: Cormack Alex
-		Actor: Cook Ashley
-ID: 883802 NAME: Nixon Hawks the Watergate Tapes for $29.99 YEAR: 1987
-		Actor: Anderson Harry
-		Actor: Willard Fred
-ID: 1318830 NAME: 100 Nixon, Derek Lee YEAR: null
-		Actor: Nixon Derek Lee
-ID: 693529 NAME: Wladimir Nixon YEAR: 1971
-		Director: Pilz  Michael
-		Actor: Dimanche Lui
-		Actor: Ikewada Yuuko
-ID: 1517926 NAME: Tonight with David Nixon YEAR: 1969
-ID: 713146 NAME: The Seventh Crisis of Richard M. Nixon YEAR: null
-		Actor: Sevareid Eric
-ID: 1350418 NAME: Richard Nixon: Part II YEAR: null
-		Director: Espar  David
-		Director: Deane  Elizabeth
-		Director: Mellowes  Marilyn
-		Actor: Lyman Will
-ID: 1020598 NAME: Cynthia Nixon YEAR: 2002
-		Actor: Beane Douglas Carter
-		Actor: King Michael Patrick
-		Actor: Leonard Robert Sean
-		Actor: Mozes Danny
-		Actor: Star Darren
-		Actor: Cattrall Kim
-		Actor: Danner Blythe
-		Actor: Davis Kristin
-		Actor: Nixon Anne
-		Actor: Nixon Cynthia
-		Actor: Parker Sarah Jessica
-ID: 1373625 NAME: Nixon: Part I YEAR: null
-		Director: Espar  David
-		Actor: Lyman Will
-ID: 848231 NAME: Nixon Impeached from Cub Scouts YEAR: null
-		Director: Locke  Rick
-ID: 357818 NAME: Nixon Visions YEAR: 1969
-		Director: Esselius  Hans
-ID: 529826 NAME: The Secret Life of Richard Nixon YEAR: 2000
-		Actor: Nixon Richard
-ID: 997594 NAME: Nixon in Chicago YEAR: null
-		Actor: Frost David
-		Actor: Nixon Richard
-ID: 747944 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-		Actor: Pietrusza David
-ID: 1330940 NAME: The David Nixon Show YEAR: 1972
-ID: 107448 NAME: David Frost Interviews Richard Nixon YEAR: 1977
-		Director: Winther  Jrn
-		Actor: Frost David
-		Actor: Nixon Richard
-ID: 840816 NAME: Nixon Has Romantic Fantasies About Bo Derek YEAR: 1987
-		Actor: Willard Fred
-		Actor: Derek Bo
-ID: 141877 NAME: Frost/Nixon YEAR: 2008
-		Director: Howard  Ron
-		Actor: Acker Antony
-		Actor: Albert Wil
-		Actor: Alpert Gregory
-		Actor: Bacon Kevin
-		Actor: Bhatter Mayank
-		Actor: Bird Jay
-		Actor: Blake Geoffrey
-		Actor: Breen Michael Patrick
-		Actor: Bryson Scott
-		Actor: Casados Eloy
-		Actor: Chancellor John
-		Actor: Charleston Kaine Bennett
-		Actor: Craft Noah
-		Actor: Cronkite Walter
-		Actor: Dean John
-		Actor: Ervin Sam
-		Actor: Fedio Joe
-		Actor: Ford Gerald
-		Actor: Gray Alan
-		Actor: Grazer Gavin
-		Actor: Gress Googy
-		Actor: Haskell Christopher
-		Actor: Heck Jimmy
-		Actor: Howard Clint
-		Actor: Howard Rance
-		Actor: James Simon
-		Actor: Jarret Gabriel
-		Actor: Johnson Dave
-		Actor: Jones Toby
-		Actor: Jude Christopher
-		Actor: Karst Adam
-		Actor: Kearns Kevin P.
-		Actor: Kehela Steve
-		Actor: Kelsey David
-		Actor: Kerry John
-		Actor: Langella Frank
-		Actor: Longmuir Steve
-		Actor: Macfadyen Matthew
-		Actor: MacKechnie Keith
-		Actor: Mahoney Les
-		Actor: McClure Marc
-		Actor: Mejia Louie
-		Actor: Meskimen Jim
-		Actor: Milder Andy
-		Actor: Miranda Albert
-		Actor: Mudd Roger
-		Actor: Napolillo Eddie
-		Actor: Pastoriza Robert
-		Actor: Paterson David Ross
-		Actor: Pauley Ben
-		Actor: Phares Robert
-		Actor: Platt Oliver
-		Actor: Ritz James
-		Actor: Robert John
-		Actor: Rockwell Pete
-		Actor: Rockwell Sam
-		Actor: Rosen Howard
-		Actor: Russell Andrea
-		Actor: Sevareid Eric
-		Actor: Sheen Michael
-		Actor: Silverman Evan
-		Actor: Simich Mark
-		Actor: Singer Talley
-		Actor: Spano Joe
-		Actor: Starr Arne
-		Actor: Strohman Mark
-		Actor: Suhrke Jason
-		Actor: Vaughn Ned
-		Actor: Vieira Robson
-		Actor: White Jay
-		Actor: Arent Janneke
-		Actor: Barrett Shannah
-		Actor: Chambers Marianne
-		Actor: Cooper Danielle
-		Actor: Cree Alexandria
-		Actor: Curtis Eve
-		Actor: Gotzon Jenn
-		Actor: Grant Kate Jennings
-		Actor: Grant Maggie
-		Actor: Gwynn Darbi
-		Actor: Hall Rebecca
-		Actor: Hanley Jennifer
-		Actor: Hughes Kristina
-		Actor: Ibarra Candy
-		Actor: Kessell Simone
-		Actor: Manhart Michelle
-		Actor: McCormack Patty
-		Actor: Monroe Victoria
-		Actor: Moore Penny L.
-		Actor: Musotto Susanna
-		Actor: Owens Rachael
-		Actor: Rachelle Yvette
-		Actor: Robin Kimberly
-		Actor: Weber Holly
-ID: 286571 NAME: Inside Oliver Stone's 'Nixon' YEAR: 1995
-		Director: Jopson  John
-ID: 350181 NAME: Nixon kommt nach Berlin YEAR: 1969
-		Director: Farocki  Harun
-ID: 886245 NAME: David Nixon's Magic Box YEAR: 1970
-ID: 819642 NAME: Nixon Impersonates Dangerfield, Dolly Parton and Bette Midler YEAR: 1987
-		Actor: Willard Fred
-		Actor: Goldberg Whoopi
-ID: 650822 NAME: When Elvis Met Nixon YEAR: 2009
-		Director: Gostisha  Dave
-		Actor: Gostisha Gwenna
-		Actor: Preiser Joseph
-ID: 590556 NAME: The Real Richard Nixon YEAR: 1995
-		Actor: Gannon Frank
-		Actor: Nixon Richard
-ID: 527660 NAME: The Speeches of Richard Nixon YEAR: 1995
-		Actor: Agnew Spiro
-		Actor: Cox Edward
-		Actor: Eisenhower David
-		Actor: Gromyko Andrei
-		Actor: Kennedy John F.
-		Actor: Khrushchev Nikita
-		Actor: Kissinger Henry
-		Actor: Nixon Richard
-		Actor: Rockefeller Nelson
-		Actor: Salinger Pierre
-		Actor: Stein Ben
-		Actor: Ford Betty
-		Actor: Kennedy Caroline
-		Actor: Kennedy Jacqueline
-		Actor: Nixon Julie
-		Actor: Nixon Pat
-		Actor: Nixon Tricia
-ID: 859875 NAME: Nixon Schemes to Make Money by Becoming a Surrogate Mother YEAR: 1987
-		Actor: Willard Fred
-ID: 516566 NAME: The Plot to Kill Nixon YEAR: 2005
-		Director: Hawkins  Kim
-		Director: Taulre  Patrick
-		Actor: Dargert Matthew
-		Actor: Davi Robert
-		Actor: Evans James
-		Actor: Green David Patrick
-		Actor: Kenneth David
-		Actor: Loesch Corky
-		Actor: Miller P. David
-		Actor: Ratcliffe Barry J.
-		Actor: Snell Milton
-		Actor: Swett Dan
-		Actor: Wallace J. Matthew
-		Actor: Carter Linna
-		Actor: Pfeifer Kristin
-		Actor: Wells Pamela
-ID: 879194 NAME: Nixon Gives Fred Financial Advice... and He Loses His Shirt YEAR: null
-		Director: Locke  Rick
-		Actor: Klein Robert
-ID: 215261 NAME: Kissinger and Nixon YEAR: 1995
-		Director: Petrie  Daniel
-		Actor: Bridges Beau
-		Actor: Chan Henry
-		Actor: Frewer Matt
-		Actor: Halsey Brett
-		Actor: Hartmann Ron
-		Actor: Hough Adrian
-		Actor: McPherson Graham
-		Actor: Miller Paul
-		Actor: Rosato Tony
-		Actor: Silver Ron
-		Actor: Takei George
-		Actor: Tran Tom
-		Actor: Welsh Kenneth
-		Actor: White Ron
-		Actor: Alter Lori
-		Actor: Cheung Ping
-		Actor: Radecki Barbara
-ID: 923216 NAME: The Political Obituary of Richard M. Nixon YEAR: null
-		Actor: Ford Gerald
-		Actor: Hiss Alger
-		Actor: Smith Howard K.
-ID: 907834 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-		Actor: Crawford Logan
-		Actor: Pietrusza David
-ID: 890062 NAME: Nixon Impersonates Elvis in a Moneymaking Scheme YEAR: 1987
-		Actor: Willard Fred
-ID: 1004306 NAME: Agnes Nixon YEAR: 1999
-		Actor: Fishburne Laurence
-		Actor: Mitchell James
-		Actor: Holly Ellen
-		Actor: Light Judith
-		Actor: Lucci Susan
-		Actor: Nixon Agnes
-ID: 1363425 NAME: David Nixon's Magic Hour YEAR: 1972
-		Director: Frazer-Jones  Peter
-		Actor: Carl George
-		Actor: null Champagne
-		Actor: Harris Rolf
-		Actor: Nixon David
-		Actor: Harris Anita
-		Actor: Valente Caterina
-
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-> Searching for the movie 'nixon'
- ID: 32573 NAME: A Night with Nixon YEAR: 2008
-		Director: Cormack  Alex
-		Actor: Cormack Alex
-		Actor: Cook Ashley
-		Status: AVAILABLE
- ID: 107448 NAME: David Frost Interviews Richard Nixon YEAR: 1977
-		Director: Winther  Jrn
-		Actor: Frost David
-		Actor: Nixon Richard
-		Status: AVAILABLE
- ID: 141877 NAME: Frost/Nixon YEAR: 2008
-		Director: Howard  Ron
-		Actor: Acker Antony
-		Actor: Albert Wil
-		Actor: Alpert Gregory
-		Actor: Bacon Kevin
-		Actor: Bhatter Mayank
-		Actor: Bird Jay
-		Actor: Blake Geoffrey
-		Actor: Breen Michael Patrick
-		Actor: Bryson Scott
-		Actor: Casados Eloy
-		Actor: Chancellor John
-		Actor: Charleston Kaine Bennett
-		Actor: Craft Noah
-		Actor: Cronkite Walter
-		Actor: Dean John
-		Actor: Ervin Sam
-		Actor: Fedio Joe
-		Actor: Ford Gerald
-		Actor: Gray Alan
-		Actor: Grazer Gavin
-		Actor: Gress Googy
-		Actor: Haskell Christopher
-		Actor: Heck Jimmy
-		Actor: Howard Clint
-		Actor: Howard Rance
-		Actor: James Simon
-		Actor: Jarret Gabriel
-		Actor: Johnson Dave
-		Actor: Jones Toby
-		Actor: Jude Christopher
-		Actor: Karst Adam
-		Actor: Kearns Kevin P.
-		Actor: Kehela Steve
-		Actor: Kelsey David
-		Actor: Kerry John
-		Actor: Langella Frank
-		Actor: Longmuir Steve
-		Actor: Macfadyen Matthew
-		Actor: MacKechnie Keith
-		Actor: Mahoney Les
-		Actor: McClure Marc
-		Actor: Mejia Louie
-		Actor: Meskimen Jim
-		Actor: Milder Andy
-		Actor: Miranda Albert
-		Actor: Mudd Roger
-		Actor: Napolillo Eddie
-		Actor: Pastoriza Robert
-		Actor: Paterson David Ross
-		Actor: Pauley Ben
-		Actor: Phares Robert
-		Actor: Platt Oliver
-		Actor: Ritz James
-		Actor: Robert John
-		Actor: Rockwell Pete
-		Actor: Rockwell Sam
-		Actor: Rosen Howard
-		Actor: Russell Andrea
-		Actor: Sevareid Eric
-		Actor: Sheen Michael
-		Actor: Silverman Evan
-		Actor: Simich Mark
-		Actor: Singer Talley
-		Actor: Spano Joe
-		Actor: Starr Arne
-		Actor: Strohman Mark
-		Actor: Suhrke Jason
-		Actor: Vaughn Ned
-		Actor: Vieira Robson
-		Actor: White Jay
-		Actor: Arent Janneke
-		Actor: Barrett Shannah
-		Actor: Chambers Marianne
-		Actor: Cooper Danielle
-		Actor: Cree Alexandria
-		Actor: Curtis Eve
-		Actor: Gotzon Jenn
-		Actor: Grant Kate Jennings
-		Actor: Grant Maggie
-		Actor: Gwynn Darbi
-		Actor: Hall Rebecca
-		Actor: Hanley Jennifer
-		Actor: Hughes Kristina
-		Actor: Ibarra Candy
-		Actor: Kessell Simone
-		Actor: Manhart Michelle
-		Actor: McCormack Patty
-		Actor: Monroe Victoria
-		Actor: Moore Penny L.
-		Actor: Musotto Susanna
-		Actor: Owens Rachael
-		Actor: Rachelle Yvette
-		Actor: Robin Kimberly
-		Actor: Weber Holly
-		Status: AVAILABLE
- ID: 166994 NAME: Dad's in Heaven with Nixon YEAR: 2010
-		Director: Murray  Tom
-		Status: AVAILABLE
- ID: 167917 NAME: Dark Days at the White House: The Watergate Scandal and the Resignation of President Richard M. Nixon YEAR: 1989
-		Actor: Nixon Richard
-		Status: AVAILABLE
- ID: 196668 NAME: Elvis Meets Nixon YEAR: 1997
-		Director: Arkush  Allan
-		Actor: Akin Philip
-		Actor: Anderson Jr. Michael
-		Actor: Armstrong Curtis
-		Actor: Arnott Stewart
-		Actor: Beymer Richard
-		Actor: Butterfield Alexander
-		Actor: Campbell Desmond
-		Actor: Cavett Dick
-		Actor: Chapman Vernon
-		Actor: Crean David
-		Actor: Curtis Tony
-		Actor: Dinicol Joe
-		Actor: Doherty Denny
-		Actor: Fox Colin
-		Actor: Gunton Bob
-		Actor: Hall Glenn
-		Actor: Hogan Gabriel
-		Actor: Hylton Ephraim
-		Actor: Jones Jeff
-		Actor: Jones Keith
-		Actor: Keleghan Peter
-		Actor: Kennedy Christopher
-		Actor: Lachapelle Jesse
-		Actor: Liddle John
-		Actor: Loxley James
-		Actor: Lundy Thomas
-		Actor: McCarthy Kevin
-		Actor: McDowell Ronnie
-		Actor: McEwan Hamish
-		Actor: McKenna Patrick
-		Actor: McMillan Richard
-		Actor: Nash Graham
-		Actor: Newman Edwin
-		Actor: Newton Wayne
-		Actor: null Panou
-		Actor: Peters Rick
-		Actor: Pinnock Arnold
-		Actor: Redican Dan
-		Actor: Roach Martin
-		Actor: Sandiford Hadley
-		Actor: Sears Thom
-		Actor: Simons Jake
-		Actor: Stefaniuk Rob
-		Actor: Tarling Bill
-		Actor: Ward Wayne
-		Actor: Wharton Rick
-		Actor: Wickware Scott
-		Actor: Woolvett Gordon Michael
-		Actor: Yearwood Richard
-		Actor: Boyle Marilyn
-		Actor: Burroughs Jackie
-		Actor: Catalano Laura
-		Actor: Cook A.J.
-		Actor: Court Alyson
-		Actor: Fletcher Alana
-		Actor: Irwin Jennifer
-		Actor: Isbell Tammy
-		Actor: MacKenzie Roxanne
-		Actor: Paton Julia
-		Actor: Stevan Robyn
-		Actor: Syrgiannis Maria
-		Actor: Thuet Robbi Jay
-		Actor: Vint Angela
-		Status: AVAILABLE
- ID: 215261 NAME: Kissinger and Nixon YEAR: 1995
-		Director: Petrie  Daniel
-		Actor: Bridges Beau
-		Actor: Chan Henry
-		Actor: Frewer Matt
-		Actor: Halsey Brett
-		Actor: Hartmann Ron
-		Actor: Hough Adrian
-		Actor: McPherson Graham
-		Actor: Miller Paul
-		Actor: Rosato Tony
-		Actor: Silver Ron
-		Actor: Takei George
-		Actor: Tran Tom
-		Actor: Welsh Kenneth
-		Actor: White Ron
-		Actor: Alter Lori
-		Actor: Cheung Ping
-		Actor: Radecki Barbara
-		Status: AVAILABLE
- ID: 224787 NAME: Inside the Presidency: Eisenhower vs. Nixon YEAR: 2001
-		Status: AVAILABLE
- ID: 286571 NAME: Inside Oliver Stone's 'Nixon' YEAR: 1995
-		Director: Jopson  John
-		Status: AVAILABLE
- ID: 344057 NAME: Nixon YEAR: 1995
-		Director: Stone  Oliver
-		Actor: Acheson Dean
-		Actor: Allende Salvador
-		Actor: Bedford Lloyd John
-		Actor: Bedford Brian
-		Actor: Bellucci John
-		Actor: Beltran Robert
-		Actor: Bolender Bill
-		Actor: Boothe Powers
-		Actor: Bork Robert
-		Actor: Bower Tom
-		Actor: Bremer Arthur
-		Actor: Brinkley David
-		Actor: Brown Edmund G.
-		Actor: Bush George
-		Actor: Butterfield Alexander
-		Actor: Calip Ian
-		Actor: Carlin Peter
-		Actor: Carrier Corey
-		Actor: Carter Jimmy
-		Actor: Castillo Enrique
-		Actor: Castro Fidel
-		Actor: Chambers Whittaker
-		Actor: Chiklis Michael
-		Actor: Clinton Bill
-		Actor: Compton O'Neal
-		Actor: Cox Archibald
-		Actor: Cox Edward
-		Actor: Cruz Wilson
-		Actor: Cunningham John
-		Actor: De Los Reyes Kamar
-		Actor: Diehl John
-		Actor: Dole Bob
-		Actor: Dunn Kevin
-		Actor: Eisenhower Dwight D.
-		Actor: Ellsberg Daniel
-		Actor: Ervin Sam
-		Actor: Fancy Richard
-		Actor: Finkel Fyvush
-		Actor: Ford Gerald
-		Actor: Goldwyn Tony
-		Actor: Gray David Barry
-		Actor: Haddad Michael
-		Actor: Hagman Larry
-		Actor: Harris Ed
-		Actor: Haugk Charles
-		Actor: Hedaya Dan
-		Actor: Helms Richard
-		Actor: Herrmann Edward
-		Actor: Hiss Alger
-		Actor: Hopkins Anthony
-		Actor: Hoskins Bob
-		Actor: Hyde Pierce David
-		Actor: Johnson Lyndon
-		Actor: Karen James
-		Actor: Kaufman Michael
-		Actor: Kennedy Jr. John
-		Actor: Kennedy John F.
-		Actor: Kennedy Mike
-		Actor: Kennedy Robert F.
-		Actor: Kennedy Ted
-		Actor: Khrushchev Nikita
-		Actor: null King George VI
-		Actor: King Martin Luther
-		Actor: Leon Albert
-		Actor: Lo Bianco Tony
-		Actor: Mallow Dave
-		Actor: Marshall E.G.
-		Actor: Marshall Robert
-		Actor: McCarthy Joseph
-		Actor: McGinley John C.
-		Actor: McGovern George
-		Actor: McNamara Robert
-		Actor: Murphy Harry
-		Actor: Nicoletti Tom
-		Actor: Nixon Richard
-		Actor: Noveck Fima
-		Actor: Oppenheimer J. Robert
-		Actor: Oswald Lee Harvey
-		Actor: Pahlavi Shah Mohammed Reza
-		Actor: Pasby Michael
-		Actor: Paymer David
-		Actor: Pfeiffer Chuck
-		Actor: Pickens Jr. James
-		Actor: Plana Tony
-		Actor: Platt Howard
-		Actor: Plimpton George
-		Actor: Preston Joshua
-		Actor: Reagan Ronald
-		Actor: Renna Chris
-		Actor: Richardson Elliot
-		Actor: Rivers Victor
-		Actor: Roosevelt Franklin Delano
-		Actor: Rosenberg Julius
-		Actor: Rubinek Saul
-		Actor: Ruckelshaus William
-		Actor: Sichkin Boris
-		Actor: Snyder Drew
-		Actor: Sorvino Paul
-		Actor: Starson Jr. Peter P.
-		Actor: Steines Mark
-		Actor: Stevens Wass
-		Actor: Stevenson Adlai
-		Actor: Stockwell John
-		Actor: Stone Mikey
-		Actor: Stone Oliver
-		Actor: Stone Sean
-		Actor: Taylor Robert
-		Actor: Tenney Jon
-		Actor: Townsend Clayton
-		Actor: Truman Harry S.
-		Actor: von Klaussen Ronald
-		Actor: Voorhis Jerry
-		Actor: Vullo Lenny
-		Actor: Wallace George
-		Actor: Wallace Jack
-		Actor: Walsh J.T.
-		Actor: Warren Earl
-		Actor: Wills Ray
-		Actor: Wilson Breck
-		Actor: Woods James
-		Actor: Young Ric
-		Actor: Zedong Mao
-		Actor: Allen Joan
-		Actor: Araskog Julie
-		Actor: Bai Ling
-		Actor: Bush Barbara
-		Actor: Carter Rosalynn
-		Actor: Clinton Hillary Rodham
-		Actor: Condra Julie
-		Actor: Connally Nellie
-		Actor: Danilova Raissa
-		Actor: Davis Nancy
-		Actor: Dickerson Pamela
-		Actor: Dixon Donna
-		Actor: Eisenhower Mamie
-		Actor: Ford Betty
-		Actor: Gahagan Helen
-		Actor: Gish Annabeth
-		Actor: Going Joanna
-		Actor: Gray Angie
-		Actor: Helde Annette
-		Actor: Kahn Madeline
-		Actor: Kennedy Shriver Eunice
-		Actor: Kennedy Caroline
-		Actor: Kennedy Ethel
-		Actor: Kennedy Jacqueline
-		Actor: Krusiec Michelle
-		Actor: Murphy Suzanne Schnulle
-		Actor: Nagel Nicole
-		Actor: Nixon Pat
-		Actor: Nixon Tricia
-		Actor: Renna Melinda
-		Actor: Rockafellow Marilyn
-		Actor: Roosevelt Eleanor
-		Actor: Rosenberg Ethel
-		Actor: Rudolph Mary
-		Actor: Shelton Marley
-		Actor: Steenburgen Mary
-		Actor: Wilson Bridgette
-		Actor: Zimmerman Zoey
-		Status: AVAILABLE
- ID: 350181 NAME: Nixon kommt nach Berlin YEAR: 1969
-		Director: Farocki  Harun
-		Status: AVAILABLE
- ID: 357818 NAME: Nixon Visions YEAR: 1969
-		Director: Esselius  Hans
-		Status: AVAILABLE
- ID: 516566 NAME: The Plot to Kill Nixon YEAR: 2005
-		Director: Hawkins  Kim
-		Director: Taulre  Patrick
-		Actor: Dargert Matthew
-		Actor: Davi Robert
-		Actor: Evans James
-		Actor: Green David Patrick
-		Actor: Kenneth David
-		Actor: Loesch Corky
-		Actor: Miller P. David
-		Actor: Ratcliffe Barry J.
-		Actor: Snell Milton
-		Actor: Swett Dan
-		Actor: Wallace J. Matthew
-		Actor: Carter Linna
-		Actor: Pfeifer Kristin
-		Actor: Wells Pamela
-		Status: AVAILABLE
- ID: 527660 NAME: The Speeches of Richard Nixon YEAR: 1995
-		Actor: Agnew Spiro
-		Actor: Cox Edward
-		Actor: Eisenhower David
-		Actor: Gromyko Andrei
-		Actor: Kennedy John F.
-		Actor: Khrushchev Nikita
-		Actor: Kissinger Henry
-		Actor: Nixon Richard
-		Actor: Rockefeller Nelson
-		Actor: Salinger Pierre
-		Actor: Stein Ben
-		Actor: Ford Betty
-		Actor: Kennedy Caroline
-		Actor: Kennedy Jacqueline
-		Actor: Nixon Julie
-		Actor: Nixon Pat
-		Actor: Nixon Tricia
-		Status: AVAILABLE
- ID: 529826 NAME: The Secret Life of Richard Nixon YEAR: 2000
-		Actor: Nixon Richard
-		Status: AVAILABLE
- ID: 589583 NAME: The Assassination of Richard Nixon YEAR: 2004
-		Director: Mueller  Niels
-		Actor: Allende Salvador
-		Actor: Baptiste Ian
-		Actor: Boughn Pete
-		Actor: Brizendine Brandon
-		Actor: Brown Jr. Frank
-		Actor: Campbell Doug
-		Actor: Carraway James
-		Actor: Chamberlain Cabran E.
-		Actor: Cheadle Don
-		Actor: Cooper Robert Kenneth
-		Actor: Cotner James
-		Actor: Dorrance Jared
-		Actor: Drocco Johnny
-		Actor: Else Ryan
-		Actor: Ervin Sam
-		Actor: Greene Derek
-		Actor: Halpin Tim
-		Actor: Henke Brad William
-		Actor: Hilliard David
-		Actor: Jacobus Jay
-		Actor: Lett II Donald
-		Actor: Mack Gary L.
-		Actor: MacKenzie J.C.
-		Actor: Marinelli Joe
-		Actor: Means Russell
-		Actor: Nixon Richard
-		Actor: Pahlavi Shah Mohammed Reza
-		Actor: Penn Sean
-		Actor: Pinochet Augusto
-		Actor: Reese James Morrison
-		Actor: Rickaby Brett
-		Actor: Rocha Tony
-		Actor: Searcy Nick
-		Actor: Shulak John Patrick
-		Actor: Thompson Jack
-		Actor: White Kenneth
-		Actor: Williamson Mykelti
-		Actor: Wincott Michael
-		Actor: Wood Matthew
-		Actor: Cassidy Denise Balthrop
-		Actor: Grace April
-		Actor: Howell Kathryn
-		Actor: Knight Lily
-		Actor: Mariani Janean Christine
-		Actor: Massa Mariah
-		Actor: McCoy Debi
-		Actor: Middendorf Tracy
-		Actor: Milton Jenna
-		Actor: Rogers AnnieScott
-		Actor: Ryan Eileen
-		Actor: Saltzman Melissa
-		Actor: Volgenau Teresa Anne
-		Actor: Warner Cindy
-		Actor: Watts Naomi
-		Actor: Wheeler Sherrie La'Marr
-		Status: AVAILABLE
- ID: 590556 NAME: The Real Richard Nixon YEAR: 1995
-		Actor: Gannon Frank
-		Actor: Nixon Richard
-		Status: AVAILABLE
- ID: 650822 NAME: When Elvis Met Nixon YEAR: 2009
-		Director: Gostisha  Dave
-		Actor: Gostisha Gwenna
-		Actor: Preiser Joseph
-		Status: AVAILABLE
- ID: 693529 NAME: Wladimir Nixon YEAR: 1971
-		Director: Pilz  Michael
-		Actor: Dimanche Lui
-		Actor: Ikewada Yuuko
-		Status: AVAILABLE
- ID: 708348 NAME: Nixon's Birthplace YEAR: null
-		Status: AVAILABLE
- ID: 713146 NAME: The Seventh Crisis of Richard M. Nixon YEAR: null
-		Actor: Sevareid Eric
-		Status: AVAILABLE
- ID: 728571 NAME: Richard Nixon: Man and President YEAR: 1996
-		Actor: Nixon Richard
-		Actor: Nixon Pat
-		Status: AVAILABLE
- ID: 747944 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-		Actor: Pietrusza David
-		Status: AVAILABLE
- ID: 803711 NAME: Ollie North and Nixon Plan to Take Over the Western Hemisphere YEAR: 1987
-		Actor: Willard Fred
-		Status: AVAILABLE
- ID: 811449 NAME: Nixon YEAR: 2003
-		Director: Bartlett  David
-		Actor: Berger Don
-		Actor: Freehill Ken
-		Actor: Stokes Joe
-		Actor: Vargas Mark
-		Actor: Boyd Pam
-		Status: AVAILABLE
- ID: 819642 NAME: Nixon Impersonates Dangerfield, Dolly Parton and Bette Midler YEAR: 1987
-		Actor: Willard Fred
-		Actor: Goldberg Whoopi
-		Status: AVAILABLE
- ID: 825232 NAME: Nixon Acts as Princess Di's Divorce Lawyer YEAR: null
-		Director: Locke  Rick
-		Actor: Sahl Mort
-		Status: AVAILABLE
- ID: 835274 NAME: Nixon's Presidential Library Is a Bookmobile YEAR: null
-		Director: Locke  Rick
-		Actor: Leach Robin
-		Status: AVAILABLE
- ID: 840816 NAME: Nixon Has Romantic Fantasies About Bo Derek YEAR: 1987
-		Actor: Willard Fred
-		Actor: Derek Bo
-		Status: AVAILABLE
- ID: 848231 NAME: Nixon Impeached from Cub Scouts YEAR: null
-		Director: Locke  Rick
-		Status: AVAILABLE
- ID: 859660 NAME: David Nixon's Comedy Bandbox YEAR: 1966
-		Status: AVAILABLE
- ID: 859875 NAME: Nixon Schemes to Make Money by Becoming a Surrogate Mother YEAR: 1987
-		Actor: Willard Fred
-		Status: AVAILABLE
- ID: 877680 NAME: Carter, Nixon and Ford Perform Ex-President Do-Wop Blues YEAR: 1987
-		Actor: Louganis Greg
-		Actor: Willard Fred
-		Status: AVAILABLE
- ID: 879194 NAME: Nixon Gives Fred Financial Advice... and He Loses His Shirt YEAR: null
-		Director: Locke  Rick
-		Actor: Klein Robert
-		Status: AVAILABLE
- ID: 883802 NAME: Nixon Hawks the Watergate Tapes for $29.99 YEAR: 1987
-		Actor: Anderson Harry
-		Actor: Willard Fred
-		Status: AVAILABLE
- ID: 886245 NAME: David Nixon's Magic Box YEAR: 1970
-		Status: AVAILABLE
- ID: 890062 NAME: Nixon Impersonates Elvis in a Moneymaking Scheme YEAR: 1987
-		Actor: Willard Fred
-		Status: AVAILABLE
- ID: 907834 NAME: 1960: LBJ vs JFK vs Nixon YEAR: null
-		Actor: Crawford Logan
-		Actor: Pietrusza David
-		Status: AVAILABLE
- ID: 923216 NAME: The Political Obituary of Richard M. Nixon YEAR: null
-		Actor: Ford Gerald
-		Actor: Hiss Alger
-		Actor: Smith Howard K.
-		Status: AVAILABLE
- ID: 976073 NAME: Nixon in China YEAR: 1988
-		Director: Large  Brian
-		Actor: Cronkite Walter
-		Actor: Duykers John
-		Actor: Maddalena James
-		Actor: Sylvan Sanford
-		Actor: Craney Trudy Ellen
-		Actor: Page Carolann
-		Status: AVAILABLE
- ID: 997594 NAME: Nixon in Chicago YEAR: null
-		Actor: Frost David
-		Actor: Nixon Richard
-		Status: AVAILABLE
- ID: 1004306 NAME: Agnes Nixon YEAR: 1999
-		Actor: Fishburne Laurence
-		Actor: Mitchell James
-		Actor: Holly Ellen
-		Actor: Light Judith
-		Actor: Lucci Susan
-		Actor: Nixon Agnes
-		Status: AVAILABLE
- ID: 1020598 NAME: Cynthia Nixon YEAR: 2002
-		Actor: Beane Douglas Carter
-		Actor: King Michael Patrick
-		Actor: Leonard Robert Sean
-		Actor: Mozes Danny
-		Actor: Star Darren
-		Actor: Cattrall Kim
-		Actor: Danner Blythe
-		Actor: Davis Kristin
-		Actor: Nixon Anne
-		Actor: Nixon Cynthia
-		Actor: Parker Sarah Jessica
-		Status: AVAILABLE
- ID: 1132522 NAME: Nixon vs. Kennedy YEAR: null
-		Director: Taylor  Alan
-		Actor: Batt Bryan
-		Actor: Gladis Michael
-		Actor: Hamm Jon
-		Actor: Kartheiser Vincent
-		Actor: Kronenberg David
-		Actor: Mars Tim
-		Actor: Morse Robert
-		Actor: Moses Mark
-		Actor: Ruptash Troy
-		Actor: Rusler Morgan
-		Actor: Skelton Stewart
-		Actor: Sommer Rich
-		Actor: Staton Aaron
-		Actor: Symons Kevin
-		Actor: Willis Cassius
-		Actor: Wright Dared
-		Actor: Alemanni Alexa
-		Actor: Anderson Dawn Marie
-		Actor: Bocking Claire
-		Actor: Brie Alison
-		Actor: Courtney Stephanie
-		Actor: Crandall Kristin
-		Actor: Cunningham Candice
-		Actor: Curtis Eve
-		Actor: null Emelle
-		Actor: Ford Monica
-		Actor: Hendricks Christina
-		Actor: Horrocks Brynn
-		Actor: Hysen Britt
-		Actor: Jones January
-		Actor: McNiven Julie
-		Actor: Moss Elisabeth
-		Actor: Parish Sarah Jannett
-		Actor: Seiffert Heather
-		Actor: Shipka Kiernan
-		Actor: Siff Maggie
-		Actor: Sims Jennifer
-		Status: AVAILABLE
- ID: 1318719 NAME: David Nixon's Christmas Magic YEAR: 1972
-		Director: Mayoh  Royston
-		Actor: Harbin Robert
-		Actor: Kaps Fred
-		Actor: Nixon David
-		Actor: De Paul Lynsey
-		Actor: Lewis Shari
-		Actor: MacDonald Aimi
-		Status: AVAILABLE
- ID: 1318830 NAME: 100 Nixon, Derek Lee YEAR: null
-		Actor: Nixon Derek Lee
-		Status: AVAILABLE
- ID: 1324885 NAME: Nixon: Part III YEAR: null
-		Director: Deane  Elizabeth
-		Director: Espar  David
-		Director: Mellowes  Marilyn
-		Actor: Lyman Will
-		Status: AVAILABLE
- ID: 1330940 NAME: The David Nixon Show YEAR: 1972
-		Status: AVAILABLE
- ID: 1350418 NAME: Richard Nixon: Part II YEAR: null
-		Director: Deane  Elizabeth
-		Director: Espar  David
-		Director: Mellowes  Marilyn
-		Actor: Lyman Will
-		Status: AVAILABLE
- ID: 1363425 NAME: David Nixon's Magic Hour YEAR: 1972
-		Director: Frazer-Jones  Peter
-		Actor: Carl George
-		Actor: null Champagne
-		Actor: Harris Rolf
-		Actor: Nixon David
-		Actor: Harris Anita
-		Actor: Valente Caterina
-		Status: AVAILABLE
- ID: 1373063 NAME: Nixon's China Game YEAR: null
-		Director: Anderson  Mark
-		Director: Simkin  Michael
-		Actor: Lattanzi Bill
-		Actor: Stiers David Ogden
-		Status: AVAILABLE
- ID: 1373625 NAME: Nixon: Part I YEAR: null
-		Director: Espar  David
-		Actor: Lyman Will
-		Status: AVAILABLE
- ID: 1404404 NAME: Frost/Nixon YEAR: null
-		Director: Pearce  Juliette
-		Actor: Palmer Amanda
-		Status: AVAILABLE
- ID: 1488454 NAME: David Nixon YEAR: 1973
-		Actor: Andrews Eamonn
-		Actor: Nixon David
-		Status: AVAILABLE
- ID: 1517926 NAME: Tonight with David Nixon YEAR: 1969
-		Status: AVAILABLE
+> Fast Searching for the movie 'fight club'
+ID: 1470789 NAME: In Broad Daylight/Fight Club YEAR: 2004
+		Actor: Anderson Chris
+		Actor: Cotton Warren
+		Actor: Graham Dion
+		Actor: Larson Scott
+		Actor: Morgan Jay
+		Actor: Noblitt Sam
+		Actor: Porras Luis
+		Actor: Praytor Scott
+		Actor: Robinson David
+		Actor: Thomsen Chris
+		Actor: Walker Jerry
+		Actor: Walker Marcel
+		Actor: Woods Chris
+		Actor: Calhoun Cythia
+		Actor: Kjos Ann
+		Actor: Reynolds Kris
+ID: 1498099 NAME: Fight Club YEAR: 2000
+		Director: Shapiro  Paul
+		Actor: Blevins Cory
+		Actor: Chenoweth Brian
+		Actor: Cobb Randall 'Tex'
+		Actor: Duchovny David
+		Actor: Evans Art
+		Actor: Hanna Jim
+		Actor: Kim Paul H.
+		Actor: Kiziak Steve
+		Actor: LeBell Gene
+		Actor: Mack John
+		Actor: McGee Jack
+		Actor: Michael Christopher
+		Actor: O'Brien John
+		Actor: O'Donnell Bill
+		Actor: Rossi Richard
+		Actor: Van Dam Rob
+		Actor: Anderson Gillian
+		Actor: Bush Nicole
+		Actor: Griffin Kathy
+		Actor: Warren Arlene
+ID: 452432 NAME: Real Fight Club YEAR: 2008
+		Director: Hyslop  James
+		Actor: Doxtater Albert
+ID: 852184 NAME: Bull Fight Club YEAR: null
+		Actor: Adam O'Kane
+		Actor: Andrew O'Kane
+		Actor: James Clint
+ID: 63782 NAME: 1PW: Fight Club 2 YEAR: 2006
+		Actor: Keenan Sterling James
+		Actor: Snuka 'Superfly' Jimmy
+ID: 1327977 NAME: Cat Fight Club YEAR: null
+		Director: Trainer  David
+		Actor: Grace Topher
+		Actor: Kutcher Ashton
+		Actor: Masterson Danny
+		Actor: Smith Kurtwood
+		Actor: Valderrama Wilmer
+		Actor: Kelly Lisa Robin
+		Actor: Kunis Mila
+		Actor: Prepon Laura
+		Actor: Rupp Debra Jo
+ID: 779382 NAME: Fight Club YEAR: null
+		Director: Farinola  Michele
+ID: 143513 NAME: Florence Fight Club YEAR: 2010
+		Director: Perotti  Luigi Maria
+ID: 538432 NAME: Tito Ortiz's Girls Fight Club YEAR: 2009
+		Director: Schwarz  Uri
+		Actor: Kelp Skip
+		Actor: Lewis John
+		Actor: Liddell Chuck
+		Actor: Ortiz Tito
+		Actor: Yvel Gilbert
+		Actor: Denise Kissy
+		Actor: Forman Tasha
+		Actor: Morgan Kneely
+		Actor: Passarelli Elizabeth
+ID: 79373 NAME: Buena Vista Fight Club YEAR: 2000
+		Director: Mather  Evan
+		Actor: Hostetter Kirk
+		Actor: McBride Damien
+		Actor: Stroud Patrick
+		Actor: Wishnow Jason
+ID: 362023 NAME: On Location: Fight Club YEAR: 2000
+		Actor: Fincher David
+		Actor: Hargitay Eddie
+		Actor: Norton Edward
+		Actor: Pitt Brad
+ID: 1548890 NAME: Baby Fight Club YEAR: 2001
+		Director: Cendrowski  Mark
+		Actor: Allardice Kevin
+		Actor: Clark Anthony
+		Actor: Gardell Billy
+		Actor: LaMarr Phil
+		Actor: Malin Mike
+		Actor: O'Malley Mike
+		Actor: Duggins Shauna
+		Actor: Francis Staci
+		Actor: Kelly Jean Louisa
+		Actor: Snyder Liza
+ID: 1175007 NAME: Fight Club YEAR: null
+		Actor: Andrews Brian
+		Actor: Combs Sean 'P. Diddy'
+		Actor: Curry Robert
+		Actor: Klang Donnie
+		Actor: McCluney Mike
+		Actor: Mosley Qwanell
+		Actor: Taylor Willie
+		Actor: O'Day Aubrey
+		Actor: Woodgette Wanita 'D. Woods'
+ID: 359785 NAME: Musangwe: Fight Club YEAR: 2007
+		Director: Horn  Rian
+ID: 245007 NAME: G4 Investigates: Tech Fight Clubs YEAR: 2008
+		Actor: Klimanis Gints
+		Actor: Lundin William
+		Actor: Vee Ryoga
+ID: 138652 NAME: Fight club camp kusse: Stand up p Skanderborg YEAR: 2006
+		Director: Hjorth  Preben
+		Actor: Cooper Alice
+		Actor: Holm Uffe
+		Actor: Klan Rune
+		Actor: Spang Jonatan
+ID: 1347553 NAME: In It for the Wild Life/Fight Club YEAR: null
+		Director: Anderson  Gordon
+		Actor: Ellis Tom
+		Actor: Farrell Nicholas
+		Actor: Hiddleston Tom
+		Actor: Ineson Ralph
+		Actor: Lumsden Richard
+		Actor: McDonald Gary
+		Actor: Protheroe Brian
+		Actor: Scarborough Andrew
+		Actor: Stuart Trevor
+		Actor: Blake Rachael
+		Actor: Bradshaw Cathryn
+		Actor: Bullmore Amelia
+		Actor: Chancellor Anna
+		Actor: Freedman Regina
+		Actor: Greene Sarah
+		Actor: Kennedy Emma
+		Actor: Montagu Felicity
+		Actor: Quesnel Pooky
+		Actor: Robinson Lucy
+		Actor: Solemani Sarah
+		Actor: Wilson Ruth
+ID: 1173052 NAME: Fight Club YEAR: 1999
+		Actor: Phelps Brian
+		Actor: Thompson Mark
+		Actor: von Detten Erik
+		Actor: Cigliuti Natalia
+		Actor: Enriquez Susan
+		Actor: Kenya Wendi
+		Actor: MacIntyre Marguerite
+ID: 1031605 NAME: Jurassic Fight Club YEAR: 2008
+		Director: Lauterbach  Kreg
+		Actor: Blasing George
+ID: 1512411 NAME: Fight Club YEAR: 2008
+ID: 153282 NAME: Fight Club YEAR: 2004
+		Actor: Gossom Jr. Thom
+		Actor: Gross Justin
+		Actor: Leonard Joshua
+		Actor: Lin Emil
+		Actor: McCallany Holt
+		Actor: McMillian Michael
+		Actor: null Meat Loaf
+		Actor: Starr Mike
+		Actor: Thomas David
+		Actor: Wiles Michael Shamus
+		Actor: Wittenberg Dave
+		Actor: Futterman Nika
+ID: 288459 NAME: Girls Fight Club YEAR: 2007
+		Director: Schwarz  Uri
+		Actor: Kelp Skip
+		Actor: Lewis John
+		Actor: Liddell Chuck
+		Actor: Trigg Frank
+		Actor: Cassidy Shellee
+		Actor: Dawson Lexy
+		Actor: Gale Irena
+		Actor: Guaverra Andrea
+		Actor: Lefkowitz Courtney
+		Actor: Michon Aurelli
+		Actor: Munoz Brittany
+		Actor: Wingo Ashton
+ID: 1418205 NAME: Springer's Fight Club YEAR: 1991
+		Actor: Springer Jerry
+ID: 113191 NAME: Football's Fight Club YEAR: 2002
+		Director: Williams  Gareth
+ID: 725826 NAME: Comedy Fight Club YEAR: 2007
+ID: 660308 NAME: Fight Club YEAR: null
+		Director: Weyman  Andrew D.
+		Actor: Foster Jon
+		Actor: Hall Pooch
+		Actor: Show Grant
+		Actor: Wilmore Larry
+		Actor: Wright Nicolas
+		Actor: Elfman Jenna
+		Actor: Jensen Ashley
+		Actor: Johnson Selena
+		Actor: Parham Lennon
+		Actor: Wilson Indira G.
+ID: 199833 NAME: Fight Club: Members Only YEAR: 2006
+		Director: Chopra  Vikram
+		Actor: Chaudhary Aashish
+		Actor: Deshmukh Ritesh
+		Actor: Dev Rahul
+		Actor: Khan Sohail
+		Actor: Khan Zayed
+		Actor: Kharbanda Kulbhushan
+		Actor: Morea Dino
+		Actor: Patel Ashmit
+		Actor: Shetty Sunil
+		Actor: Tonk Yash
+		Actor: Arora Amrita
+		Actor: Dhupia Neha
+		Actor: Mirza Diya
+ID: 1145923 NAME: Fight Club YEAR: null
+		Director: Caston  Hoite C.
+		Actor: Breen Danny
+		Actor: Hall Rich
+		Actor: Laurance Mitchell
+		Actor: Pankin Stuart
+		Actor: Bloom Anne
+		Actor: Webb Lucy
+ID: 180487 NAME: Fight Club YEAR: 1999
+		Director: Fincher  David
+		Actor: Andrews David
+		Actor: Arquette Richmond
+		Actor: Arturo Michael
+		Actor: Bailey Eion
+		Actor: Beatty Jr. Lou
+		Actor: Bissonnette Joel
+		Actor: Blumberg Stuart
+		Actor: Bondurant Eugenie
+		Actor: Bourell Anderson
+		Actor: Buzzington Ezra
+		Actor: Carafotes Paul
+		Actor: Ciarfalio Carl
+		Actor: Colston Sydney 'Big Dawg'
+		Actor: De Zarn Tim
+		Actor: Dell Charlie
+		Actor: Dillon Paul
+		Actor: Fields Christopher John
+		Actor: Fite Mark
+		Actor: Girardin Michael
+		Actor: Gossom Jr. Thom
+		Actor: Grenier Zach
+		Actor: Hargitay Eddie
+		Actor: Hawn Phil
+		Actor: Iacangelo Peter
+		Actor: null Jawara
+		Actor: Jay Baron
+		Actor: Jenkins Jim
+		Actor: Kim Joon B.
+		Actor: Kowalczyk Edward
+		Actor: Lanza Rob
+		Actor: Leto Jared
+		Actor: Livingston Tyrone R.
+		Actor: Loring Scotch Ellis
+		Actor: Mack Kevin Scott
+		Actor: Maguire George
+		Actor: Masterson Owen
+		Actor: McCallany Holt
+		Actor: McNamara Pat
+		Actor: null Meat Loaf
+		Actor: Mirand Evan
+		Actor: Moore Bennie
+		Actor: Norton Edward
+		Actor: Ore Trey
+		Actor: Ortiz Louis
+		Actor: Peddy Hugh
+		Actor: Peirce Todd
+		Actor: Pitt Brad
+		Actor: Pontino J.T.
+		Actor: Quattro Van
+		Actor: Randau Chad
+		Actor: Redmond Markus
+		Actor: Robinson Robby
+		Actor: Rockit Hynes David
+		Actor: Rosario Marcio
+		Actor: Silva Gregory
+		Actor: Smith David Lee
+		Actor: Stephenson Bob
+		Actor: Termo Leonard
+		Actor: Thomas David Jean
+		Actor: Tochi Brian
+		Actor: Valdez Alejandro
+		Actor: Wiles Michael Shamus
+		Actor: Winston Matt
+		Actor: Bickford Valerie
+		Actor: Bonham Carter Helena
+		Actor: Cabot Christina
+		Actor: Carnick Andi
+		Actor: Cronenweth Christie
+		Actor: Diamond Renee
+		Actor: Downing-Jackson Dierdre
+		Actor: Sanchez Lauren
+		Actor: Singer Rachel
+ID: 1194645 NAME: Real Fight Club YEAR: null
+ID: 1522926 NAME: Fight Club YEAR: 2003
+		Director: Lehmann  Matthias
+		Actor: Bauer Achim
+		Actor: Durmaz Ercan
+		Actor: Heisterkamp Norbert
+		Actor: Kirchberger Kirk
+		Actor: Korittke Oliver
+		Actor: Krauss Daniel
+		Actor: Krckeberg Heinz W.
+		Actor: Richter Ralf
+		Actor: Rotter Johannes
+		Actor: Semmelrogge Martin
+		Actor: Abraham Beate
+		Actor: Reinhardt Janin
+ID: 51718 NAME: 1PW: Fight Club 1 YEAR: 2006
+		Actor: Burridge Darren
+		Actor: Corino Steve
+		Actor: Fleisch Jody
+		Actor: Heffron Brian
+		Actor: Keenan Sterling James
+		Actor: McGuinness Nigel
+		Actor: Morishima Takeshi
+		Actor: Norton Blake
+		Actor: Smothers Tracy
+		Actor: Storm Jonny
+		Actor: Williams Doug
+		Actor: Yone Mohammed
+ID: 1514119 NAME: Weevil Fight Club YEAR: null
+		Actor: Barrowman John
+		Actor: Davies Russell T.
+		Actor: Goddard Andy
+		Actor: Gorman Burn
+		Actor: Hassell Alex
+		Actor: Hunjan Jason
+		Actor: Lucy Tom
+		Actor: Stokes Richard
+		Actor: Gardner Julie
+		Actor: Myles Eve
 
 
  *** Please enter one of the following commands *** 
