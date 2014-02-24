@@ -1,5 +1,3 @@
-Hello micro soft!
-You can rent 0 more movies
 
  *** Please enter one of the following commands *** 
 > search <movie title>
@@ -8,343 +6,12 @@ You can rent 0 more movies
 > return <movie id>
 > fastsearch <movie title>
 > quit
-> Fast Searching for the movie 'fight club'
-ID: 1470789 NAME: In Broad Daylight/Fight Club YEAR: 2004
-		Actor: Anderson Chris
-		Actor: Cotton Warren
-		Actor: Graham Dion
-		Actor: Larson Scott
-		Actor: Morgan Jay
-		Actor: Noblitt Sam
-		Actor: Porras Luis
-		Actor: Praytor Scott
-		Actor: Robinson David
-		Actor: Thomsen Chris
-		Actor: Walker Jerry
-		Actor: Walker Marcel
-		Actor: Woods Chris
-		Actor: Calhoun Cythia
-		Actor: Kjos Ann
-		Actor: Reynolds Kris
-ID: 1498099 NAME: Fight Club YEAR: 2000
-		Director: Shapiro  Paul
-		Actor: Blevins Cory
-		Actor: Chenoweth Brian
-		Actor: Cobb Randall 'Tex'
-		Actor: Duchovny David
-		Actor: Evans Art
-		Actor: Hanna Jim
-		Actor: Kim Paul H.
-		Actor: Kiziak Steve
-		Actor: LeBell Gene
-		Actor: Mack John
-		Actor: McGee Jack
-		Actor: Michael Christopher
-		Actor: O'Brien John
-		Actor: O'Donnell Bill
-		Actor: Rossi Richard
-		Actor: Van Dam Rob
-		Actor: Anderson Gillian
-		Actor: Bush Nicole
-		Actor: Griffin Kathy
-		Actor: Warren Arlene
-ID: 452432 NAME: Real Fight Club YEAR: 2008
-		Director: Hyslop  James
-		Actor: Doxtater Albert
-ID: 852184 NAME: Bull Fight Club YEAR: null
-		Actor: Adam O'Kane
-		Actor: Andrew O'Kane
-		Actor: James Clint
-ID: 63782 NAME: 1PW: Fight Club 2 YEAR: 2006
-		Actor: Keenan Sterling James
-		Actor: Snuka 'Superfly' Jimmy
-ID: 1327977 NAME: Cat Fight Club YEAR: null
-		Director: Trainer  David
-		Actor: Grace Topher
-		Actor: Kutcher Ashton
-		Actor: Masterson Danny
-		Actor: Smith Kurtwood
-		Actor: Valderrama Wilmer
-		Actor: Kelly Lisa Robin
-		Actor: Kunis Mila
-		Actor: Prepon Laura
-		Actor: Rupp Debra Jo
-ID: 779382 NAME: Fight Club YEAR: null
-		Director: Farinola  Michele
-ID: 143513 NAME: Florence Fight Club YEAR: 2010
-		Director: Perotti  Luigi Maria
-ID: 538432 NAME: Tito Ortiz's Girls Fight Club YEAR: 2009
-		Director: Schwarz  Uri
-		Actor: Kelp Skip
-		Actor: Lewis John
-		Actor: Liddell Chuck
-		Actor: Ortiz Tito
-		Actor: Yvel Gilbert
-		Actor: Denise Kissy
-		Actor: Forman Tasha
-		Actor: Morgan Kneely
-		Actor: Passarelli Elizabeth
-ID: 79373 NAME: Buena Vista Fight Club YEAR: 2000
-		Director: Mather  Evan
-		Actor: Hostetter Kirk
-		Actor: McBride Damien
-		Actor: Stroud Patrick
-		Actor: Wishnow Jason
-ID: 362023 NAME: On Location: Fight Club YEAR: 2000
-		Actor: Fincher David
-		Actor: Hargitay Eddie
-		Actor: Norton Edward
-		Actor: Pitt Brad
-ID: 1548890 NAME: Baby Fight Club YEAR: 2001
-		Director: Cendrowski  Mark
-		Actor: Allardice Kevin
-		Actor: Clark Anthony
-		Actor: Gardell Billy
-		Actor: LaMarr Phil
-		Actor: Malin Mike
-		Actor: O'Malley Mike
-		Actor: Duggins Shauna
-		Actor: Francis Staci
-		Actor: Kelly Jean Louisa
-		Actor: Snyder Liza
-ID: 1175007 NAME: Fight Club YEAR: null
-		Actor: Andrews Brian
-		Actor: Combs Sean 'P. Diddy'
-		Actor: Curry Robert
-		Actor: Klang Donnie
-		Actor: McCluney Mike
-		Actor: Mosley Qwanell
-		Actor: Taylor Willie
-		Actor: O'Day Aubrey
-		Actor: Woodgette Wanita 'D. Woods'
-ID: 359785 NAME: Musangwe: Fight Club YEAR: 2007
-		Director: Horn  Rian
-ID: 245007 NAME: G4 Investigates: Tech Fight Clubs YEAR: 2008
-		Actor: Klimanis Gints
-		Actor: Lundin William
-		Actor: Vee Ryoga
-ID: 138652 NAME: Fight club camp kusse: Stand up p Skanderborg YEAR: 2006
-		Director: Hjorth  Preben
-		Actor: Cooper Alice
-		Actor: Holm Uffe
-		Actor: Klan Rune
-		Actor: Spang Jonatan
-ID: 1347553 NAME: In It for the Wild Life/Fight Club YEAR: null
-		Director: Anderson  Gordon
-		Actor: Ellis Tom
-		Actor: Farrell Nicholas
-		Actor: Hiddleston Tom
-		Actor: Ineson Ralph
-		Actor: Lumsden Richard
-		Actor: McDonald Gary
-		Actor: Protheroe Brian
-		Actor: Scarborough Andrew
-		Actor: Stuart Trevor
-		Actor: Blake Rachael
-		Actor: Bradshaw Cathryn
-		Actor: Bullmore Amelia
-		Actor: Chancellor Anna
-		Actor: Freedman Regina
-		Actor: Greene Sarah
-		Actor: Kennedy Emma
-		Actor: Montagu Felicity
-		Actor: Quesnel Pooky
-		Actor: Robinson Lucy
-		Actor: Solemani Sarah
-		Actor: Wilson Ruth
-ID: 1173052 NAME: Fight Club YEAR: 1999
-		Actor: Phelps Brian
-		Actor: Thompson Mark
-		Actor: von Detten Erik
-		Actor: Cigliuti Natalia
-		Actor: Enriquez Susan
-		Actor: Kenya Wendi
-		Actor: MacIntyre Marguerite
-ID: 1031605 NAME: Jurassic Fight Club YEAR: 2008
-		Director: Lauterbach  Kreg
-		Actor: Blasing George
-ID: 1512411 NAME: Fight Club YEAR: 2008
-ID: 153282 NAME: Fight Club YEAR: 2004
-		Actor: Gossom Jr. Thom
-		Actor: Gross Justin
-		Actor: Leonard Joshua
-		Actor: Lin Emil
-		Actor: McCallany Holt
-		Actor: McMillian Michael
-		Actor: null Meat Loaf
-		Actor: Starr Mike
-		Actor: Thomas David
-		Actor: Wiles Michael Shamus
-		Actor: Wittenberg Dave
-		Actor: Futterman Nika
-ID: 288459 NAME: Girls Fight Club YEAR: 2007
-		Director: Schwarz  Uri
-		Actor: Kelp Skip
-		Actor: Lewis John
-		Actor: Liddell Chuck
-		Actor: Trigg Frank
-		Actor: Cassidy Shellee
-		Actor: Dawson Lexy
-		Actor: Gale Irena
-		Actor: Guaverra Andrea
-		Actor: Lefkowitz Courtney
-		Actor: Michon Aurelli
-		Actor: Munoz Brittany
-		Actor: Wingo Ashton
-ID: 1418205 NAME: Springer's Fight Club YEAR: 1991
-		Actor: Springer Jerry
-ID: 113191 NAME: Football's Fight Club YEAR: 2002
-		Director: Williams  Gareth
-ID: 725826 NAME: Comedy Fight Club YEAR: 2007
-ID: 660308 NAME: Fight Club YEAR: null
-		Director: Weyman  Andrew D.
-		Actor: Foster Jon
-		Actor: Hall Pooch
-		Actor: Show Grant
-		Actor: Wilmore Larry
-		Actor: Wright Nicolas
-		Actor: Elfman Jenna
-		Actor: Jensen Ashley
-		Actor: Johnson Selena
-		Actor: Parham Lennon
-		Actor: Wilson Indira G.
-ID: 199833 NAME: Fight Club: Members Only YEAR: 2006
-		Director: Chopra  Vikram
-		Actor: Chaudhary Aashish
-		Actor: Deshmukh Ritesh
-		Actor: Dev Rahul
-		Actor: Khan Sohail
-		Actor: Khan Zayed
-		Actor: Kharbanda Kulbhushan
-		Actor: Morea Dino
-		Actor: Patel Ashmit
-		Actor: Shetty Sunil
-		Actor: Tonk Yash
-		Actor: Arora Amrita
-		Actor: Dhupia Neha
-		Actor: Mirza Diya
-ID: 1145923 NAME: Fight Club YEAR: null
-		Director: Caston  Hoite C.
-		Actor: Breen Danny
-		Actor: Hall Rich
-		Actor: Laurance Mitchell
-		Actor: Pankin Stuart
-		Actor: Bloom Anne
-		Actor: Webb Lucy
-ID: 180487 NAME: Fight Club YEAR: 1999
-		Director: Fincher  David
-		Actor: Andrews David
-		Actor: Arquette Richmond
-		Actor: Arturo Michael
-		Actor: Bailey Eion
-		Actor: Beatty Jr. Lou
-		Actor: Bissonnette Joel
-		Actor: Blumberg Stuart
-		Actor: Bondurant Eugenie
-		Actor: Bourell Anderson
-		Actor: Buzzington Ezra
-		Actor: Carafotes Paul
-		Actor: Ciarfalio Carl
-		Actor: Colston Sydney 'Big Dawg'
-		Actor: De Zarn Tim
-		Actor: Dell Charlie
-		Actor: Dillon Paul
-		Actor: Fields Christopher John
-		Actor: Fite Mark
-		Actor: Girardin Michael
-		Actor: Gossom Jr. Thom
-		Actor: Grenier Zach
-		Actor: Hargitay Eddie
-		Actor: Hawn Phil
-		Actor: Iacangelo Peter
-		Actor: null Jawara
-		Actor: Jay Baron
-		Actor: Jenkins Jim
-		Actor: Kim Joon B.
-		Actor: Kowalczyk Edward
-		Actor: Lanza Rob
-		Actor: Leto Jared
-		Actor: Livingston Tyrone R.
-		Actor: Loring Scotch Ellis
-		Actor: Mack Kevin Scott
-		Actor: Maguire George
-		Actor: Masterson Owen
-		Actor: McCallany Holt
-		Actor: McNamara Pat
-		Actor: null Meat Loaf
-		Actor: Mirand Evan
-		Actor: Moore Bennie
-		Actor: Norton Edward
-		Actor: Ore Trey
-		Actor: Ortiz Louis
-		Actor: Peddy Hugh
-		Actor: Peirce Todd
-		Actor: Pitt Brad
-		Actor: Pontino J.T.
-		Actor: Quattro Van
-		Actor: Randau Chad
-		Actor: Redmond Markus
-		Actor: Robinson Robby
-		Actor: Rockit Hynes David
-		Actor: Rosario Marcio
-		Actor: Silva Gregory
-		Actor: Smith David Lee
-		Actor: Stephenson Bob
-		Actor: Termo Leonard
-		Actor: Thomas David Jean
-		Actor: Tochi Brian
-		Actor: Valdez Alejandro
-		Actor: Wiles Michael Shamus
-		Actor: Winston Matt
-		Actor: Bickford Valerie
-		Actor: Bonham Carter Helena
-		Actor: Cabot Christina
-		Actor: Carnick Andi
-		Actor: Cronenweth Christie
-		Actor: Diamond Renee
-		Actor: Downing-Jackson Dierdre
-		Actor: Sanchez Lauren
-		Actor: Singer Rachel
-ID: 1194645 NAME: Real Fight Club YEAR: null
-ID: 1522926 NAME: Fight Club YEAR: 2003
-		Director: Lehmann  Matthias
-		Actor: Bauer Achim
-		Actor: Durmaz Ercan
-		Actor: Heisterkamp Norbert
-		Actor: Kirchberger Kirk
-		Actor: Korittke Oliver
-		Actor: Krauss Daniel
-		Actor: Krckeberg Heinz W.
-		Actor: Richter Ralf
-		Actor: Rotter Johannes
-		Actor: Semmelrogge Martin
-		Actor: Abraham Beate
-		Actor: Reinhardt Janin
-ID: 51718 NAME: 1PW: Fight Club 1 YEAR: 2006
-		Actor: Burridge Darren
-		Actor: Corino Steve
-		Actor: Fleisch Jody
-		Actor: Heffron Brian
-		Actor: Keenan Sterling James
-		Actor: McGuinness Nigel
-		Actor: Morishima Takeshi
-		Actor: Norton Blake
-		Actor: Smothers Tracy
-		Actor: Storm Jonny
-		Actor: Williams Doug
-		Actor: Yone Mohammed
-ID: 1514119 NAME: Weevil Fight Club YEAR: null
-		Actor: Barrowman John
-		Actor: Davies Russell T.
-		Actor: Goddard Andy
-		Actor: Gorman Burn
-		Actor: Hassell Alex
-		Actor: Hunjan Jason
-		Actor: Lucy Tom
-		Actor: Stokes Richard
-		Actor: Gardner Julie
-		Actor: Myles Eve
-
+HELLO micro soft!
+REMAINING RENTALS: 1
+> Switching to plan 1
+newID=1 newMax=1 oldID=3 oldMax=3 oldDelta=-1 currentRented=4
+PLAN NOT UPDATED TO !!1
+Please return some movies
 
  *** Please enter one of the following commands *** 
 > search <movie title>
@@ -353,4 +20,36 @@ ID: 1514119 NAME: Weevil Fight Club YEAR: null
 > return <movie id>
 > fastsearch <movie title>
 > quit
+HELLO micro soft!
+REMAINING RENTALS: 1
+> Available plans:
+ID: 1 NAME: plan1 RENTALS: 1 FEE: 10
+ID: 2 NAME: plan2 RENTALS: 2 FEE: 20
+ID: 3 NAME: plan3 RENTALS: 3 FEE: 30
+ID: 4 NAME: plan4 RENTALS: 4 FEE: 40
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO micro soft!
+REMAINING RENTALS: 1
+> Available plans:
+ID: 1 NAME: plan1 RENTALS: 1 FEE: 10
+ID: 2 NAME: plan2 RENTALS: 2 FEE: 20
+ID: 3 NAME: plan3 RENTALS: 3 FEE: 30
+ID: 4 NAME: plan4 RENTALS: 4 FEE: 40
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO micro soft!
+REMAINING RENTALS: 1
 > 

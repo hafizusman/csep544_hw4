@@ -111,6 +111,26 @@ public class Query {
             "ROLLBACK TRANSACTION";
 	private PreparedStatement rollbackTransactionStatement;
 
+    private static final String SHOW_PLANS_SQL =
+            "SELECT * FROM PLANS";
+    private PreparedStatement plansStatement;
+
+    private static final String GET_PLAN_SQL =
+            "SELECT * FROM PLANS WHERE id = ?";
+    private PreparedStatement getPlansStatement;
+
+    private static final String GET_PLAN_INFO_FROM_CUSTOMERID_SQL =
+            "SELECT C.plan_id, P.maxrentals " +
+            "FROM PLANS AS P " +
+            "INNER JOIN CUSTOMERS AS C ON C.plan_id=P.id " +
+            "WHERE C.id=?";
+    private PreparedStatement getPlansInfoForCustomerStatement;
+
+    private static final String UPDATE_PLAN_SQL =
+            "UPDATE CUSTOMERS SET plan_id=? WHERE id=?";
+    private PreparedStatement updatePlanStatement;
+
+
 
     public Query(String configFilename) {
         this.configFilename = configFilename;
@@ -177,6 +197,10 @@ public class Query {
         customerNameStatement = customerConn.prepareStatement(CUSTOMER_NAME_SQL);
         isValidPlanIdStatement = customerConn.prepareStatement(IS_VALID_PLAN_ID_SQL);
         customerIdFromRentalStatement = customerConn.prepareStatement(CUSTOMER_ID_FROM_RENTAL_SQL);
+        plansStatement = customerConn.prepareStatement(SHOW_PLANS_SQL);
+        getPlansStatement = customerConn.prepareStatement(GET_PLAN_SQL);
+        getPlansInfoForCustomerStatement = customerConn.prepareStatement(GET_PLAN_INFO_FROM_CUSTOMERID_SQL);
+        updatePlanStatement = customerConn.prepareStatement(UPDATE_PLAN_SQL);
     }
 
 
@@ -348,10 +372,81 @@ public class Query {
     public void transaction_choosePlan(int cid, int pid) throws Exception {
 	    /* updates the customer's plan to pid: UPDATE customer SET plid = pid */
 	    /* remember to enforce consistency ! */
+        int new_plan_max_rentals = 0;
+        int current_plan_remaining_rentals = 0;
+        int current_plan_max_rentals = 0;
+        int current_plan_id = -1;
+        int current_movies_rented = 0;
+
+        beginTransaction();
+
+        getPlansStatement.clearParameters();
+        getPlansStatement.setInt(1, pid);
+        ResultSet plan_set = getPlansStatement.executeQuery();
+        plan_set.next();
+        new_plan_max_rentals = plan_set.getInt(3);
+        plan_set.close();
+
+        getPlansInfoForCustomerStatement.clearParameters();
+        getPlansInfoForCustomerStatement.setInt(1, cid);
+        ResultSet plan_info_set = getPlansInfoForCustomerStatement.executeQuery();
+        plan_info_set.next();
+        current_plan_id = plan_info_set.getInt(1);
+        current_plan_max_rentals = plan_info_set.getInt(2);
+        plan_info_set.close();
+
+        current_plan_remaining_rentals = getRemainingRentals(cid);
+
+        updatePlanStatement.clearParameters();
+        updatePlanStatement.setInt(1, pid);
+        updatePlanStatement.setInt(2, cid);
+        updatePlanStatement.executeUpdate();
+
+        if (current_plan_id == pid)
+        {
+            System.out.println("SAME PLAN: noop!");
+
+            rollbackTransaction();
+        }
+        else
+        {
+            current_movies_rented = current_plan_max_rentals - current_plan_remaining_rentals;
+            System.out.println(
+                    "newID=" + pid +
+                            " newMax=" + new_plan_max_rentals +
+                            " oldID=" + current_plan_id +
+                            " oldMax=" + current_plan_max_rentals +
+                            " oldDelta=" + current_plan_remaining_rentals +
+                            " currentRented=" + current_movies_rented);
+
+            if (current_movies_rented <= new_plan_max_rentals) {
+                commitTransaction();
+                System.out.println("PLAN UPDATED TO !!" + pid);
+            }
+            else {
+                rollbackTransaction();
+                System.out.println("PLAN NOT UPDATED TO !!" + pid);
+                System.out.println("Please return some movies");
+            }
+        }
+
+        exit:
+            return;
     }
 
     public void transaction_listPlans() throws Exception {
 	    /* println all available plans: SELECT * FROM plan */
+        plansStatement.clearParameters();
+        ResultSet plan_set = plansStatement.executeQuery();
+
+        while(plan_set.next()) {
+            System.out.println(
+                    "ID: " + plan_set.getInt(1) + " " +
+                            "NAME: " + plan_set.getString(2) + " " +
+                            "RENTALS: " + plan_set.getInt(3) + " " +
+                            "FEE: " + plan_set.getInt(4));
+        }
+        plan_set.close();
     }
 
     public void transaction_rent(int cid, int mid) throws Exception {
