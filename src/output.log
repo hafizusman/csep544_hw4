@@ -6,38 +6,10 @@
 > return <movie id>
 > fastsearch <movie title>
 > quit
-HELLO micro soft!
-REMAINING RENTALS: 1
-> Switching to plan 1
-newID=1 newMax=1 oldID=3 oldMax=3 oldDelta=1 currentRented=2
-PLAN NOT UPDATED TO !!1
-Please return some movies
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-HELLO micro soft!
-REMAINING RENTALS: 1
-> Switching to plan 2
-newID=2 newMax=2 oldID=3 oldMax=3 oldDelta=1 currentRented=2
-PLAN UPDATED TO !!2
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-HELLO micro soft!
+HELLO joe danger!
 REMAINING RENTALS: 0
-> Switching to plan 3
-newID=3 newMax=3 oldID=2 oldMax=2 oldDelta=0 currentRented=2
-PLAN UPDATED TO !!3
+> Renting the movie id 914423
+ROLLED BACK RENTAL TRANS...true 1 0
 
  *** Please enter one of the following commands *** 
 > search <movie title>
@@ -46,72 +18,6 @@ PLAN UPDATED TO !!3
 > return <movie id>
 > fastsearch <movie title>
 > quit
-HELLO micro soft!
-REMAINING RENTALS: 1
-> Switching to plan 4
-newID=4 newMax=4 oldID=3 oldMax=3 oldDelta=1 currentRented=2
-PLAN UPDATED TO !!4
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-HELLO micro soft!
-REMAINING RENTALS: 2
-> Switching to plan 1
-newID=1 newMax=1 oldID=4 oldMax=4 oldDelta=2 currentRented=2
-PLAN NOT UPDATED TO !!1
-Please return some movies
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-HELLO micro soft!
-REMAINING RENTALS: 2
-> Switching to plan 2
-newID=2 newMax=2 oldID=4 oldMax=4 oldDelta=2 currentRented=2
-PLAN UPDATED TO !!2
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-HELLO micro soft!
-REMAINING RENTALS: 0
-> Switching to plan 4
-newID=4 newMax=4 oldID=2 oldMax=2 oldDelta=0 currentRented=2
-PLAN UPDATED TO !!4
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-HELLO micro soft!
-REMAINING RENTALS: 2
-> Switching to plan 2
-newID=2 newMax=2 oldID=4 oldMax=4 oldDelta=2 currentRented=2
-PLAN UPDATED TO !!2
-
- *** Please enter one of the following commands *** 
-> search <movie title>
-> plan [<plan id>]
-> rent <movie id>
-> return <movie id>
-> fastsearch <movie title>
-> quit
-HELLO micro soft!
+HELLO joe danger!
 REMAINING RENTALS: 0
 > 

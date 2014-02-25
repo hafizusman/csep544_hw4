@@ -130,6 +130,15 @@ public class Query {
             "UPDATE CUSTOMERS SET plan_id=? WHERE id=?";
     private PreparedStatement updatePlanStatement;
 
+    private static final String UPDATE_RENTAL_SQL =
+            "INSERT INTO RENTALS VALUES (?, ?, " + RENTAL_STATUS_OPENED + ", SYSDATETIME())";
+    private PreparedStatement updateRentalStatement;
+
+    private static final String GET_RENTAL_STATUS_COUNT_SQL =
+            "SELECT SUM(R.status) " +
+            "FROM RENTALS AS R " +
+            "WHERE R.movieid = ?";
+    private PreparedStatement getRentalStatusCountStatement;
 
 
     public Query(String configFilename) {
@@ -201,6 +210,8 @@ public class Query {
         getPlansStatement = customerConn.prepareStatement(GET_PLAN_SQL);
         getPlansInfoForCustomerStatement = customerConn.prepareStatement(GET_PLAN_INFO_FROM_CUSTOMERID_SQL);
         updatePlanStatement = customerConn.prepareStatement(UPDATE_PLAN_SQL);
+        updateRentalStatement = customerConn.prepareStatement(UPDATE_RENTAL_SQL);
+        getRentalStatusCountStatement = customerConn.prepareStatement(GET_RENTAL_STATUS_COUNT_SQL);
     }
 
 
@@ -452,6 +463,35 @@ public class Query {
     public void transaction_rent(int cid, int mid) throws Exception {
 	    /* rent the movie mid to the customer cid */
 	    /* remember to enforce consistency ! */
+
+        beginTransaction();
+
+        boolean is_valid_movie = isValidMovie(mid);
+        int rentals_remaining = getRemainingRentals(cid);
+
+        updateRentalStatement.clearParameters();
+        updateRentalStatement.setInt(1, cid);
+        updateRentalStatement.setInt(2, mid);
+        updateRentalStatement.executeUpdate();
+
+        getRentalStatusCountStatement.clearParameters();
+        getRentalStatusCountStatement.setInt(1, mid);
+        ResultSet rental_status_count_set = getRentalStatusCountStatement.executeQuery();
+        rental_status_count_set.next();
+
+        int rental_status_count = rental_status_count_set.getInt(1);
+        rental_status_count_set.close();
+
+        if (is_valid_movie == false
+            || rental_status_count != 1
+            || rentals_remaining == 0) {
+            rollbackTransaction();
+            System.out.println("ROLLED BACK RENTAL TRANS..." + is_valid_movie + " " + rental_status_count + " " + rentals_remaining);
+        }
+        else {
+            commitTransaction();
+            System.out.println("COMMITED RENTAL TRANS...");
+        }
     }
 
     public void transaction_return(int cid, int mid) throws Exception {

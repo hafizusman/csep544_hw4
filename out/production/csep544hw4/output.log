@@ -6,12 +6,10 @@
 > return <movie id>
 > fastsearch <movie title>
 > quit
-HELLO micro soft!
+HELLO joe danger!
 REMAINING RENTALS: 1
-> Switching to plan 1
-newID=1 newMax=1 oldID=3 oldMax=3 oldDelta=-1 currentRented=4
-PLAN NOT UPDATED TO !!1
-Please return some movies
+> Renting the movie id 3
+ROLLED BACK RENTAL TRANS...false 1 1
 
  *** Please enter one of the following commands *** 
 > search <movie title>
@@ -20,13 +18,10 @@ Please return some movies
 > return <movie id>
 > fastsearch <movie title>
 > quit
-HELLO micro soft!
+HELLO joe danger!
 REMAINING RENTALS: 1
-> Available plans:
-ID: 1 NAME: plan1 RENTALS: 1 FEE: 10
-ID: 2 NAME: plan2 RENTALS: 2 FEE: 20
-ID: 3 NAME: plan3 RENTALS: 3 FEE: 30
-ID: 4 NAME: plan4 RENTALS: 4 FEE: 40
+> Renting the movie id 349560
+ROLLED BACK RENTAL TRANS...true 2 1
 
  *** Please enter one of the following commands *** 
 > search <movie title>
@@ -35,13 +30,10 @@ ID: 4 NAME: plan4 RENTALS: 4 FEE: 40
 > return <movie id>
 > fastsearch <movie title>
 > quit
-HELLO micro soft!
+HELLO joe danger!
 REMAINING RENTALS: 1
-> Available plans:
-ID: 1 NAME: plan1 RENTALS: 1 FEE: 10
-ID: 2 NAME: plan2 RENTALS: 2 FEE: 20
-ID: 3 NAME: plan3 RENTALS: 3 FEE: 30
-ID: 4 NAME: plan4 RENTALS: 4 FEE: 40
+> Renting the movie id 141877
+COMMITED RENTAL TRANS...
 
  *** Please enter one of the following commands *** 
 > search <movie title>
@@ -50,6 +42,6 @@ ID: 4 NAME: plan4 RENTALS: 4 FEE: 40
 > return <movie id>
 > fastsearch <movie title>
 > quit
-HELLO micro soft!
-REMAINING RENTALS: 1
+HELLO joe danger!
+REMAINING RENTALS: 0
 > 
