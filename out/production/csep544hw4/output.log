@@ -7,9 +7,9 @@
 > fastsearch <movie title>
 > quit
 HELLO joe danger!
-REMAINING RENTALS: 1
-> Renting the movie id 3
-ROLLED BACK RENTAL TRANS...false 1 1
+REMAINING RENTALS: 4
+> Renting the movie id 497670
+ROLLED BACK RENTAL TRANS...true 2 4
 
  *** Please enter one of the following commands *** 
 > search <movie title>
@@ -19,9 +19,138 @@ ROLLED BACK RENTAL TRANS...false 1 1
 > fastsearch <movie title>
 > quit
 HELLO joe danger!
-REMAINING RENTALS: 1
-> Renting the movie id 349560
-ROLLED BACK RENTAL TRANS...true 2 1
+REMAINING RENTALS: 4
+> Searching for the movie 'shawshank'
+ ID: 283885 NAME: Hope Springs Eternal: A Look Back at 'The Shawshank Redemption' YEAR: 2004
+		Director: Nasr  Constantine
+		Actor: Bellows Gil
+		Actor: Brown Clancy
+		Actor: Casper Drew
+		Actor: Darabont Frank
+		Actor: Freeman Morgan
+		Actor: Gunton Bob
+		Actor: King Stephen
+		Actor: Marsh Terence
+		Actor: Newman Thomas
+		Actor: Proval David
+		Actor: Robbins Tim
+		Actor: Rolston Mark
+		Actor: Sadler William
+		Actor: Whitmore James
+		Actor: Marvin Niki
+		Status: AVAILABLE
+ ID: 482342 NAME: Shawshank: The Redeeming Feature YEAR: 2001
+		Director: Abbott  Andrew
+		Actor: Baker Dennis
+		Actor: Brown Clancy
+		Actor: Bruce David
+		Actor: Darabont Frank
+		Actor: Freeman Morgan
+		Actor: Gunton Bob
+		Actor: Jamieson Brian
+		Actor: Kermode Mark
+		Actor: King James
+		Actor: Malott Mark
+		Actor: Marecz Michael
+		Actor: Marsh Terence
+		Actor: Needham Col
+		Actor: Patterson John
+		Actor: Robbins Tim
+		Actor: Sadler William
+		Actor: Schow David J.
+		Actor: Demyan Jan
+		Actor: Glotzer Liz
+		Actor: Imbody Jane
+		Actor: Marvin Niki
+		Status: AVAILABLE
+ ID: 516259 NAME: The Shawshank Redemption YEAR: 1994
+		Director: Darabont  Frank
+		Actor: Anderson Dion
+		Actor: Babson James
+		Actor: Baker Dennis
+		Actor: Bellamy Ned
+		Actor: Bellows Gil
+		Actor: Bolender Bill
+		Actor: Brandenburg Larry
+		Actor: Brauchler Chuck
+		Actor: Brophy Brian
+		Actor: Brown Clancy
+		Actor: Ciccolella Jude
+		Actor: Cope Jr. Harold E.
+		Actor: Craig John D.
+		Actor: Culbertson Fred
+		Actor: Davis Gary Lee
+		Actor: Delate Brian
+		Actor: DeMunn Jeffrey
+		Actor: DePasquale Eugene C.
+		Actor: Doone Richard
+		Actor: Foster V.J.
+		Actor: Freeman Alfonso
+		Actor: Freeman Morgan
+		Actor: Giuntoli Neil
+		Actor: Greene Gordon
+		Actor: Gunton Bob
+		Actor: Haley Robert
+		Actor: Hecht David
+		Actor: Horton John
+		Actor: Jones Alonzo F.
+		Actor: Kearns Charlie
+		Actor: Kennedy Paul
+		Actor: Kessler Alan R.
+		Actor: Kisicki James
+		Actor: Libby Brian
+		Actor: Lightsey Michael
+		Actor: Lund Morgan
+		Actor: Magee Ken
+		Actor: Mann Scott
+		Actor: Mavis Brad
+		Actor: McCrane Paul
+		Actor: McManus Don
+		Actor: Medrano Frank
+		Actor: Miles Mack
+		Actor: Newell Ron
+		Actor: Pecoraro Joe
+		Actor: Proval David
+		Actor: Ragno Joe
+		Actor: Ragno Joseph
+		Actor: Reider Rob
+		Actor: Robbins Tim
+		Actor: Rolston Mark
+		Actor: Sadler William
+		Actor: Spencer Brad
+		Actor: Stepp Jodiviah
+		Actor: Summers John E.
+		Actor: Summers Neil
+		Actor: Thomas Rohn
+		Actor: Whitmore James
+		Actor: Woodward John R.
+		Actor: Zinn Donald
+		Actor: Blaine Renee
+		Actor: Hayworth Rita
+		Actor: Silver Dorothy
+		Actor: Slemmer Claire
+		Actor: Snyder Dana
+		Actor: Wallace Cornell
+		Status: AVAILABLE
+ ID: 923584 NAME: The Longest Yard and a Half, or the Shawshank Redemption Center YEAR: null
+		Actor: Bell Darryl M.
+		Actor: null Flex
+		Actor: Richardson Kevin Michael
+		Actor: Bennett Rhona
+		Actor: Braxton Paulette
+		Status: AVAILABLE
+ ID: 989354 NAME: Shawshank Prison/Lizzie Borden YEAR: null
+		Director: Bluemke  Jay
+		Actor: Gonsalves Steve
+		Actor: Hawes Jason
+		Actor: Pari Dustin
+		Actor: Rowe Mike
+		Actor: Tango Dave
+		Actor: Wilson Grant
+		Actor: Donovan Paula
+		Actor: LaCroix Donna
+		Status: AVAILABLE
+
 
  *** Please enter one of the following commands *** 
 > search <movie title>
@@ -31,9 +160,3734 @@ ROLLED BACK RENTAL TRANS...true 2 1
 > fastsearch <movie title>
 > quit
 HELLO joe danger!
-REMAINING RENTALS: 1
-> Renting the movie id 141877
+REMAINING RENTALS: 4
+> Renting the movie id 989354
 COMMITED RENTAL TRANS...
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 3
+> Fast Searching for the movie 'samurai'
+ID: 222867 NAME: Kenjutsu: The Art of the Samurai Vol. 7 YEAR: 2004
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 263182 NAME: Half Blood Samurai YEAR: 2008
+		Director: Woo  Jacky
+		Actor: Eigenmann Gabby
+		Actor: Montano Cesar
+		Actor: Woo Jacky
+		Actor: Mercado Jennylyn
+ID: 761451 NAME: BJPW Samurai TV YEAR: 2000
+		Actor: Benkei Daikokubo
+		Actor: Butcher Abdullah the
+		Actor: Canady Kevin 'Pondo'
+		Actor: null Gedo
+		Actor: null Homicide
+		Actor: Honma Tomoaki
+		Actor: Inoue Katsumasa
+		Actor: Ito Ryuji
+		Actor: null Jado
+		Actor: Kanemura Kintaro
+		Actor: Kanemura Yukihiro
+		Actor: Kasai Jun
+		Actor: Kashmere Johnny
+		Actor: Kobayashi Abdullah
+		Actor: Kondo Hiroyuki
+		Actor: Kuroda Tetsuhiro
+		Actor: Matsuzaki Shunme
+		Actor: Numazawa Naoyuki
+		Actor: Ooya Hisakatsu
+		Actor: Same Shinjuku
+		Actor: Sekimoto Daisuke
+		Actor: Shimoda Daisaku
+		Actor: Tanaka Junji
+		Actor: Tanaka Masato
+		Actor: Teioh Mens
+		Actor: null Wifebeater
+		Actor: Wilson Christopher
+		Actor: Yamakawa Ryuji
+		Actor: Yuasa Kazuya
+		Actor: Zandig John
+ID: 276319 NAME: Kenjutsu: The Art of the Samurai Vol. 13 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 279687 NAME: Jersey Samurai YEAR: 2010
+		Director: Shapiro  Eli
+		Actor: Chaleff Ethan
+		Actor: Colten Evan
+		Actor: Shapiro Eli
+		Actor: Talmud Adam
+ID: 1244024 NAME: Ikoku no Samurai YEAR: null
+		Director: Takemoto  Noboru
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Kaminari John
+		Actor: Matsuzaka Tori
+		Actor: Miyata Hironori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Suzuki Shgo
+		Actor: Morita Suzuka
+		Actor: Takanashi Rin
+ID: 423930 NAME: Samurai Spirits 2: Asura Zanmaden YEAR: 1999
+		Actor: Ichij Kazuya
+		Actor: Koichi Mantar
+		Actor: Kuwata Kong
+		Actor: Nakamura Daiki
+		Actor: Ikoma Harumi
+		Actor: Kamitani Keiko
+		Actor: Minami Kaori
+ID: 338050 NAME: Madam Samurai YEAR: 2009
+ID: 687490 NAME: Samurai Death Squad YEAR: 2008
+ID: 760897 NAME: Samurai kitaru! YEAR: null
+		Director: Kujo  Rion
+		Actor: Aoki Tsuyoshi
+		Actor: Asanuma Shintaro
+		Actor: Densaka Tsutomu
+		Actor: Kanemitsu Nobuaki
+		Actor: Mamiya Yasuhiro
+		Actor: Miyasaka Shunzo
+		Actor: Nakai Kazuya
+		Actor: Okamoto Nobuhiko
+		Actor: Ono Atsushi
+		Actor: Fujimura Ayumi
+		Actor: Hanazawa Kana
+		Actor: Nitta Makiko
+		Actor: Satou Rina
+		Actor: Tamura Yukari
+		Actor: Tomatsu Haruka
+ID: 738886 NAME: Blood of the Samurai: The Series YEAR: 2004
+		Director: Yamasato  Aaron
+		Actor: Ban Daisuke
+		Actor: Bartlett Leroy
+		Actor: Forsythe Shawn
+		Actor: Inoue Egan
+		Actor: Kim Daniel
+		Actor: Kim Danny
+		Actor: Ng Michael
+		Actor: Yamasaki Bryan
+		Actor: Fujioka Colleen
+		Actor: Michioka Alicia
+		Actor: Sanchez Stephanie
+		Actor: Stone Nina
+ID: 1454080 NAME: Samurai Ad Man YEAR: 1990
+		Director: Dougherty  Joseph
+		Actor: Busfield Timothy
+		Actor: Chapman Joseph
+		Actor: Clennon David
+		Actor: Cummings Jr. Richard
+		Actor: Dooley Paul
+		Actor: Edison Dave
+		Actor: Horton Peter
+		Actor: Johnson Harry
+		Actor: Lawrence Scott
+		Actor: Levy Marc
+		Actor: Olin Ken
+		Actor: Symonds Robert
+		Actor: Arnold Nancy
+		Actor: Draper Polly
+		Actor: Emery RaeAnn
+		Actor: Harris Mel
+		Actor: Mayron Melanie
+		Actor: Mickins Beverly
+		Actor: Wettig Patricia
+		Actor: Yates Cassie
+ID: 454807 NAME: Seven Samurai: Origins and Influences YEAR: 2006
+		Director: Gross  Marty
+		Actor: Desser David
+		Actor: Prince Stephen
+		Actor: Rayns Tony
+		Actor: Richie Donald
+		Actor: Sato Tadao
+		Actor: Mellen Joan
+ID: 993823 NAME: The Last Samurai: An Epic Journey YEAR: 2003
+		Actor: Cruise Tom
+		Actor: Dever James D.
+		Actor: Herskovitz Marshall
+		Actor: Logan John
+		Actor: Murray Roger
+		Actor: Powell Nick
+		Actor: Zwick Edward
+		Actor: Dickson Ngila
+		Actor: Wagner Paula
+ID: 482560 NAME: Samurai YEAR: 2001
+		Actor: Akimoto Ysuke
+		Actor: Aoki Makoto
+		Actor: Choda Masajiro
+		Actor: Egawa Daisuke
+		Actor: Imaru Okaasu
+		Actor: Kase Yasuyuki
+		Actor: Kat Masayuki
+		Actor: Koda Natsuho
+		Actor: Miyamoto Tomonori
+		Actor: Ogami Hiriomichi
+		Actor: Okuda Yoshito
+		Actor: Ono Daisuke
+		Actor: Sekiguchi Eiji
+		Actor: Shibata Soichiro
+		Actor: Shirakawa Shusaku
+		Actor: Tsugawa Satoru
+		Actor: Ueda Yji
+		Actor: Ito Ayako
+		Actor: Kogure Ema
+		Actor: Nagasako Mai
+		Actor: Sawashiro Miyuki
+ID: 491890 NAME: Samurai Spirits YEAR: 1994
+		Actor: Aono Takeshi
+		Actor: Chii Takeo
+		Actor: Genda Tessh
+		Actor: Katori Shingo
+		Actor: Kitamura Kichi
+		Actor: Koyasu Takehito
+		Actor: Mitsuya Yji
+		Actor: Sasaoka Shigez
+		Actor: Takagi Wataru
+		Actor: Chiba Reiko
+		Actor: Daiki Y
+		Actor: Tamagawa Sakiko
+ID: 428539 NAME: Samurai no ko YEAR: 1963
+		Director: Wakasugi  Mitsuo
+ID: 478738 NAME: Scooby-Doo and the Samurai Sword YEAR: 2009
+		Director: Berkeley  Christopher
+		Actor: Cox Brian
+		Actor: Kasem Casey
+		Actor: Richardson Kevin Michael
+		Actor: Shimono Sab
+		Actor: Takei George
+		Actor: Watanabe Gedde
+		Actor: Welker Frank
+		Actor: Young Keone
+		Actor: Cohn Mindy
+		Actor: DeLisle Grey
+		Actor: Hu Kelly
+ID: 620316 NAME: Yoroiden Samurai Trooper: Message YEAR: 1991
+		Actor: Donovan Michael
+		Actor: Francis Andrew
+		Actor: Hill Matt
+		Actor: McKinnon Danny
+		Actor: Perry Ward
+		Actor: Smith Matt
+		Actor: Kennedy Ellen
+		Actor: O'Hara Maggie Blue
+ID: 655005 NAME: Yoroi: Samurai zonbi YEAR: 2008
+		Director: Sakaguchi  Tak
+ID: 472946 NAME: Seven Samurai 20XX YEAR: 2004
+		Actor: O'Brien Liam
+		Actor: Baughman Elise
+		Actor: Yeo Gwendoline
+ID: 914530 NAME: Sanbiki no samurai ganbare buraito YEAR: null
+ID: 455918 NAME: Quest for Samurai YEAR: 2008
+		Actor: Adams Donald
+		Actor: Baran Steve
+		Actor: Calpakis Gregory
+		Actor: Carpenter Rob
+		Actor: Dashwood Nathan
+		Actor: McIlroy Andrew
+		Actor: Sullivan Christopher
+		Actor: Thomas Pale Christian
+		Actor: Versteeg Derek
+		Actor: Bates Jo
+		Actor: Dal Cengio Viviana
+		Actor: Markus Csilla
+		Actor: Mason Becky
+ID: 452060 NAME: Samurai Jack YEAR: 2011
+		Director: Tartakovsky  Genndy
+ID: 256889 NAME: Kenjutsu: The Art of the Samurai Vol. 3 YEAR: 2004
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 1560112 NAME: Yoroiden Samurai Troopers YEAR: 1988
+		Director: Hamatsu  Mamoru
+		Director: Ikeda  Masashi
+		Actor: Dobson Paul
+		Actor: Donovan Michael
+		Actor: Futamata Issei
+		Actor: Gray-Stanford Jason
+		Actor: Gri Daisuke
+		Actor: Hill Matt
+		Actor: Kaye David
+		Actor: Kosugi Jrta
+		Actor: Kusao Takeshi
+		Actor: Matsumoto Yasunori
+		Actor: Mina Mina E.
+		Actor: Nakamura Daiki
+		Actor: Newman Richard
+		Actor: Nishimura Tomohiro
+		Actor: Perry Ward
+		Actor: Sasaki Nozomu
+		Actor: Sasaoka Shigez
+		Actor: Smith Matt
+		Actor: Takemura Hiroshi
+		Actor: Turner Christopher
+		Actor: Wakamoto Norio
+		Actor: Wilds Peter
+		Actor: Yanada Kiyoyuki
+		Actor: Dafoe Sarah-Anne
+		Actor: Katsuki Masako
+		Actor: Kusakabe Kaori
+		Actor: Lindbjerg Lalainia
+		Actor: Perry Jane
+		Actor: Rothery Teryl
+		Actor: Watanabe Kumiko
+ID: 1208119 NAME: Samurai gan wo motsu otoko YEAR: null
+		Actor: Crawford Matthew
+ID: 738396 NAME: 1... 2... 3... Samurai! YEAR: 2002
+ID: 847890 NAME: A Espada do Samurai YEAR: null
+		Director: Ceitil  Rogrio
+		Actor: Assuno Antnio
+		Actor: Botica Amlcar
+		Actor: Chiong Frederico
+		Actor: Coelho Manuel
+		Actor: Filipe Guilherme
+		Actor: Guimares Constantino
+		Actor: Mendes Rui
+		Actor: Rocha Antnio
+		Actor: Vicente Lus
+		Actor: Mora Paula
+ID: 409075 NAME: Shichinin no samurai YEAR: 1954
+		Director: Kurosawa  Akira
+		Actor: Akitsu Hiroshi
+		Actor: Amami Rytar
+		Actor: Amano Gor
+		Actor: Chiaki Minoru
+		Actor: Chiba Ichir
+		Actor: Fujiwara Kamatari
+		Actor: Hidari Bokuzen
+		Actor: Hirose Shichi
+		Actor: Ihara Toku
+		Actor: Ikeda Kaneo
+		Actor: Imai Kazuo
+		Actor: Inaba Yoshio
+		Actor: It Minoru
+		Actor: Iwamoto Kji
+		Actor: Kamiyama Kyichi
+		Actor: Kamoda Kiyoshi
+		Actor: Katagiri Tsuneo
+		Actor: Kat Daisuke
+		Actor: Kat Shigeo
+		Actor: Kawabe Masayoshi
+		Actor: Kawagoe Ippei
+		Actor: Kawamata Yoshikazu
+		Actor: Kimura Isao
+		Actor: Kitchji Hikaru
+		Actor: Kosugi Yoshio
+		Actor: Kumagai Takuz
+		Actor: Kumagaya Takuz
+		Actor: Kusama Akio
+		Actor: Kd Kokuten
+		Actor: Maki Skichi
+		Actor: Matsushita Masahide
+		Actor: Mifune Toshir
+		Actor: Mikami Jun
+		Actor: Mine Sanpei
+		Actor: Miyaguchi Seiji
+		Actor: Naka Taiji
+		Actor: Nakadai Tatsuya
+		Actor: Nakajima Haruo
+		Actor: Nakanishi Eisuke
+		Actor: Narita Takashi
+		Actor: Natsuki Junpei
+		Actor: Ogawa Toranosuke
+		Actor: Sakai Sachio
+		Actor: Sakakida Keiji
+		Actor: Sakamoto Haruya
+		Actor: Sakurai Kyoro
+		Actor: Seki Takeshi
+		Actor: Shimizu Gen
+		Actor: Shimoda Megeru
+		Actor: Shimura Takashi
+		Actor: Sugi Hiroshi
+		Actor: Sunagawa Shigemi
+		Actor: Suzukawa Jir
+		Actor: Suzuki Haruo
+		Actor: null Sjin
+		Actor: Takagi Shinpei
+		Actor: Takahara Toshio
+		Actor: Tani Akira
+		Actor: Tatara Jun
+		Actor: Tsubono Kamayuki
+		Actor: Tsuchiya Yoshio
+		Actor: Tsutsumi Yasuhisa
+		Actor: Tno Eijir
+		Actor: Ueda Kichijir
+		Actor: Uno Kji
+		Actor: Utsui Ken
+		Actor: Watanabe Atsushi
+		Actor: Yamada Akira
+		Actor: Yamagata Isao
+		Actor: Yamamoto Ren
+		Actor: e Sh
+		Actor: kubo Masanobu
+		Actor: mura Senkichi
+		Actor: nishi Yasuo
+		Actor: tomo Shin
+		Actor: tsuka Hideo
+		Actor: Azuma Shizuko
+		Actor: Honma Noriko
+		Actor: Ichimanji Tazue
+		Actor: Kadono Michiko
+		Actor: Kawabe Michiko
+		Actor: Kitano Yayoko
+		Actor: Mano Tsuruko
+		Actor: Mori Keiko
+		Actor: Nakano Toshiko
+		Actor: Ono Matsue
+		Actor: Ozawa Kyko
+		Actor: Sengoku Noriko
+		Actor: Shimazaki Yukiko
+		Actor: Suyama Misao
+		Actor: Takahara Toriko
+		Actor: Togawa Yko
+		Actor: Toyama Haruko
+		Actor: Tsushima Keiko
+		Actor: shiro Masako
+ID: 147349 NAME: Due samurai per cento geishe YEAR: 1962
+		Director: Simonelli  Giorgio
+		Actor: Agus Gianni
+		Actor: Andronico Enzo
+		Actor: Bagolini Silvio
+		Actor: Billi Riccardo
+		Actor: Brizzi Marcello
+		Actor: Carotenuto Mario
+		Actor: Ceccarelli Pietro
+		Actor: Chida Tsuyoshi
+		Actor: Congia Vittorio
+		Actor: Conti Ugo
+		Actor: De Santis Lucio
+		Actor: Franchi Franco
+		Actor: Griseri Vittorio
+		Actor: Ingrassia Ciccio
+		Actor: Jui King Pan
+		Actor: Jui Pan King
+		Actor: Latini de Marchi Luigi
+		Actor: Ling Ho Fu
+		Actor: Manzo Giuseppe
+		Actor: Okamura Takao
+		Actor: Phai Vinh
+		Actor: Siah Tong Liam
+		Actor: Siubareni Chulaitis
+		Actor: Tien Michael
+		Actor: Tilesi Franco
+		Actor: Tsao Vincent
+		Actor: Wu Gregorio
+		Actor: Zee Stephen
+		Actor: Adam Christiane
+		Actor: null Amanda
+		Actor: Bradley Girls The
+		Actor: Casali Olga
+		Actor: Chung Betty
+		Actor: Como Rossella
+		Actor: De Victor Gabriella
+		Actor: Del Conte Patrizia
+		Actor: Farinelli Evi
+		Actor: Gentili Anna Maria
+		Actor: Gloria Elena
+		Actor: Grottini Marisa
+		Actor: Grottoli Rosalba
+		Actor: Hee Sam Hung
+		Actor: Janbert Dany
+		Actor: Lao Chu
+		Actor: Lee Margaret
+		Actor: Mami Wanda
+		Actor: Mancinelli Silvana
+		Actor: Nan Je
+		Actor: Olivieri Anna Maria
+		Actor: Sebastiani Gusy
+		Actor: Tahi Moa
+		Actor: Tien Yoi
+		Actor: Todesco Anita
+		Actor: Yong Lola
+ID: 1257397 NAME: Samurai Love God YEAR: 2006
+		Director: Kokh  Amer
+		Director: Akel  Tom
+		Actor: Akel Tom
+		Actor: Helms Ed
+		Actor: Feinstein Rachel
+		Actor: Jameson Jenna
+		Actor: Lampanelli Lisa
+ID: 855092 NAME: The Samurai Sword YEAR: null
+ID: 271963 NAME: Hunt for the Sword Samurai YEAR: 2000
+		Actor: Epcar Richard
+		Actor: Oliver Tony
+		Actor: Spellos Peter
+		Actor: St. Peter Paul
+		Actor: Staley Steve
+		Actor: Woren Dan
+		Actor: Wyner Tom
+		Actor: Fahn Melissa
+		Actor: Hoffman Bridget
+		Actor: Jayne Tara
+		Actor: Ruff Michelle
+		Actor: Sargent Lia
+		Actor: Spevack Melodee
+ID: 1102225 NAME: NOAH Samurai TV YEAR: 2002
+		Actor: Akiyama Jun
+		Actor: Ikeda Daisuke
+		Actor: Kobashi Kenta
+		Actor: Marufuji Naomichi
+		Actor: Mask Tiger
+		Actor: Modest Michael
+		Actor: Morgan Donovan
+		Actor: Morishima Takeshi
+		Actor: Ogawa Yoshinari
+		Actor: Omori Takao
+		Actor: Rikio Takeshi
+		Actor: Schmidt Bull
+		Actor: Takayama Yoshihiro
+		Actor: Taue Akira
+		Actor: White Leon
+		Actor: Yone Mohammed
+ID: 457826 NAME: Samurai Swing YEAR: 1999
+		Director: Ouchi  Mieko
+		Actor: Ito Robert
+		Actor: Sell Tim
+		Actor: Tamashiro Tim
+		Actor: Bristow Susan
+		Actor: King Rachel
+		Actor: Ryan Kate
+ID: 698287 NAME: AJW Samurai TV YEAR: 2002
+		Actor: Imai Nagaharu
+		Actor: Kobayashi Hideki
+		Actor: Misae Genki
+		Actor: Shimoda Mima
+		Actor: Yazawa Bob
+		Actor: Akino Mika
+		Actor: Anderson Melissa
+		Actor: Aso Kyoko
+		Actor: Asuka Raionesu
+		Actor: Bennet Jesse
+		Actor: Bennett Reggie
+		Actor: Endo Mizuki
+		Actor: Fujii Miyuki
+		Actor: Fujita Ai
+		Actor: Fukuoka Hikari
+		Actor: Hamada Ayako
+		Actor: Haruyama Kayoko
+		Actor: Hokuto Akira
+		Actor: Hotta Yumiko
+		Actor: Howard Susan
+		Actor: Inoue Kyko
+		Actor: Inoue Takako
+		Actor: Ishiguro Yaskuo
+		Actor: Ishihara Miwako
+		Actor: Ito Kaoru
+		Actor: Kai Leilani
+		Actor: Kandori Shinobu
+		Actor: Kazama Rumi
+		Actor: Kud Megumi
+		Actor: Kuragaki Tsubasa
+		Actor: Maeda Kaoru
+		Actor: Maedomari Yoshika
+		Actor: Maekawa Kumiko
+		Actor: Maemura Saki
+		Actor: Martin Judy
+		Actor: Matsumoto Kaoru
+		Actor: Matsuo Haruka
+		Actor: McIntyre Velvet
+		Actor: Miceli Debra
+		Actor: Minami Suzuki
+		Actor: Mita Etsuko
+		Actor: Mizushima Natsumi
+		Actor: Moreno Esther
+		Actor: Morimatsu Yuki
+		Actor: Nagayo Chigusa
+		Actor: Naka Keiko
+		Actor: Nakajima Sayuri
+		Actor: Nakanishi Momoe
+		Actor: Nishio Mika
+		Actor: Nishiwaki Mitsuko
+		Actor: Noumi Kayo
+		Actor: Numata Saemi
+		Actor: Ogawa Mako
+		Actor: Ogura Yumi
+		Actor: Ohmukai Michiko
+		Actor: Ozaki Mayumi
+		Actor: Ozeki Kana
+		Actor: Poch Terri
+		Actor: Sakai Sumie
+		Actor: Sakura Emi
+		Actor: Sasazaki Katsumi
+		Actor: Sato Ayako
+		Actor: Sawai Eagle
+		Actor: Shimoda Mima
+		Actor: Stevens Kia
+		Actor: Suzuki Chieko
+		Actor: Suzuki Cutey
+		Actor: Suzuki Fang
+		Actor: Takahashi Mika
+		Actor: Takahashi Nanae
+		Actor: Tamada Rie
+		Actor: Tateno Noriyo
+		Actor: Tomimatsu Emi
+		Actor: Toyota Manami
+		Actor: Tsuchiya Shark
+		Actor: Uefune Junya
+		Actor: Ujiie Kiyoharu
+		Actor: Umeda Mariko
+		Actor: Watanabe Tomoko
+		Actor: Yabushita Megumi
+		Actor: Yamazaki Itsuki
+		Actor: Yokota Rimi
+		Actor: Yoneyama Kaori
+		Actor: Yoshida Mariko
+		Actor: Yoshida Masami
+		Actor: Yoshiori Kamiya
+ID: 752107 NAME: Samurai Wind YEAR: 1999
+		Director: Austin  Ray
+		Actor: Carson John
+		Actor: Grier Warrick
+		Actor: Irvine Adrian
+		Actor: Jones John Simon
+		Actor: Krummeck Peter
+		Actor: Michael Sean Cameron
+		Actor: Mower Patrick
+		Actor: Weber Kal
+		Actor: Wells Colin
+		Actor: Woodward Edward
+		Actor: Doig Lexa
+		Actor: Wells Joanna
+ID: 976741 NAME: Sword of the Samurai YEAR: 1960
+		Director: Hibbs  Jesse
+		Actor: Conrad Robert
+		Actor: Eisley Anthony
+		Actor: Ponce Poncie
+		Actor: Shimada Teru
+		Actor: Takei George
+		Actor: Vlahos Sam
+		Actor: Yagi James
+		Actor: Luna Barbara
+		Actor: Shindo Karie
+		Actor: Stevens Connie
+		Actor: Stuart Barbara
+ID: 246724 NAME: Ju-ichinin no samurai YEAR: 1966
+		Director: Kudo  Eiichi
+		Actor: Nanbara Kji
+		Actor: Natsuyagi Isao
+		Actor: Nishimura K
+		Actor: Otomo Ryutaro
+		Actor: Satomi Kotaro
+		Actor: Sat Kei
+		Actor: Suga Kantar
+		Actor: Miyazono Junko
+		Actor: Okawa Keiko
+ID: 406812 NAME: Samurai purinsesu: Ged-hime YEAR: 2009
+		Director: Kaji  Kengo
+ID: 1381482 NAME: Das Gold der Samurai YEAR: 1984
+ID: 795789 NAME: Play It Again, Samurai YEAR: null
+		Director: Grou  Daniel
+		Actor: Allatt Kyle
+		Actor: Fawcett Alan
+		Actor: Quinn Brandon
+		Actor: Smith Danny
+		Actor: Woods James A.
+		Actor: Yuen Russell
+		Actor: Castle Aime
+		Actor: Cristobal Cecile
+		Actor: Wheeler Jane
+ID: 1349453 NAME: Supersamurai YEAR: 1992
+ID: 1534313 NAME: The Samurai and the Sorcerer YEAR: null
+		Actor: Gough Michael
+ID: 446287 NAME: Sanbiki no samurai YEAR: 1964
+		Director: Gosha  Hideo
+		Actor: Fujiwara Kamatari
+		Actor: Hira Mikijiro
+		Actor: Ishiguro Tatsuya
+		Actor: Nagato Isamu
+		Actor: Tanba Tetsur
+		Actor: Tatara Jun
+		Actor: Aoi Kyoko
+		Actor: Kayama Yoshiko
+		Actor: Kimura Toshie
+		Actor: Kuwano Miyuki
+		Actor: Mihara Yko
+ID: 1294331 NAME: Samurai Girl Appears YEAR: null
+ID: 1131503 NAME: NJPW Samurai TV YEAR: 2002
+		Actor: Akiyama Jun
+		Actor: Barnett Josh
+		Actor: Bull Jack
+		Actor: Chono Masahiro
+		Actor: Collyer Chad
+		Actor: Daniels Christopher
+		Actor: Danielson Bryan
+		Actor: Devine Dan
+		Actor: null Ebessan
+		Actor: Frye Don
+		Actor: Fuchi Masanobu
+		Actor: Fujinami Tatsumi
+		Actor: Fujita Kazuyuki
+		Actor: Fujita Minoru
+		Actor: null Gedo
+		Actor: Goto Hirooki
+		Actor: Gotoh Tatsutoshi
+		Actor: Guerrero Eddie
+		Actor: Hase Hiroshi
+		Actor: Hashimoto Shinya
+		Actor: Iizuka Takashi
+		Actor: Inoue Enson
+		Actor: Inoue Wataru
+		Actor: Islas Francisco
+		Actor: null Jado
+		Actor: Kakihara Masahito
+		Actor: Kanemoto Koji
+		Actor: Kawada Toshiaki
+		Actor: Kimura Kengo
+		Actor: Kojima Satoshi
+		Actor: Koshinaka Shiro
+		Actor: Krapik Robert J.
+		Actor: Liger Jushin
+		Actor: Makabe Shinya
+		Actor: Matsuda Osamu
+		Actor: Mera Akihisa Yone Yoshi
+		Actor: Mossman Maunakea
+		Actor: Murakami Kazunari
+		Actor: Murakawa Masanori
+		Actor: Mutoh Keiji
+		Actor: Nagai Mitsuya
+		Actor: Nagata Yuji
+		Actor: Nakamura Shinsuke
+		Actor: Nakanishi Manabu
+		Actor: Nakano Tatsuo
+		Actor: Naruse Masayuki
+		Actor: Nishimura Osamu
+		Actor: Norton Scott
+		Actor: Perkins T.J.
+		Actor: Polchlopek Michael
+		Actor: Rivera John
+		Actor: Rutten Bas
+		Actor: Saito Hiro
+		Actor: Sapp Bob
+		Actor: Sasaki Kensuke
+		Actor: Saturn Perry
+		Actor: Serjbdee Dolgorsrengiin
+		Actor: Shibata Katsuyori
+		Actor: Shinzaki Kensuke
+		Actor: Singh Dalip
+		Actor: Steele Jim
+		Actor: Steiner Rick
+		Actor: Steiner Scott
+		Actor: Suzuki Kenzo
+		Actor: Taguchi Ryusuke
+		Actor: Takayama Yoshihiro
+		Actor: Takemura Katsumi
+		Actor: Takemura Katsushi
+		Actor: Tanahashi Hiroshi
+		Actor: Tanaka Minoru
+		Actor: Tenryu Genichiro
+		Actor: Tenzan Hiroyoshi
+		Actor: Yamamoto Hisafumi
+		Actor: Yamazaki Yoshihiro
+		Actor: Yano Toru
+		Actor: Yasuda Ken
+		Actor: Yasuda Tadao
+		Actor: Yasuzawa Akinari
+		Actor: Yoshie Yutaka
+		Actor: Abe Sachie
+		Actor: null Chyna
+		Actor: Yanagisawa Ryushi
+ID: 468011 NAME: Samurai Spiders YEAR: 2004
+		Director: Holden  Karina
+ID: 1338636 NAME: The Samurai YEAR: 1972
+		Director: Baker  David
+		Director: Rubie  Howard
+		Actor: Kaa Wi Kuki
+		Actor: Phillips Redmond
+		Actor: Scheiwiller Fred
+		Actor: Sumner Peter
+		Actor: Thompson Jack
+		Actor: Lay Yanti
+		Actor: Wild Katy
+ID: 628355 NAME: Yoroiden Samurai Trooper: Kiktei densetsu YEAR: 1989
+		Actor: Adamthwaite Michael
+		Actor: Donovan Michael
+		Actor: Francis Andrew
+		Actor: Hill Matt
+		Actor: McKinnon Danny
+		Actor: Perry Ward
+		Actor: Smith Matt
+		Actor: O'Hara Maggie Blue
+		Actor: Terzo Venus
+ID: 1398011 NAME: Saraba samurai 2 YEAR: null
+		Actor: Matsudaira Sadatomo
+ID: 1023060 NAME: Sky x Fighting x Cultivation of a Samurai YEAR: null
+ID: 1179493 NAME: Tank/Gatling Gun/Samurai Sword YEAR: null
+		Director: Katz  Bill
+		Director: Barsky  David M.
+		Director: Lihani  Rob
+		Actor: Ermey R. Lee
+ID: 385510 NAME: Memoirs of the Last Samurai's Geisha YEAR: 2008
+		Director: Band  Chad
+		Actor: Belcher Mark
+		Actor: Cho Charlie
+		Actor: Lim Zen Shane
+		Actor: Nabholz Glen
+		Actor: Rudolph Gordon
+		Actor: Dodick Michele
+		Actor: Ohmann Ingrid
+		Actor: Petersen Suzi Nitta
+ID: 266518 NAME: Kenjutsu: The Art of the Samurai Vol. 2 YEAR: 2004
+		Director: Tarver  Dwayne
+ID: 457305 NAME: Samurai Champloo YEAR: 2006
+		Director: null Suda 51
+		Actor: Brooks James
+		Actor: Cappelletti Joe
+		Actor: Erholtz Doug
+		Actor: Forest Michael
+		Actor: Kent Chris
+		Actor: Knight William
+		Actor: Kramer Steve
+		Actor: Lang Lex
+		Actor: Mallow Dave
+		Actor: McConnohie Michael
+		Actor: O'Brien Liam
+		Actor: Oliver Tony
+		Actor: Price Jamieson
+		Actor: Riegel Sam
+		Actor: Silverstein Keith
+		Actor: St. Peter Paul
+		Actor: Staley Steve
+		Actor: Stone Doug
+		Actor: Thornton Kirk
+		Actor: Goodson Barbara
+		Actor: Hollingshead Megan
+		Actor: Ruff Michelle
+		Actor: Wahlgren Kari
+ID: 951765 NAME: Schneeknig und Samurai YEAR: 2001
+		Director: Claridge  Peter
+		Actor: Kim Ill-Young
+		Actor: Maticevic Misel
+		Actor: Schick Clemens
+ID: 956099 NAME: Surprising Samurai YEAR: null
+		Director: Langley  Gordon
+		Director: Young  Andrew
+		Actor: Harnell Jess
+		Actor: West Billy
+		Actor: Summer Cree
+		Actor: Young Jo
+ID: 1008254 NAME: Otome gokoro to samurai damashii YEAR: null
+		Actor: Kisaichi Atsushi
+ID: 187449 NAME: Daichi no samurai YEAR: 1956
+		Director: Saeki  Kiyoshi
+ID: 1256382 NAME: Samurai sentai eien ni YEAR: 2009
+		Director: Nakazawa  Shjir
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Karahashi Mitsuru
+		Actor: Matsuzaka Tori
+		Actor: Matsuzawa Kazuyuki
+		Actor: Miyata Hironori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Sohma Keisuke
+		Actor: Suzuki Shgo
+		Actor: Tchika Kichi
+		Actor: Morita Suzuka
+		Actor: Natsui Runa
+		Actor: Pak Romi
+		Actor: Takanashi Rin
+ID: 559953 NAME: The Diary of Yagyu, Shogun's Samurai YEAR: 1990
+		Actor: Kurata Tetsuo
+ID: 915676 NAME: Samurai Surfers YEAR: 2005
+		Director: Cunningham  Sachi
+ID: 193179 NAME: Cyborg Samurai YEAR: 2005
+		Director: Pasternak  Marcin
+		Actor: Delf Casey
+		Actor: Hendrixson Ned
+		Actor: Keebler Terry
+		Actor: Keith Jim
+		Actor: Mani Aldo
+		Actor: Mintzlaff Dick
+		Actor: Pasternak Pawel
+		Actor: Stevenson Gus
+		Actor: Tatham Eric
+		Actor: Walk David M.
+		Actor: Pasternak Agnieszka
+ID: 1134565 NAME: Oshi samurai YEAR: 1973
+		Director: Katsu  Shintar
+		Actor: Wakayama Tomisaburo
+ID: 505870 NAME: The 8th Samurai YEAR: 2009
+		Director: Ambrosino  Justin
+		Actor: Ando Ikuma
+		Actor: Hashimoto Isao
+		Actor: Hirayama Kei
+		Actor: Kayama TJ
+		Actor: Kouyama Takaaki
+		Actor: Matsuzaki Yuki
+		Actor: Mizuno Taishi
+		Actor: Ohashi Taro
+		Actor: Okamura Ryo
+		Actor: Ozaki Eijiro
+		Actor: Sawamoto Rintaro
+		Actor: Toda Toshi
+		Actor: Ueha Hiroshi
+		Actor: Wada Koji
+		Actor: Watanabe Hiroshi
+		Actor: Yamaguchi Takashi
+		Actor: Yonezawa Masayuki
+		Actor: Endo Mari
+		Actor: Okuno Satomi
+		Actor: Shima Akiko
+ID: 1466019 NAME: Sword of the Samurai YEAR: 1998
+		Actor: Ashton Richard
+		Actor: Beecher Donal
+		Actor: Bentinck Tim
+		Actor: Bradley John
+		Actor: Campbell Nero
+		Actor: Cooke Keith
+		Actor: Ellis Martyn
+		Actor: Freeman Joel
+		Actor: Nagys Giedrius
+		Actor: Pembroke Jonathan
+		Actor: Doversola Lee
+		Actor: Green Judy
+		Actor: Griffin Barbara
+		Actor: Oberman Claire
+ID: 412382 NAME: Samurai Cowboy YEAR: 1993
+		Director: Keusch  Michael
+		Actor: Acheson Mark
+		Actor: Bonny Tom
+		Actor: Callander Duncan
+		Actor: Chief-Moon Byron
+		Actor: Conrad Robert
+		Actor: Ellman Ehud
+		Actor: Glass Tom
+		Actor: G Hiromi
+		Actor: Harvey Rick
+		Actor: Kirishima J. Max
+		Actor: Ludwig Harold
+		Actor: McCoy Matt
+		Actor: Rapier Bradley M.
+		Actor: Smith Owen
+		Actor: Tyson Ian
+		Actor: Ferrell Conchata
+		Actor: Stewart Catherine Mary
+ID: 1377272 NAME: Samurai Pie YEAR: null
+		Director: Palmer  Dave
+		Director: Shiell  Mike
+		Actor: Bobo Jonah
+		Actor: Curley Sean
+		Actor: Davis Jr. Reginald
+		Actor: Thomas III Leon
+		Actor: Jefferies LaShawn
+		Actor: Klabunde Kristin
+		Actor: Nash Jamia Simone
+		Actor: Rae Naelee
+ID: 430276 NAME: Samurai Spirits: Amakusa kourin YEAR: 1996
+		Actor: Arai Toshimitsu
+		Actor: Ito Enma
+		Actor: Kaneda Miho
+		Actor: Kobayashi Kiyoshi
+		Actor: Koichi Mantar
+		Actor: Kuwata Kong
+		Actor: Maetsuka Monster
+		Actor: Nishimura Toshikazu
+		Actor: Nonaka Masahiro
+		Actor: Oikawa Naoki
+		Actor: Usui Masaki
+		Actor: Watanabe Takeshi
+		Actor: Yamanishi Atsushi
+		Actor: Yano Eiji
+		Actor: Ikoma Harumi
+		Actor: Matsumoto Megumi
+ID: 478376 NAME: Samurai YEAR: 2003
+		Director: null Ry
+ID: 1261884 NAME: Challenge of the Samurai YEAR: null
+		Actor: Gates Ken
+		Actor: Lewis Ted
+		Actor: Sussman Matthew
+		Actor: Zoppi Jimmy
+		Actor: Aikawa Rikako
+		Actor: Hayashibara Megumi
+		Actor: Lillis Rachael
+		Actor: Ootani Ikue
+		Actor: Taylor Veronica
+ID: 252046 NAME: Kenjutsu: The Art of the Samurai Vol. 19 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 1339929 NAME: Samurai junia YEAR: null
+ID: 414023 NAME: Shin Samurai Spirits: Haohmaru jigokuhen YEAR: 1994
+		Actor: Arai Toshimitsu
+		Actor: Ikeda Kenji
+		Actor: Inage T.
+		Actor: Kobayashi Kiyoshi
+		Actor: Kuwata Kong
+		Actor: Maetsuka Monster
+		Actor: Nishimura Toshikazu
+		Actor: Usui Masaki
+		Actor: Yano Eiji
+		Actor: Chiba Reiko
+		Actor: Ikoma Harumi
+ID: 987483 NAME: Samurai YEAR: 1968
+		Director: Ganzer  Alvin
+		Actor: Chee Robert
+		Actor: Denning Richard
+		Actor: Fong Kam
+		Actor: Lord Jack
+		Actor: MacArthur James
+		Actor: Montalban Ricardo
+		Actor: Norton Thomas
+		Actor: Sevey Bob
+		Actor: Sheehan Edward
+		Actor: Sherman Eddie
+		Actor: Tarrant Newell
+		Actor: Titcomb Fred
+		Actor: White Morgan
+		Actor: null Zulu
+		Actor: Barrett Caroline
+		Actor: Norris Karen
+		Actor: Parker Maggi
+		Actor: Ryan Peggy
+ID: 1258644 NAME: Samurai Sportsman YEAR: 2004
+		Actor: Amao Yoshi
+		Actor: Dance Bill
+ID: 884550 NAME: The Samurai of Sincerity YEAR: 2000
+		Actor: Axelrod Robert
+		Actor: Blum Steve
+		Actor: Donovan Brian
+		Actor: Erholtz Doug
+		Actor: Fahn Tom
+		Actor: Gibis Tom
+		Actor: Kaplan Neil
+		Actor: Lorge Dan
+		Actor: Mallow Dave
+		Actor: Prince Derek Stephen
+		Actor: Sorich Michael
+		Actor: Alan Jane
+		Actor: Christun Tifanie
+		Actor: Garduno Anna
+		Actor: Marshall Mona
+		Actor: Miller Lara Jill
+		Actor: Mirman Edie
+		Actor: Sampler Philece
+		Actor: Sherman Dina
+		Actor: Summer Laura
+ID: 1292199 NAME: Samurai Girl YEAR: 2008
+ID: 1260136 NAME: Shin samurai gattai YEAR: 2009
+		Director: Watanabe  Katsuya
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Matsuzaka Tori
+		Actor: Miyata Hironori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Sohma Keisuke
+		Actor: Suzuki Shgo
+		Actor: Morita Suzuka
+		Actor: Pak Romi
+		Actor: Takanashi Rin
+ID: 1283580 NAME: Samurai Deeper Kyo YEAR: 2002
+		Director: Nishimura  Junji
+		Actor: Arcelus Sebastian
+		Actor: Grayson Wayne
+		Actor: Green Dan
+		Actor: Kromer Christopher
+		Actor: Newman Michelle
+		Actor: Taylor Veronica
+ID: 5050 NAME: Blood of the Samurai 2 YEAR: 2007
+		Director: Yamasato  Aaron
+		Actor: Ban Daisuke
+		Actor: Bartlett Leroy
+		Actor: Forsythe Shawn
+		Actor: Inoue Egan
+		Actor: Kim Danny
+		Actor: Ng Michael
+		Actor: Yamasaki Bryan
+		Actor: Fujioka Colleen
+		Actor: Michioka Alicia
+		Actor: Sanchez Stephanie
+ID: 846604 NAME: Die Treue der Samurai YEAR: null
+		Director: Jauch  Thomas
+ID: 40030 NAME: Afro Samurai YEAR: 2009
+		Actor: Bullock S. Scott
+		Actor: Carson Terrence 'T.C.'
+		Actor: Di Maggio John
+		Actor: Eagles Greg
+		Actor: Jackson Samuel L.
+		Actor: Kassir John
+		Actor: LaMarr Phil
+		Actor: Lowenthal Yuri
+		Actor: Perlman Ron
+		Actor: Sheppard William Morgan
+		Actor: Hu Kelly
+		Actor: Jourden Alexandra Gold
+		Actor: McGlynn Mary Elizabeth
+		Actor: Wahlgren Kari
+ID: 248223 NAME: Kenjutsu: The Art of the Samurai Vol. 6 YEAR: 2004
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 492522 NAME: Samurai YEAR: 1945
+		Director: Cannon  Raymond
+		Actor: Bond Fred C.
+		Actor: Chan Luke
+		Actor: Chow David
+		Actor: Fung Paul
+		Actor: Kim Joseph
+		Actor: Li Sung
+		Actor: Moore Larry
+		Actor: Siu Ronald
+		Actor: Wong Beal
+		Actor: Butler Mary Ellen
+		Actor: Chan Frances
+		Actor: Woodell Barbara
+ID: 582609 NAME: The Seven Samurai YEAR: 2011
+ID: 466225 NAME: Samurai Dou 2: Way of the Samurai 2 YEAR: 2003
+		Actor: Belgrade Robert
+		Actor: Allen Bianca
+ID: 1279738 NAME: Chchin samurai YEAR: null
+		Director: Takemoto  Noboru
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Karahashi Mitsuru
+		Actor: Matsuzaka Tori
+		Actor: Miyata Hironori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Sohma Keisuke
+		Actor: Suzuki Shgo
+		Actor: Tchika Kichi
+		Actor: Morita Suzuka
+		Actor: Pak Romi
+		Actor: Takanashi Rin
+ID: 42895 NAME: A Samurai About to Lose His Life YEAR: 1993
+ID: 1473777 NAME: Dishonoured Samurai YEAR: 1970
+		Actor: Meldrum Max
+		Actor: Miles Kevin
+		Actor: Mitchell Lex
+		Actor: Montague Bruce
+		Actor: Rogers Tristan
+		Actor: Neidhart Elke
+ID: 1266815 NAME: Samurai Gun YEAR: 2004
+		Director: Kikuchi  Kazuhito
+		Actor: Carsrud Victor
+		Actor: Guardiola Illich
+		Actor: Mahany Ty
+		Actor: Manley George
+		Actor: Patton Chris
+		Actor: Auten Christine M.
+		Actor: Calene-Black Shelley
+ID: 202225 NAME: Karate, samurai, at pagibig YEAR: 1968
+		Director: Gaudite  Solano
+ID: 458433 NAME: Samurai Glu 21 YEAR: 2001
+		Director: Oikawa  Ataru
+		Actor: Tamayama Tetsuji
+		Actor: Hirose Miku
+		Actor: Kawamura Hikaru
+		Actor: Koike Eiko
+		Actor: Nakamata Rena
+		Actor: Tani Risa
+ID: 430331 NAME: Samurai Spirits: Zankuro musouken YEAR: 1995
+		Actor: Arai Toshimitsu
+		Actor: Arita Hiroyuki
+		Actor: Inage T.
+		Actor: Kaneda Miho
+		Actor: Kobayashi Kiyoshi
+		Actor: Kuwata Kong
+		Actor: Maetsuka Monster
+		Actor: Nonaka Masahiro
+		Actor: Suitsu Kouji
+		Actor: Usui Masaki
+		Actor: Yano Eiji
+		Actor: Ikoma Harumi
+		Actor: Sakurai Tomo
+ID: 856400 NAME: DDT Samurai TV YEAR: 2003
+		Actor: Canady Kevin 'Pondo'
+		Actor: null Ebessan
+		Actor: Ito Ryuji
+		Actor: Kanemura Kintaro
+		Actor: Kong Aja
+		Actor: Sakai Yoshihiro
+		Actor: Sekimoto Daisuke
+		Actor: Spectre Glen
+		Actor: Togo Dick
+		Actor: Ichimiya Shoichi
+		Actor: Kong Aja
+ID: 434572 NAME: Shintaro! The Samurai Sensation That Swept a Nation YEAR: 2009
+		Director: Sinigaglia  Marco
+		Actor: Bedwell Steve
+		Actor: Callan David
+		Actor: Cilauro Santo
+		Actor: Clugston Neil
+		Actor: Cooper Daniel
+		Actor: Doyle John
+		Actor: Harrison Wayne
+		Actor: Lee Ron
+		Actor: Lindsay Andrew
+		Actor: Lyle Richard
+		Actor: Maki Fuyukichi
+		Actor: Morgan Rex
+		Actor: Ose Koichi
+		Actor: Rennard Nigel
+		Actor: Renshaw Garry
+		Actor: Rogerson Ian 'Dano'
+		Actor: Shunsuke Omori
+		Actor: Stubbs Peter
+		Actor: Symon Dominic
+		Actor: Symon Jack
+		Actor: Verity Andrew
+		Actor: Dougherty Kerrie
+		Actor: White Nikki
+ID: 849932 NAME: Surf the Stars/Samurai Quack YEAR: 2005
+		Director: Cervone  Tony
+		Director: Brandt  Spike
+		Actor: Alaskey Joe
+		Actor: Bergen Bob
+		Actor: Di Maggio John
+		Actor: null Mako
+		Actor: Tartakovsky Genndy
+		Actor: Wilson Brian
+ID: 686890 NAME: Wakasama samurai torimonoch: nazo no nmen yashiki YEAR: 1950
+		Director: Nakagawa  Nobuo
+		Actor: Egawa Ureo
+		Actor: Kawada Haruhisa
+		Actor: Kurokawa Yataro
+		Actor: Sugiyama Shsaku
+		Actor: Yanagiya Kingoro
+		Actor: Enomoto Misae
+		Actor: Kagawa Kyko
+		Actor: Tone Harue
+ID: 1277142 NAME: Samurai sentai Shinkenj YEAR: 2009
+ID: 995661 NAME: Kako no eik wo sutero! Kigy saisei no samurai tachi YEAR: null
+		Actor: Kani'e Keiz
+		Actor: Yakusho Kji
+ID: 491443 NAME: Samurai Jack: The Shadow of Aku YEAR: 2004
+		Director: Meissner  Dominick
+		Actor: Bennett Jeff
+		Actor: Di Maggio John
+		Actor: Kenny Tom
+		Actor: LaMarr Phil
+		Actor: null Mako
+		Actor: Hale Jennifer
+ID: 917546 NAME: The Last Samurai YEAR: 1962
+		Director: Sarafian  Richard C.
+		Actor: Fontaine Eddie
+		Actor: Gallison Joseph
+		Actor: Ishimoto Dale
+		Actor: White David
+		Actor: Hervey Irene
+		Actor: Hill Marianna
+		Actor: Thorp Nola
+ID: 1225103 NAME: Robo-Samurai Versus Mondo Bot YEAR: null
+		Director: Myers  Randy
+		Director: Tartakovsky  Genndy
+		Actor: LaMarr Phil
+		Actor: Norris Daran
+		Actor: DeLisle Grey
+ID: 1138310 NAME: The Last Samurai YEAR: 1967
+ID: 496293 NAME: Samurai Blood, Samurai Guts YEAR: 1979
+ID: 1726 NAME: Atomic Samurai YEAR: 1993
+		Director: Shaw  Scott
+		Actor: Brooks Malcolm
+		Actor: Chang Ray
+		Actor: Chinchilla Joe
+		Actor: Demarco Doug
+		Actor: Ellis Roger
+		Actor: French Sean
+		Actor: Gonzalez Benny
+		Actor: Haboush Michael
+		Actor: Inoue Eiji
+		Actor: Jackson Douglas Robert
+		Actor: Jordan Bix
+		Actor: Kim Douglas
+		Actor: Kim Kenneth H.
+		Actor: Lee Kerey
+		Actor: Livingston Bill
+		Actor: Lupus III Peter
+		Actor: Lurie Bruce
+		Actor: Lyon Todd
+		Actor: Martinez Dionisio
+		Actor: Matt David
+		Actor: Moyer Mark
+		Actor: Ortiz Sergio
+		Actor: Pepin Joe
+		Actor: Pridgen Walter
+		Actor: Rice Chandler
+		Actor: Ringer Terry
+		Actor: Schneider Jonathan Neil
+		Actor: Shaw Scott
+		Actor: Spillman Billy
+		Actor: Stansbury Mark
+		Actor: Su Michael
+		Actor: Tachibana Kaori
+		Actor: Terauchi Yuki
+		Actor: Vantosh Adrian
+		Actor: Vinson Lee
+		Actor: Balcanoff Dawn
+		Actor: Bolin Kimberly
+		Actor: Jayne Selina
+		Actor: Oshita Jane
+		Actor: Sable Carol
+		Actor: Sato Serena
+ID: 421039 NAME: Street Samurai YEAR: 2008
+		Director: Smith  Peter Marshall
+		Actor: Bornoff Jack
+		Actor: Glassberg Jeff
+		Actor: Gordon Josh
+		Actor: Hah Hidekun
+		Actor: Ikeda Brian
+		Actor: Leabman Robin
+		Actor: Maggiano Michael
+		Actor: Moore Tyler
+		Actor: Nagahama Kazu
+		Actor: Shibata Josh
+		Actor: Sullivan Stephen
+		Actor: Weinglass Matt
+ID: 1433558 NAME: The U.N.C.L.E. Samurai Affair YEAR: 1967
+		Director: Kjellin  Alf
+		Actor: Bralver Bob
+		Actor: Carroll Leo G.
+		Actor: Couch Chuck
+		Actor: Escalante Henry A.
+		Actor: Hanson Arthur
+		Actor: Harrison Noel
+		Actor: Kahana Kim
+		Actor: Lee Guy
+		Actor: McCallion James
+		Actor: Pollard Michael J.
+		Actor: Roat Richard
+		Actor: Santos Tiki
+		Actor: Hardy Gari
+		Actor: Hasso Signe
+		Actor: Pettyjohn Angelique
+		Actor: Powers Stefanie
+ID: 327357 NAME: Little Samurai YEAR: 2000
+		Actor: Sing Daniel
+ID: 1071848 NAME: Os Samurais da Economia YEAR: null
+		Director: Salles  Walter
+ID: 991863 NAME: The Last Samurai YEAR: 2003
+		Actor: Binswanger Josh
+		Actor: Cruise Tom
+		Actor: Ravina Mark
+		Actor: Wawro Geoffrey
+		Actor: Zwick Edward
+ID: 469066 NAME: Samurai Vampire Bikers from Hell YEAR: 1992
+		Director: Shaw  Scott
+		Actor: Chang Ray
+		Actor: Chinchilla Joe
+		Actor: Cottrell Steve
+		Actor: Ellis Roger
+		Actor: Gonzalez Benny
+		Actor: Haboush Michael
+		Actor: Inoue Eiji
+		Actor: Jackson Douglas Robert
+		Actor: Kim Kenneth H.
+		Actor: Livingston Bill
+		Actor: Lyon Todd
+		Actor: Masters Richard
+		Actor: Moyer Mark
+		Actor: Oh Henry
+		Actor: Pepin Joe
+		Actor: Roland Leslie
+		Actor: Schneider Jonathan Neil
+		Actor: Shaw Scott
+		Actor: Spezze Vincent L.
+		Actor: Spillman Billy
+		Actor: Tejon Dennis
+		Actor: Vantosh Adrian
+		Actor: Bing Brenda
+		Actor: Bolin Kimberly
+		Actor: Caliboso Eden
+		Actor: Hensley Alisa
+		Actor: Hoeflich Lauren
+		Actor: Jaguar Zona
+		Actor: Jay Susan
+		Actor: Jayne Selina
+		Actor: La Fabula Tipsy
+		Actor: Nakamura Saemi
+		Actor: Peterson Selina
+		Actor: Reeves Kim
+		Actor: Scholz Claudia
+		Actor: Thorsn Lena
+ID: 1241377 NAME: Samurai Girl: Real Bout High School YEAR: 2001
+		Actor: Billingslea Beau
+		Actor: Blum Steve
+		Actor: Ishikawa Hiroaki
+		Actor: Loopers Lee
+		Actor: Mallow Dave
+		Actor: Miki Shinichir
+		Actor: Miyata Kouki
+		Actor: Oliver Tony
+		Actor: Papenbrook Bob
+		Actor: Pope Tony
+		Actor: Price Jamieson
+		Actor: Seki Tomokazu
+		Actor: Stackhouse Jeffrey
+		Actor: Bloch Steve
+		Actor: Fahn Melissa
+		Actor: Forstadt Rebecca
+		Actor: Goodson Barbara
+		Actor: Hoffman Bridget
+		Actor: Inoue Kikuko
+		Actor: Kimura Ikue
+		Actor: Kojima Megumi
+		Actor: Lee Wendee
+		Actor: Lynn Sherry
+		Actor: Maddalena Julie
+		Actor: McGlynn Mary Elizabeth
+		Actor: Morota Kaoru
+		Actor: Nasu Megumi
+		Actor: Nogawa Sakura
+		Actor: O'Conner Olivia
+		Actor: Ruff Michelle
+		Actor: Saebara Hane
+		Actor: Sampler Philece
+		Actor: Sargent Lia
+		Actor: Sumitomo Yuko
+		Actor: Taylor Julie Ann
+		Actor: Yoshida Sayuri
+		Actor: Yukino Satsuki
+		Actor: Yuzuki Ryka
+ID: 301621 NAME: Mizu no tabibito: Samurai kizzu YEAR: 1993
+		Director: Obayashi  Nobuhiko
+		Actor: Honda Ishir
+		Actor: Kishibe Ittoku
+		Actor: Yamazaki Tsutomu
+		Actor: Yoshida Ryou
+		Actor: Fubuki Jun
+		Actor: Harada Tomoyo
+		Actor: Ito Ayumi
+ID: 1343654 NAME: Samurai fukuzawa yukichi Amerika ni tatsu! YEAR: null
+		Actor: Matsudaira Sadatomo
+ID: 389739 NAME: Lost Treasures of the Ancient World: Samurai Japan YEAR: 2000
+ID: 678271 NAME: Ware koso samurai! YEAR: 2005
+ID: 721930 NAME: El samurai criollo YEAR: null
+		Director: Rougier  Diego
+ID: 1554307 NAME: Samurai Showdown YEAR: null
+		Actor: Yu Christopher
+ID: 565995 NAME: The Last Samurai YEAR: 2003
+		Director: Zwick  Edward
+		Actor: Amano Hiroaki
+		Actor: Atherton William
+		Actor: Connolly Billy
+		Actor: Cruise Tom
+		Actor: Daibo Kenta
+		Actor: Fujii Koji
+		Actor: Fujimori Darin
+		Actor: Fukumoto Seizo
+		Actor: Godshall Sr. Ray
+		Actor: Goldwyn Tony
+		Actor: Harada Masato
+		Actor: Hashiba Makoto
+		Actor: Horinouchi Shimpei
+		Actor: Igawa Togo
+		Actor: Ikematsu Sosuke
+		Actor: Kora Takashi
+		Actor: Kosugi Shane
+		Actor: Koyama John
+		Actor: Koyamada Shin
+		Actor: Lindberg Chad
+		Actor: Matsuzaki Yuki
+		Actor: Maya Takeshi
+		Actor: Minato Aoi
+		Actor: Mori Seiji
+		Actor: Murayama Lee
+		Actor: Myochin Yusuke
+		Actor: Nakamura Shichinosuke
+		Actor: Nikaido Satoshi
+		Actor: Noguchi Ryoichi
+		Actor: Noguchi Takashi
+		Actor: Nomura IV Kosaburo
+		Actor: Odate Masashi
+		Actor: Oishi Mitsuyuki
+		Actor: Sanada Hiroyuki
+		Actor: Shimizu Takeru
+		Actor: Spall Timothy
+		Actor: Sugata Shun
+		Actor: Suzuki Shinji
+		Actor: Takayuki Noguchi
+		Actor: Takeda Hisao
+		Actor: Toorvald Sven
+		Actor: Wada Jiro
+		Actor: Wada Shintaro
+		Actor: Watanabe Hiroshi
+		Actor: Watanabe Ken
+		Actor: Wilson Scott
+		Actor: Yonekura Ryoichiro
+		Actor: Yoshihara Shoji
+		Actor: null Koyuki
+ID: 1266620 NAME: The Samurai's Journey: Part 1 YEAR: 2003
+		Director: Grinder  Paul
+		Actor: Barnett Dallas
+		Actor: Chan Jason
+		Actor: Magasiva Pua
+		Actor: McFarland Grant
+		Actor: McMillan Glenn
+		Actor: Tuominen Adam
+		Actor: Vargas Jorge
+		Actor: Browne Katrina
+		Actor: Devine Katrina
+		Actor: Martin Sally
+ID: 714255 NAME: The Eight Samurai YEAR: null
+		Actor: Butt Brent
+		Actor: Cameron Anthony
+		Actor: Cardinal Lorne
+		Actor: Carman Shawn
+		Actor: Chin Simon
+		Actor: Cournoyer Mario
+		Actor: Cunningham Cavan
+		Actor: Dueck Brian
+		Actor: Ewanuick Fred
+		Actor: Gardiner Bill
+		Actor: Hoehn Cory
+		Actor: Keeping Dale
+		Actor: Kinistino Erroll
+		Actor: Lyall Terence
+		Actor: Mayo Jerry
+		Actor: Peterson Eric
+		Actor: Strait Josh
+		Actor: Whillans Bruce
+		Actor: Williamson Scott
+		Actor: Burant Melany
+		Actor: Douglas Regan
+		Actor: Freeman Jean
+		Actor: Homsy Marie-Jose
+		Actor: Miller Gabrielle
+		Actor: Morgan Jill
+		Actor: Robertson Nancy
+		Actor: Ryan Inge
+		Actor: Spencer-Nairn Tara
+		Actor: Trudel Isabelle
+		Actor: Von Staden Karen
+		Actor: Wright Janet
+		Actor: Yeoh Sharmaine
+ID: 549753 NAME: The Indian and the Samurai YEAR: 2009
+		Director: Roy  Shilpi
+		Actor: Ahdout Jonathan
+		Actor: Aquino Aaron
+		Actor: Cruz Angel
+		Actor: Del Rosario Steve
+		Actor: Habana Brian
+		Actor: Hachiya Douglas N.
+		Actor: Herumin Revelant
+		Actor: Krueger Frank
+		Actor: Metran Brian
+		Actor: Mitsuishi Hayato
+		Actor: Parker Shaun
+		Actor: Patel Ravi
+		Actor: Vongtama Roy
+		Actor: Cho Julia
+		Actor: Miyazaki Mitsuyo
+		Actor: Nathan Viji
+		Actor: Patel Kosha
+		Actor: Sen Bela
+		Actor: Van De Goor Kate
+ID: 1261485 NAME: Samurai Shmei YEAR: null
+		Director: Morota  Satoshi
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Matsuzaka Tori
+		Actor: Miyata Hironori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Sohma Keisuke
+		Actor: Suzuki Shgo
+		Actor: Morita Suzuka
+		Actor: Pak Romi
+		Actor: Takanashi Rin
+ID: 478019 NAME: Saraba samurai YEAR: 2003
+ID: 750188 NAME: Arsion Samurai TV YEAR: 2001
+		Actor: Kong Aja
+		Actor: Shimoda Mima
+		Actor: Asari Chapparita
+		Actor: Asuka Raionesu
+		Actor: Bennet Jesse
+		Actor: Bennett Reggie
+		Actor: Fujita Ai
+		Actor: Hamada Ayako
+		Actor: Kong Aja
+		Actor: Mita Etsuko
+		Actor: Omukai Michiko
+		Actor: Shimoda Mima
+ID: 461768 NAME: Silvergun Samurai YEAR: 2008
+		Director: Masters  Nathyn
+		Actor: Bernal Shawn
+		Actor: Dang Tonee
+		Actor: Dhont Glenn
+		Actor: Jamal Theophilus
+		Actor: Masters Nathyn
+		Actor: Rogers III J.H.
+		Actor: George Wendy
+		Actor: Huizar Marina
+		Actor: Landon Laurene
+		Actor: Ling Julia
+ID: 291007 NAME: Kenjutsu: The Art of the Samurai Vol. 12 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 272232 NAME: Gekij ban tenisu no ji sama: Futari no samurai - The first game YEAR: 2005
+		Director: Yamada  Takayuki
+		Director: Yamazaki  Hiroshi
+		Actor: Kond Takayuki
+		Actor: Okiayu Rytar
+		Actor: Minagawa Junko
+ID: 1399640 NAME: Space Samurai YEAR: null
+		Actor: Davies Windsor
+		Actor: Hitchen Jeremy
+		Actor: Stevens Ben
+		Actor: Bryer Denise
+		Actor: Ridler Anne
+ID: 456132 NAME: Stand-up Samurais YEAR: 2001
+		Director: Killas  Harry
+ID: 499747 NAME: Sakura: Blue-Eyed Samurai YEAR: 2008
+		Director: Paraskevopoulos  Dean
+		Actor: Baldwin William
+		Actor: Elwes Cary
+		Actor: Fabiano Peter
+		Actor: Flanagan Charles
+		Actor: Francois Luckel
+		Actor: Rebhorn James
+		Actor: Sugata Shun
+		Actor: null Amy
+		Actor: Makise Riho
+ID: 1449900 NAME: Sam Samurai YEAR: null
+		Director: SanAngelo  David
+ID: 456129 NAME: Samurai Songs YEAR: 2007
+		Director: Somers  Karen Inwood
+		Actor: Drake Christopher
+		Actor: Stones Tad
+		Actor: Toro Guillermo del
+ID: 287110 NAME: Kenjutsu: The Art of the Samurai Vol. 18 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 1252238 NAME: Samuraigokoro Tenaraich YEAR: null
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Matsuzaka Tori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Sohma Keisuke
+		Actor: Suzuki Shgo
+		Actor: Morita Suzuka
+		Actor: Takanashi Rin
+ID: 32811 NAME: Blood of the Samurai YEAR: 2001
+		Director: Yamasato  Aaron
+		Actor: Arakaki Dennis
+		Actor: Bartlett Leroy
+		Actor: Berg Tom
+		Actor: Booth Paul
+		Actor: Childers Masumi
+		Actor: Crowley William
+		Actor: Custer Johnny
+		Actor: Fleishour Ignacio
+		Actor: Forsythe Shawn
+		Actor: Fujii Arvin
+		Actor: Fujita Robert
+		Actor: Gudoy Eddie
+		Actor: Huebler Alfie
+		Actor: Lee Peter
+		Actor: Lum Rick
+		Actor: Miyabuchi Jase
+		Actor: Miyabuchi Ty
+		Actor: Ng Michael
+		Actor: Suzuki Blayne
+		Actor: Yamasaki Bryan
+		Actor: Arakaki Cammie
+		Actor: Arakaki Michiko
+		Actor: Fujioka Colleen
+		Actor: Miyabuchi Sherri
+		Actor: Nakano Mei
+		Actor: Sanchez Stephanie
+		Actor: Tani Miki
+ID: 481859 NAME: Samurai YEAR: 1979
+		Director: Katzin  Lee H.
+		Actor: Alden Norman
+		Actor: Barnett Gregory J.
+		Actor: Beckler Howard
+		Actor: Cioffi Charles
+		Actor: Conte Steve
+		Actor: Danahy Michael
+		Actor: Davis Walt
+		Actor: Elcar Dana
+		Actor: Hall Philip Baker
+		Actor: Haymer Johnny
+		Actor: Keefer Don
+		Actor: Lerner Fred
+		Actor: Lewis Geoffrey
+		Actor: Lupo Tom
+		Actor: Manza Ralph
+		Actor: McEachin James
+		Actor: Minor Bob
+		Actor: Molinare Richard
+		Actor: Pataki Michael
+		Actor: Penny Joe
+		Actor: Petlock John
+		Actor: Roberts Randolph
+		Actor: Shigeta James
+		Actor: Sinutko Shane
+		Actor: Brittany Morgan
+		Actor: McDonnell Jo
+		Actor: Quo Beulah
+		Actor: Webster Diana
+ID: 453719 NAME: Samurai YEAR: 2000
+		Director: Thornberg  Niels Christian
+		Actor: Gudbjrnsson Xinxin Ren
+ID: 1366636 NAME: Samurai West YEAR: 1966
+		Director: Moxey  John Llewellyn
+		Actor: Earl Clifford
+		Actor: Ferris Paul
+		Actor: Forrest Steve
+		Actor: Huntley Raymond
+		Actor: Jeavons Colin
+		Actor: Montague Lee
+		Actor: Taylor Larry
+		Actor: Tickner Royston
+		Actor: Bond Sidonie
+		Actor: Dyer Hal
+		Actor: Roland Jeanne
+ID: 1282016 NAME: Date Sugata go Samurai YEAR: null
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Matsuzaka Tori
+		Actor: Miyata Hironori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Suzuki Shgo
+		Actor: Morita Suzuka
+		Actor: Pak Romi
+		Actor: Takanashi Rin
+ID: 110215 NAME: Der Sommer des Samurai YEAR: 1986
+		Director: Blumenberg  Hans-Christoph
+		Actor: Blumenberg Hans-Christoph
+		Actor: Bowakow Dschingis
+		Actor: Choi Hee Shick
+		Actor: Diffring Anton
+		Actor: Fuchs Matthias
+		Actor: Grassmann Werner
+		Actor: Hallwachs Hans Peter
+		Actor: Joop Wolfgang
+		Actor: Kernen Siegfried
+		Actor: Kraus Peter
+		Actor: Krohm Uli
+		Actor: Lechtenbrink Volker
+		Actor: Naegeli Harald
+		Actor: Pszoniak Wojciech
+		Actor: Schwuchow Werner
+		Actor: Tanaka Toyo
+		Actor: Veigel Werner
+		Actor: von Hassel Karl-Heinz
+		Actor: Yiu Shing Shu
+		Actor: Froboess Cornelia
+		Actor: Hoger Hannelore
+		Actor: null Miko
+		Actor: Tiller Nadja
+		Actor: Volkland Marita
+ID: 545871 NAME: The Last Samurai YEAR: 1990
+		Director: Mayersberg  Paul
+		Actor: Cele Henry
+		Actor: Fujioka John
+		Actor: Henriksen Lance
+		Actor: Regehr Duncan
+		Actor: Ryan James
+		Actor: Saxon John
+		Actor: Eilbacher Lisa
+		Actor: Holzbog Arabella
+ID: 595700 NAME: The Teaching Sword: Samurai of the South YEAR: 2008
+		Director: Campbell  Preston
+ID: 470464 NAME: Samurai Master YEAR: 1969
+		Director: Aristorenas  Jun
+ID: 1540430 NAME: Der Samurai YEAR: null
+		Director: Brnneke  Stefan
+ID: 152821 NAME: Die Geisha und der Samurai YEAR: 1919
+		Director: Boese  Carl
+ID: 624325 NAME: Young Rocket Samurai YEAR: 2002
+		Director: Joffe  Jonathan
+ID: 1091347 NAME: The Way of the Samurai YEAR: null
+		Director: DeSnoo  Deborah
+		Director: Goldfarb  Lyn
+		Actor: Auslin Michael
+		Actor: Chamberlain Richard
+		Actor: Cooper Michael
+		Actor: Roberts Luke S.
+		Actor: Shin Will
+		Actor: Takafuji Harutoshi
+		Actor: Yamamoto Hirofumi
+		Actor: Bodart-Bailey Beatrice M.
+		Actor: Ikegami Eiko
+		Actor: Seigle Cecilia Segawa
+ID: 416812 NAME: Samurai Salesman YEAR: 1992
+		Director: Nagadoi  Masashi
+		Actor: Chung David
+		Actor: Ferraro Dean
+		Actor: Ito Brian
+		Actor: Chatell Karen
+		Actor: Heidt-Okada Sandy
+		Actor: Iwasaki Hitomi
+ID: 453699 NAME: Samurai Nippon YEAR: 1957
+		Director: Ohsone  Tatsuo
+ID: 33919 NAME: Behind the Scenes: The Last Samurai YEAR: 2004
+		Actor: Nagahama Kazu
+		Actor: Boothby Louise
+ID: 1215940 NAME: Samurai Boy's Challenge YEAR: null
+ID: 1297759 NAME: The Samurai's Journey: Part 2 YEAR: 2003
+		Director: Grinder  Paul
+		Actor: Barnett Dallas
+		Actor: Chan Jason
+		Actor: Gaylyn James
+		Actor: Magasiva Pua
+		Actor: McFarland Grant
+		Actor: McMillan Glenn
+		Actor: Sing Daniel
+		Actor: Tuominen Adam
+		Actor: Vargas Jorge
+		Actor: Young Dene
+		Actor: Browne Katrina
+		Actor: Devine Katrina
+		Actor: Liang Roseanne
+		Actor: Martin Sally
+ID: 1333577 NAME: Der Schatz des Samurai YEAR: 2000
+		Actor: Fellensiek Uwe
+		Actor: Goebel Christian
+		Actor: Grindau Tim
+		Actor: Lentrodt Kai
+		Actor: Oida Yoshi
+		Actor: Quest Christoph
+		Actor: Tanigaki Kenji
+		Actor: Whler Gustav-Peter
+		Actor: Zamperoni Luca
+		Actor: Haider Sylvia
+		Actor: Nejarri Anja
+ID: 1308310 NAME: Samurai no uta YEAR: null
+ID: 474367 NAME: Samurai sentai Shinkenj Tai Gonj Ginmakuban! YEAR: 2010
+		Director: Nakazawa  Shjir
+		Actor: Aiba Hiroki
+		Actor: Ebisawa Kenji
+		Actor: Egawa Hisao
+		Actor: Furuhara Yasuhisa
+		Actor: Furushima Kiyotaka
+		Actor: Ginga Banj
+		Actor: Hamada Kenji
+		Actor: Horikawa Ry
+		Actor: Hoshi Soichiro
+		Actor: Ibuki Goro
+		Actor: Isaka Tatsuya
+		Actor: Karahashi Mitsuru
+		Actor: Kataoka Shinwa
+		Actor: Madono Mitsuaki
+		Actor: Matsuzaka Tori
+		Actor: Miura Ryosuke
+		Actor: Miyata Hironori
+		Actor: Mizutani Momosuke
+		Actor: Nagashima Yichi
+		Actor: Namikawa Daisuke
+		Actor: Nishi Rintarou
+		Actor: Nishimura Tomomichi
+		Actor: Sohma Keisuke
+		Actor: Suzuki Shgo
+		Actor: Tokuyama Hidenori
+		Actor: Tsukui Kysei
+		Actor: Tchika Kichi
+		Actor: Usui Masahiro
+		Actor: Yanada Kiyoyuki
+		Actor: Yoshino Hiroyuki
+		Actor: Aizawa Rina
+		Actor: Hragi Rumi
+		Actor: Inoue Miki
+		Actor: Ishikawa Shizuka
+		Actor: Morita Suzuka
+		Actor: Nakagawa Akiko
+		Actor: Nakagawa Shko
+		Actor: Oikawa Nao
+		Actor: Pak Romi
+		Actor: Sugimoto Yumi
+		Actor: Takanashi Rin
+ID: 433115 NAME: Samurai Spirits Zero YEAR: 2003
+		Actor: Arai Toshimitsu
+		Actor: Kaneda Miho
+		Actor: Kobayashi Kiyoshi
+		Actor: Koichi Mantar
+		Actor: Kuwata Kong
+		Actor: Maetsuka Monster
+		Actor: Mogami Tsuguo
+		Actor: Nishimura Toshikazu
+		Actor: Nonaka Masahiro
+		Actor: Nose Ikuji
+		Actor: Oikawa Naoki
+		Actor: Oohata Shintarou
+		Actor: Shimura Tomoyuki
+		Actor: Shinomiya Gou
+		Actor: Taki Satoshi
+		Actor: Usui Masaki
+		Actor: Utsumi Kenji
+		Actor: Watanabe Takeshi
+		Actor: Yamanishi Atsushi
+		Actor: Yano Eiji
+		Actor: Yuuki Hiro
+		Actor: Hikami Kyko
+		Actor: Ikoma Harumi
+		Actor: Saiga Mitsuki
+		Actor: Yukino Satsuki
+ID: 41075 NAME: Ataque samurai YEAR: 2004
+		Director: Olivares  Juan
+ID: 529080 NAME: The Samurai Fighters YEAR: 1969
+		Director: Aristorenas  Jun
+ID: 1555085 NAME: The Bulletproof Samurai Episode YEAR: null
+ID: 1337039 NAME: Shinsengumi saigo no samurai tachi dai ichi bu risshi hen ken ni ikiru YEAR: null
+		Actor: Matsudaira Sadatomo
+ID: 1013326 NAME: Kenzan samurai sentai YEAR: 2009
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Inoue Masahiro
+		Actor: Ishibashi Renji
+		Actor: Matsuzaka Tori
+		Actor: Murai Ryouta
+		Actor: Nagashima Yichi
+		Actor: Okita Mark
+		Actor: Okuda Tatsuhito
+		Actor: Sohma Keisuke
+		Actor: Suzuki Eiichiro
+		Actor: Suzuki Shgo
+		Actor: Totani Kimito
+		Actor: tomo Ryzabur
+		Actor: Mori Kanna
+		Actor: Morita Suzuka
+		Actor: Pak Romi
+		Actor: Sawashiro Miyuki
+		Actor: Takanashi Rin
+ID: 1219299 NAME: Samurai Versus Ninja YEAR: null
+		Director: Tartakovsky  Genndy
+		Director: Alvarez  Robert
+		Director: Myers  Randy
+		Actor: LaMarr Phil
+		Actor: null Mako
+		Actor: Strong Tara
+ID: 1473393 NAME: The Seven Samurai YEAR: null
+		Actor: Osborne Robert
+		Actor: McGowan Rose
+ID: 856725 NAME: Der kleine Samurai YEAR: null
+		Director: Hattop  Karola
+		Actor: Bunners David C.
+		Actor: Horst Jochen
+		Actor: Manchen Klaus
+		Actor: Park Bonn
+		Actor: Siebler Paul
+		Actor: Brger Annekathrin
+		Actor: Hermann Irm
+		Actor: Kleinert Petra
+		Actor: Schnherr Ivonne
+		Actor: Stemberger Julia
+		Actor: Studt Katja
+ID: 455122 NAME: Samurai uesutan: Katsugeki samurai-d YEAR: 2005
+		Director: Hatanaka  Toshihide
+		Actor: Baker Dee Bradley
+		Actor: Blum Steve
+		Actor: Eiding Paul
+		Actor: Flynn Quinton
+		Actor: Gough Michael
+		Actor: Horan James
+		Actor: Hosoi Osamu
+		Actor: LaMarr Phil
+		Actor: Shitanda Michael
+		Actor: Derryberry Debi
+		Actor: Hale Jennifer
+		Actor: Valenza Tasia
+ID: 203909 NAME: Harry S. Truman: Samurai Detective YEAR: 2008
+		Director: Yapko  Mitch
+		Director: Rueckert  Allen
+		Actor: Mizobe Cary Y.
+		Actor: Clyde Avery
+ID: 1328891 NAME: Samurai tamashii YEAR: null
+ID: 200125 NAME: History Matters: The Samurai YEAR: 2005
+ID: 615758 NAME: Samurai YEAR: 1979
+		Actor: Conrad Robert
+		Actor: Cumbuka Ji-Tu
+		Actor: Narita Richard
+		Actor: O'Herlihy Dan
+		Actor: Neumann Jenny
+ID: 1369073 NAME: Saraba samurai YEAR: null
+		Actor: Matsudaira Sadatomo
+ID: 416846 NAME: Samurai Sword of Justice YEAR: 1964
+ID: 408709 NAME: Samurai YEAR: 2002
+		Director: Shaktivel  Balaji
+		Actor: Jayanth Chinni
+		Actor: Kumar Delhi
+		Actor: null Nasser
+		Actor: Thulasi Kollam
+		Actor: Vikram 'Chiyaan'
+		Actor: Anitha Gundu
+		Actor: null Jayaseel
+		Actor: null Shriya
+		Actor: null Vadivukkarasi
+ID: 269539 NAME: Kenjutsu: The Art of the Samurai Vol. 9 YEAR: 2004
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 1359034 NAME: Samurai Secrets YEAR: 2000
+		Director: Burton  LeVar
+		Actor: Baram Matt
+		Actor: Blondell Tony Curtis
+		Actor: Brathwaite Neil
+		Actor: Dourdan Gary
+		Actor: Dunbar Rockmond
+		Actor: Henson Darrin Dewitt
+		Actor: Kodjoe Boris
+		Actor: Levert Gerald
+		Actor: Mambo Kevin
+		Actor: Meeks Aaron
+		Actor: Parker Nicole Ari
+		Actor: Williams Malinda
+		Actor: Williams Vanessa
+ID: 1340852 NAME: Superhuman Samurai Syber-Squad YEAR: 1994
+ID: 211102 NAME: Kendoka: The New Samurai YEAR: 2004
+		Director: Copland  Sam
+ID: 1141831 NAME: Secrets of the Samurai Sword YEAR: null
+		Director: Wate  John
+		Actor: Tinworth Rob
+ID: 1145094 NAME: Code of the Samurai YEAR: null
+		Actor: Ross William
+		Actor: Shunsuke Omori
+ID: 466144 NAME: Samurai to oneechan YEAR: 1960
+		Director: Sugie  Toshio
+ID: 223201 NAME: Kenjutsu: The Art of the Samurai Vol. 4 YEAR: 2004
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 1396317 NAME: Samurai damashii de depto wo tsukure! YEAR: null
+		Actor: Matsudaira Sadatomo
+ID: 1266645 NAME: Samurai 7 YEAR: 2004
+		Director: Higashide  Futoshi
+		Director: Kuroda  Yasuhiro
+		Director: Kusakabe  Mitsuo
+		Director: Nitta  Yoshikata
+		Director: Okuno  Hiroyuki
+		Director: Yoshida  Tru
+		Director: Tada  Shunsuke
+		Director: Sokuza  Makoto
+		Actor: Flynn Bill
+		Actor: Junji Inukai
+		Actor: Little Zarah
+		Actor: Vu Maria
+ID: 1162455 NAME: The Samurai's Narrow Escape YEAR: null
+ID: 305884 NAME: Master Samurai YEAR: 1974
+		Director: Gallardo  Cesar
+		Director: Gallardo  Jun
+		Actor: Mitchum Christopher
+ID: 228448 NAME: Kenjutsu: The Art of the Samurai Vol. 10 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 287702 NAME: Kagero samurai YEAR: 1961
+		Director: Ikehiro  Kazuo
+ID: 1288592 NAME: Shij Hatsu Ch Samurai Gattai YEAR: null
+		Director: Morota  Satoshi
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Karahashi Mitsuru
+		Actor: Matsuzaka Tori
+		Actor: Miyata Hironori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Suzuki Shgo
+		Actor: Morita Suzuka
+		Actor: Pak Romi
+		Actor: Takanashi Rin
+ID: 1250600 NAME: Samurai Jack YEAR: 2001
+ID: 565918 NAME: The Samurai Returns YEAR: 2003
+		Director: Kallay  William
+		Actor: Chan Howard
+		Actor: Kono David
+		Actor: Kung Joseph
+		Actor: Lee Cameron
+		Actor: Wolfe D.C.
+		Actor: Yamada Henry T.
+		Actor: Tong Stella
+ID: 202253 NAME: Kenjutsu: The Art of the Samurai Vol. 15 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 884414 NAME: Viking vs Samurai YEAR: 2009
+		Director: Prokop  Tim
+		Actor: Chan Brett
+		Actor: Collins Skoti
+		Actor: Desmoulin Geoff
+		Actor: Dorian Armand
+		Actor: Geiger Max
+		Actor: Hendershot Casey
+		Actor: Kamburov Siso
+		Actor: Knai Thor
+		Actor: Lee Nathan
+		Actor: Masa Lance
+		Actor: Nelson Matt
+		Actor: Shigematsu Tetsuro
+		Actor: Skye Drew
+ID: 1290300 NAME: The Samurai Called Jack YEAR: null
+		Director: Tartakovsky  Genndy
+		Actor: Bennett Jeff
+		Actor: LaMarr Phil
+		Actor: null Mako
+		Actor: Paulsen Rob
+		Actor: Richardson Kevin Michael
+		Actor: Hale Jennifer
+ID: 444156 NAME: Samurai Ballet YEAR: 1994
+		Director: Shaw  Scott
+		Actor: Baldoz Mike
+		Actor: Banks Paul
+		Actor: Brooks Malcolm
+		Actor: Caravalle Nick
+		Actor: Jackson Douglas Robert
+		Actor: James Jimi
+		Actor: McKeel Mark
+		Actor: Shaw Scott
+		Actor: Spezze Vincent L.
+		Actor: Taratino Richard
+		Actor: Chandradibya Thipaporn
+		Actor: Chung Cindy
+		Actor: Engstrom Laila
+		Actor: Montero Jezabel
+		Actor: Sava Ani
+		Actor: Thompson Renee
+		Actor: Willey Kristine
+ID: 343184 NAME: My Samurai YEAR: 2010
+		Director: Becker  Walt
+ID: 441296 NAME: Rising Zan: The Samurai Gunman YEAR: 1999
+		Actor: Kramer Jeff
+		Actor: Martinet Charles
+		Actor: McGovern Terence
+		Actor: Nowlin David
+		Actor: Weber Greg
+		Actor: Butler Deborah Sale
+		Actor: Wink Rebecca
+ID: 1225837 NAME: Sushi Samurai YEAR: null
+		Actor: Aiba Hiroki
+		Actor: Ibuki Goro
+		Actor: Matsuzaka Tori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Sohma Keisuke
+		Actor: Suzuki Shgo
+		Actor: Morita Suzuka
+		Actor: Pak Romi
+		Actor: Takanashi Rin
+ID: 1210335 NAME: Samurai chanpur YEAR: 2004
+		Actor: Billingslea Beau
+		Actor: Bosch Johnny Yong
+		Actor: Cappelletti Joe
+		Actor: Forest Michael
+		Actor: Hki Katsuhisa
+		Actor: Knight William
+		Actor: Kramer Steve
+		Actor: McConnohie Michael
+		Actor: Papenbrook Bob
+		Actor: Prescott Simon
+		Actor: Price Jamieson
+		Actor: Prince Derek Stephen
+		Actor: Sakuya Shunsuke
+		Actor: Spellos Peter
+		Actor: Stone Doug
+		Actor: Wittenberg Dave
+		Actor: Woren Dan
+		Actor: Lee Wendee
+		Actor: Maeda Ai
+ID: 662081 NAME: AJPW Samurai TV YEAR: 2002
+		Actor: Anjo Yoji
+		Actor: Araya Nobutaka
+		Actor: Butcher Abdullah the
+		Actor: Caras Dos
+		Actor: Clarke Bryan
+		Actor: Fuchi Masanobu
+		Actor: Hamada Hiroaki
+		Actor: Hase Hiroshi
+		Actor: Hayashi Kaz
+		Actor: Hijikata Ryuji
+		Actor: Hirai Nobukazu
+		Actor: Honma Tomoaki
+		Actor: Hosaka Hideki
+		Actor: KaShin Kendo
+		Actor: Kimura Yoshinori
+		Actor: Kojima Satoshi
+		Actor: Miyamoto Kazushi
+		Actor: Mossman Maunakea
+		Actor: Mutoh Keiji
+		Actor: Mscaras Mil
+		Actor: Nagai Mitsuya
+		Actor: Okumura Shigeo
+		Actor: Rotunda Mike
+		Actor: Steele Jim
+		Actor: Tenryu Genichiro
+		Actor: Williams Steve
+		Actor: Yang Jimmy
+ID: 15562 NAME: Afro Samurai: Flesh and Bone YEAR: 2009
+		Director: Mader  Kenneth
+		Actor: Brown Spitfire
+		Actor: Johnson Vaughn
+		Actor: McClure Christopher 'Jinx'
+		Actor: Nagasawa Todd
+		Actor: Oba Mina
+		Actor: Zhao Jen
+ID: 1275164 NAME: Waiting Samurai YEAR: null
+		Actor: Abbey Gregory
+		Actor: Arcelus Sebastian
+		Actor: Grayson Wayne
+		Actor: Green Dan
+		Actor: Schemmel Sean
+		Actor: Stuart Eric
+		Actor: Thompson Marc
+		Actor: Glud Trine
+		Actor: Hollingshead Megan
+		Actor: Taylor Veronica
+ID: 479857 NAME: Samurai's Blood YEAR: 2011
+ID: 422438 NAME: Samurai Escort YEAR: 2005
+		Director: Mahoney  Thomas
+		Director: Reilly  Michael
+		Actor: Gallegos Jacob
+		Actor: Mahoney Danny
+		Actor: Tom Dan
+		Actor: Bolton Kimberly
+		Actor: Ramos Linda
+ID: 558153 NAME: The First Samurai YEAR: 1991
+ID: 1465751 NAME: Samurai Sword Master YEAR: null
+		Actor: Kearney Matt
+		Actor: Lieberman Jeff
+ID: 679548 NAME: Der Samurai YEAR: 1996
+		Director: Vogel  Peter
+		Actor: Atalay Erdogan
+		Actor: Aust Peter
+		Actor: Brandrup Johannes
+		Actor: Buchsteiner Torsten
+		Actor: Bschken Uwe
+		Actor: Elias Oliver
+		Actor: Freihof Matthias
+		Actor: Liu Weijian
+		Actor: Lou Ah Yue
+		Actor: Witt Volkmar
+		Actor: Balko Claudia
+		Actor: Bicking Simone
+		Actor: Biener Dagmar
+		Actor: Chao Mey Lan
+		Actor: Eggert Almut
+		Actor: Wilcke Alexandra
+ID: 57958 NAME: Black Samurai YEAR: 1977
+		Director: Adamson  Al
+		Actor: Bowen Cliff
+		Actor: Contreras Roberto
+		Actor: Dane Peter
+		Actor: Fuller Erwin
+		Actor: Grant Charles
+		Actor: Johnson Charles Walter
+		Actor: Kelly Jim
+		Actor: Khan Jace
+		Actor: Lang Cowboy
+		Actor: Marin Jerry
+		Actor: Ray Aldo
+		Actor: Roy Bill
+		Actor: Silla Felix
+		Actor: Thillet Jesus
+		Actor: Tokyo Little
+		Actor: Walters Alfonso
+		Actor: Yeager Biff
+		Actor: Carrol Regina
+		Actor: Chia Essie Lin
+		Actor: Joi Marilyn
+ID: 464029 NAME: Radio Samurai YEAR: 2002
+		Director: Levy  Nick
+		Actor: Caldwell Thomas
+		Actor: Coard Dennis
+		Actor: Hill Nathan
+		Actor: Orr Stuart
+		Actor: Dean Niobe
+		Actor: Griffiths Debbie
+		Actor: Hill Sarah
+		Actor: MacKay Joanna
+		Actor: Rankin Imogen
+		Actor: Satchwell Brooke
+		Actor: Taylor April
+ID: 277022 NAME: Kenkyaku Ibunroku yomigaerishi soukou no yaiba samurai spirits shinshou YEAR: 1999
+		Actor: Asakawa Hiroki
+		Actor: Hanada Hikaru
+		Actor: Ichij Kazuya
+		Actor: Ito Enma
+		Actor: Iwamoto Yoshiyuki
+		Actor: Konishi Katsuyuki
+		Actor: Nakamura Daiki
+		Actor: Nishimura Tomohiro
+		Actor: Noda Shin'ichi
+		Actor: Oikawa Naoki
+		Actor: Sakai Tetsuya
+		Actor: Suitsu Kouji
+		Actor: Ueda Toshiya
+		Actor: Yasui Kunihiko
+		Actor: Asada Yko
+		Actor: Hikami Kyko
+		Actor: Ikoma Harumi
+		Actor: Kakazu Yumi
+		Actor: Kamitani Keiko
+		Actor: Kasai Mika
+		Actor: Nishikawa Hazuki
+ID: 481475 NAME: Samurai: The Last Warrior YEAR: 2004
+		Director: Shepard  Charlie
+		Actor: Robbins Barry
+		Actor: Turnbull Dr. Stephen
+ID: 1443948 NAME: Samurai Showdown YEAR: null
+		Director: Krall  Lance
+		Director: Siaggas  Peter
+		Director: Cooper  Grady
+		Actor: Cater Phil
+		Actor: Krall Lance
+		Actor: Poynter Rob
+		Actor: Sweeney Michael
+		Actor: Tarquinio Loren
+		Actor: Baker Sarah
+		Actor: Humphrey Annie
+		Actor: Vocino Anna
+ID: 222524 NAME: Kenjutsu: The Art of the Samurai Vol. 14 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 715332 NAME: The Samurai Killing YEAR: null
+		Director: Alwyn  Jonathan
+		Actor: Barnabe Bruno
+		Actor: Denison Michael
+		Actor: Hardy Laurence
+		Actor: Manning Hugh
+		Actor: Oliver Anthony
+ID: 266975 NAME: Kenjutsu: The Art of the Samurai Vol. 17 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 82197 NAME: American Samurai YEAR: 1992
+		Director: Firstenberg  Sam
+		Actor: Avitan Shalom
+		Actor: Avramov Shlomo
+		Actor: Azarly Koby
+		Actor: Ben Ari Izik
+		Actor: Berkin Baruch
+		Actor: Bradley David
+		Actor: Chason Moshik
+		Actor: Cohen Douvi
+		Actor: Dacascos Mark
+		Actor: Dubroviko Melnik
+		Actor: Edelman Mariano
+		Actor: Fujioka John
+		Actor: Gal Misha
+		Actor: Gershoni Doron
+		Actor: Kitaoka Tal Akioshi
+		Actor: Lam Dion
+		Actor: Logothetis Euthymios
+		Actor: Maman Moshe
+		Actor: Mamn Avi
+		Actor: Markov Vladimir
+		Actor: McDonald Rocky
+		Actor: Morim Michael
+		Actor: Moscuna Arie
+		Actor: Ryon Rex
+		Actor: Siluan Roni
+		Actor: Slater John
+		Actor: Szeto Antony
+		Actor: Villis Kevin
+		Actor: Vreeken Ron
+		Actor: Warren Mark
+		Actor: Hellman Melissa
+		Actor: Peleg Mevrav
+		Actor: Shiry Sigalit
+		Actor: Shulman Irena
+		Actor: Solodkin Ana
+		Actor: Trapp Valarie
+ID: 1288073 NAME: Samurai Pizza Cats YEAR: 1991
+		Actor: Camacho Mark
+		Actor: Kikuchi Masami
+		Actor: Koyasu Takehito
+		Actor: Massey Walter
+		Actor: O'Reilly Michael
+		Actor: Yamaguchi Kappei
+		Actor: Honda Chieko
+		Actor: Kawamura Maria
+		Actor: Koorogi Satomi
+		Actor: Mitsuishi Kotono
+		Actor: Mizutani Yko
+		Actor: Orikasa Ai
+		Actor: Tsuru Hiromi
+ID: 276997 NAME: Kenjutsu: The Art of the Samurai Vol. 8 YEAR: 2004
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 498946 NAME: Six-String Samurai YEAR: 1998
+		Director: Mungia  Lance
+		Actor: Barton Dan
+		Actor: Bernov Oleg
+		Actor: Boa Liu
+		Actor: Bonnilla Alfredo
+		Actor: Bresler Nathaniel
+		Actor: Casillas George L.
+		Actor: Donaldson Cooper
+		Actor: Dunn Jason
+		Actor: Ellison Monti
+		Actor: Falcon Gabriel
+		Actor: Falcon Jeffrey
+		Actor: Falcon Noel
+		Actor: Farrell Nick
+		Actor: Ferreri Mark J.
+		Actor: Frisa James
+		Actor: Gauger Stephane
+		Actor: Gold David
+		Actor: Heilfron Kenneth
+		Actor: Henrickson Henrik
+		Actor: Hugo Clifford
+		Actor: Jannone Jordan
+		Actor: Jay Zuma
+		Actor: Johnson Kelly
+		Actor: null Kareem
+		Actor: Kolykhanov Zhenya
+		Actor: Lai Mike
+		Actor: Lam Ngoc
+		Actor: Lang Lex
+		Actor: MacDonald Euan
+		Actor: McGuire Justin
+		Actor: McGuire Richard
+		Actor: McQuire William Henry
+		Actor: Miller Matt
+		Actor: Morse Tracy
+		Actor: Mungia Lance
+		Actor: Nicolson Shawn
+		Actor: O'Dell Dave
+		Actor: Olympius Collin
+		Actor: Pano Pedro
+		Actor: null Pasha
+		Actor: Pattenson Steve
+		Actor: Pimenter Gabrille
+		Actor: Reilly Edward
+		Actor: Riddick David
+		Actor: Roath Bob
+		Actor: Sarkisian John
+		Actor: Shipp David
+		Actor: Sills Avi
+		Actor: Szopa Paul
+		Actor: Torres Alex
+		Actor: Vox Donny
+		Actor: Yamada Taka
+		Actor: Yuzov Igor
+		Actor: De Angelo Kim
+		Actor: Durst Nicole
+		Actor: Erwin Jennifer Orme
+		Actor: Hanna Francis
+		Actor: Hugo Jackie
+		Actor: McQuire Linda
+		Actor: Morse Rebecca
+		Actor: Smith Sylvie
+		Actor: Tillapaugh Paula
+		Actor: Wallace Rheagan
+		Actor: Witty Lora
+ID: 648870 NAME: Afro Samurai YEAR: 2007
+		Director: Kizaki  Fuminori
+ID: 1320138 NAME: The Way of the Samurai YEAR: null
+		Actor: Bell Michael
+		Actor: Delk Denny
+		Actor: Gilvezan Dan
+		Actor: Rayle Hal
+		Actor: Ross Neil
+		Actor: Welker Frank
+		Actor: Marshall Mona
+ID: 498953 NAME: Ore wa samurai da - inochi o kakeru sannin YEAR: 1963
+ID: 1353715 NAME: Shinsengumi saigo no samurai tachi dai ni bu shit hen bushid ni shisu YEAR: null
+		Actor: Matsudaira Sadatomo
+ID: 445607 NAME: Samurai Cop YEAR: 1989
+		Director: Shervan  Amir
+		Actor: Coleman Jason
+		Actor: Hannon Matt
+		Actor: Okamura Gerald
+		Actor: Rescober Joselito
+		Actor: Williams Jimmy
+		Actor: Z'Dar Robert
+		Actor: Moore Melissa
+ID: 464992 NAME: Season of the Samurai YEAR: 2006
+		Director: Gold  Danny
+		Director: Asner  Matthew
+		Actor: Cromartie Warren
+		Actor: Nagasaka Hideki
+		Actor: Nerei Yuji
+		Actor: Sajak Pat
+		Actor: Ueno Casey
+		Actor: Yazzie Wes
+ID: 1211826 NAME: Samurai Versus Samurai YEAR: null
+		Director: Tartakovsky  Genndy
+		Director: Myers  Randy
+		Director: Alvarez  Robert
+		Actor: Grier David Alan
+		Actor: LaMarr Phil
+		Actor: null Mako
+ID: 658890 NAME: Samurai YEAR: null
+		Director: Chetverikov  Igor
+ID: 1274235 NAME: Samurai hai sukru YEAR: 2009
+		Director: Sato  Toya
+ID: 435392 NAME: Samurai Pervert 2 YEAR: 1999
+ID: 605862 NAME: Za samurai YEAR: 1987
+		Director: Suzuki  Norifumi
+		Actor: Aida Sumio
+		Actor: Jingunji Manabu
+		Actor: Kiyoshi Beat
+		Actor: Nakamura Masayuki
+		Actor: Okura Akira
+		Actor: Shishido Jo
+		Actor: Sugawara Bunta
+		Actor: Watanabe Hiroyuki
+		Actor: Yamamoto Shhei
+		Actor: Yamashita Shinji
+		Actor: Yoshida Takeshi
+		Actor: sawa Mikio
+		Actor: Asaoka Yukiji
+		Actor: Horie Shinobu
+		Actor: Matsumoto Noriko
+		Actor: Morita Mizue
+		Actor: Shiina Yumi
+		Actor: Umeji Sakae
+ID: 740145 NAME: Day of the Samurai YEAR: 1993
+		Director: Timm  Bruce W.
+		Actor: Conroy Kevin
+		Actor: Ito Robert
+		Actor: Misawa Goh
+		Actor: Zimbalist Jr. Efrem
+		Actor: Kato Julia
+ID: 388801 NAME: My Samurai YEAR: 1992
+		Director: Dresch  Fred H.
+		Actor: Austin Jeff
+		Actor: null Boyuen
+		Actor: Brown Terry
+		Actor: Clark Christophe
+		Actor: Crumley Jr. James M.
+		Actor: Cullum Tupper
+		Actor: Dalton Steve
+		Actor: Douglas Burt
+		Actor: Drnec Tim
+		Actor: Earnhardt Rob
+		Actor: Frederick Terrance
+		Actor: Frier Robert
+		Actor: null Georges
+		Actor: Girard Dale
+		Actor: Grove Mark Steven
+		Actor: Kallo John
+		Actor: Lee Julian
+		Actor: Lundgren Lars
+		Actor: Magnus Dirk
+		Actor: null Mako
+		Actor: McCaskell Troy
+		Actor: McNeil C. Edward
+		Actor: O'Quinn Terry
+		Actor: Obering Will
+		Actor: Omaru Keisuke
+		Actor: Palomino Carlos
+		Actor: Pearl Raymond
+		Actor: Rangel Jose
+		Actor: Shepard Travis
+		Actor: Skaggs David
+		Actor: Smith Bubba
+		Actor: Strahle Richard
+		Actor: Timcovich Ron
+		Actor: Turner Jim
+		Actor: Wolf Peter Hartt
+		Actor: Zambrano David
+		Actor: Champion Barbara
+		Actor: Dresch Elsie
+		Actor: Hart Lynne
+ID: 539799 NAME: The Samurai of Strongsville, Ohio YEAR: 2009
+		Director: Von Baron  Tara
+		Actor: Alexander Phillip
+		Actor: Citron Daniel N.
+		Actor: Dorman Shane
+		Actor: Herrera Kevin
+		Actor: Kent Guy
+		Actor: Kitamura Masao
+		Actor: Koeholz Matthew
+		Actor: Landon Scott
+		Actor: Mehra Avnish
+		Actor: Price Brett
+		Actor: Slobounov Anton
+		Actor: Starkey Robert
+		Actor: Stueber Zachary
+		Actor: Summers Kevin
+		Actor: Anderson Elizabeth
+		Actor: Asimos Taya
+		Actor: Baird Tammie Rae
+		Actor: Banks Twyla
+		Actor: Blevins Christina
+		Actor: Calgaro Kristin
+		Actor: Carrie Stephanie
+		Actor: Clifford Ellen
+		Actor: Curtis Catherine
+		Actor: Farrow Melissa
+		Actor: Gepford Rebecca
+		Actor: Hardesty Justina
+		Actor: Hardesty Victoria
+		Actor: Horvath Nanciann
+		Actor: Howlin Barbara
+		Actor: Kaytin Robinson Jennifer
+		Actor: Kern Samantha
+		Actor: Madison Emilie
+		Actor: Mana Camille
+		Actor: McDaniel Kate
+		Actor: Painter Sara
+		Actor: Phillips Moser Katharine
+		Actor: Scott Leslie
+		Actor: Wathen Abby
+ID: 467878 NAME: Samurai Avenger: The Blind Wolf YEAR: 2009
+		Director: Mitsutake  Kurando
+		Actor: Arcangeli Domiziano
+		Actor: Blair Gregory
+		Actor: Buck Curtis
+		Actor: Forristal Gus
+		Actor: Gilbert Charlie
+		Actor: Haile Phillipos
+		Actor: Hiro Aki
+		Actor: Imura Hidetoshi
+		Actor: Ingleman Kyle O.
+		Actor: Kamata Noriaki
+		Actor: Kelly Matthew Mark
+		Actor: Kolin Asaf
+		Actor: Kosaka Masami
+		Actor: Legg Jonathan
+		Actor: Lippold Jeffrey James
+		Actor: Lutcher Loren
+		Actor: Lynch Thomas
+		Actor: Masa Lance
+		Actor: Maulion Maxx
+		Actor: Migdal Mark
+		Actor: Mitsutake Kurando
+		Actor: Page Keith
+		Actor: Sawa Takamichi
+		Actor: Simone Dean
+		Actor: Bloom Amy
+		Actor: Cohan Tegan Ashton
+		Actor: Denda Mariko
+		Actor: Hallin Megan
+		Actor: Lesseos Leona
+		Actor: McCarthy Sarah
+		Actor: Miller Mia Angel
+		Actor: Mullaney Jennifer
+		Actor: Omura Chikako
+		Actor: Plummer Amanda
+ID: 506645 NAME: The Samurai YEAR: 2003
+		Director: Long  Tony
+		Actor: Herrmann Edward
+		Actor: Obata Toshir
+		Actor: Shu Michael
+		Actor: Wong James
+ID: 1288113 NAME: Samurai YEAR: 1993
+		Director: O'Hara  Terrence
+		Actor: De Longis Anthony
+		Actor: Guidera Anthony
+		Actor: Hayashi Henry
+		Actor: Ito Robert
+		Actor: Kendall Tom
+		Actor: Lamas Lorenzo
+		Actor: Lew James
+		Actor: Richmond Branscombe
+		Actor: Shigeta James
+		Actor: Smith Walter
+		Actor: Tagawa Cary-Hiroyuki
+		Actor: Agena Keiko
+		Actor: Kinmont Kathleen
+ID: 1011874 NAME: Samurai Ratso YEAR: 2003
+		Actor: Baldwin Adam
+		Actor: Brown Clancy
+		Actor: Chan Jackie
+		Actor: Di Maggio John
+		Actor: Ferrer Miguel
+		Actor: Masamune Tohoru
+		Actor: Nelson Noah
+		Actor: Shimono Sab
+		Actor: Sie James
+		Actor: Chan Stacie
+ID: 1353694 NAME: Samurai Tourist YEAR: 2005
+		Director: Burdine  Roy
+		Actor: Abbey Gregory
+		Actor: Grayson Wayne
+		Actor: Green Dan
+		Actor: Griffith Jason
+		Actor: Riegel Sam
+		Actor: Sinterniklaas Michael
+ID: 441713 NAME: Samurai sentai Shinkenj Ginmakuban tenkawakeme no tatakai YEAR: 2009
+		Actor: Aiba Hiroki
+		Actor: Goda Masashi
+		Actor: Ibuki Goro
+		Actor: Karahashi Mitsuru
+		Actor: Matsuzaka Tori
+		Actor: Miyata Hironori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Sohma Keisuke
+		Actor: Suzuki Shgo
+		Actor: wada Shin'ya
+		Actor: Morita Suzuka
+		Actor: Pak Romi
+		Actor: Takanashi Rin
+ID: 237767 NAME: Ghost Dog: The Way of the Samurai YEAR: 1999
+		Director: Jarmusch  Jim
+		Actor: Adonis Frank
+		Actor: Alagna Salvatore
+		Actor: Argo Victor
+		Actor: Bryce Scott
+		Actor: Caban Angel
+		Actor: Cook Jonathan Teague
+		Actor: Cornel Touch
+		Actor: Da Raider Clay
+		Actor: De Bankol Isaach
+		Actor: Diomede Paul
+		Actor: Farmer Gary
+		Actor: Ford Clebert
+		Actor: Gorman Cliff
+		Actor: Grills Gano
+		Actor: Guay Kenny
+		Actor: Hector Jamie
+		Actor: Howe Tracy
+		Actor: Jeffreys Chuck
+		Actor: King Timbo
+		Actor: Kruger Dreddy
+		Actor: Liu Dennis
+		Actor: Lopez Roberto
+		Actor: Minucci Frank
+		Actor: Nittoli Alfred
+		Actor: Portnow Richard
+		Actor: Rabelo Jos
+		Actor: Rigano Joseph
+		Actor: Rigo Tony
+		Actor: Ruffini Gene
+		Actor: null RZA
+		Actor: Sallahr Deflon
+		Actor: Shearer Harry
+		Actor: Shi Yan Ming
+		Actor: Silva Henry
+		Actor: Stinking Dead And
+		Actor: Sturiano Jerry
+		Actor: Todisco Jerry
+		Actor: Tormey John
+		Actor: Vella Vinny
+		Actor: Viverito Vince
+		Actor: Whitaker Damon
+		Actor: Whitaker Forest
+		Actor: Angela Sharon
+		Actor: Bluestone Rene
+		Actor: Hollingshead Vanessa
+		Actor: Peck Jordan
+		Actor: Valentin Luz
+		Actor: Vessey Tricia
+		Actor: Winbush Camille
+ID: 543513 NAME: The Martial Arts of Samurai Jack YEAR: 2006
+ID: 423035 NAME: Sex Warriors and the Samurai YEAR: 1995
+		Director: Deocampo  Nick
+		Actor: Deocampo Nick
+ID: 1248876 NAME: Samurai YEAR: 2005
+		Actor: Austin Matt
+		Actor: McLaren Brandon Jay
+		Actor: McLarty Jim
+		Actor: Sainei Ryuuji
+		Actor: Tui John
+		Actor: Violette Chris
+		Actor: Wright Mark
+		Actor: Langstone Michelle
+		Actor: May Monica
+		Actor: Purrott Alycia
+ID: 207719 NAME: Kenjutsu: The Art of the Samurai Vol. 1 YEAR: 2004
+		Director: Tarver  Dwayne
+ID: 103358 NAME: Fugitive Samurai YEAR: 1984
+		Director: Matsuo  Akinori
+		Actor: Nakamura Kinnosuke
+ID: 213278 NAME: Hunt for the Samurai Subs YEAR: 2009
+		Director: Chivvis  Devon
+ID: 386632 NAME: Noma Dojo 'For the 21st Century Samurai' YEAR: 2009
+		Director: Kud  Mizuho
+ID: 662752 NAME: Yoroiden Samurai Trooper Gaiden YEAR: 1989
+		Actor: Brown Don
+		Actor: Devall Trevor
+		Actor: Donovan Michael
+		Actor: Francis Andrew
+		Actor: Hill Matt
+		Actor: McKinnon Danny
+		Actor: Perry Ward
+		Actor: Smith Matt
+		Actor: Michaels Jillian
+		Actor: O'Hara Maggie Blue
+ID: 192786 NAME: Daigaku no samurai tachi YEAR: 1957
+		Director: Aoyagi  Nobuo
+		Actor: Ehara Tatsuyoshi
+		Actor: Fujiki Y
+		Actor: Fujiwara Kamatari
+		Actor: Kobayashi Keiju
+		Actor: Kubo Akira
+		Actor: Maresco Leopold
+		Actor: Miki Norihei
+		Actor: Morikawa Shin
+		Actor: Sahara Kenji
+		Actor: Shimizu Ichir
+		Actor: Tachikawa Hiroshi
+		Actor: Takarada Akira
+		Actor: Dan Reiko
+		Actor: Ichinomiya Atsuko
+		Actor: Matsushima Tomoko
+		Actor: Tsukasa Yko
+ID: 431010 NAME: Samurai Spirits Zero Special YEAR: 2004
+		Actor: Arai Toshimitsu
+		Actor: Kaneda Miho
+		Actor: Kobayashi Kiyoshi
+		Actor: Koichi Mantar
+		Actor: Kuwata Kong
+		Actor: Maetsuka Monster
+		Actor: Mogami Tsuguo
+		Actor: Nakata Kazuhiro
+		Actor: Nishimura Toshikazu
+		Actor: Nonaka Masahiro
+		Actor: Nose Ikuji
+		Actor: Oikawa Naoki
+		Actor: Oohata Shintarou
+		Actor: Shinomiya Gou
+		Actor: Taki Satoshi
+		Actor: Utsumi Kenji
+		Actor: Watanabe Takeshi
+		Actor: Yamanishi Atsushi
+		Actor: Yano Eiji
+		Actor: Yuuki Hiro
+		Actor: Hikami Kyko
+		Actor: Ikoma Harumi
+		Actor: Ito Shizuka
+		Actor: Nabatame Hitomi
+		Actor: Yukino Satsuki
+ID: 426165 NAME: Shira: The Vampire Samurai YEAR: 2005
+		Director: Centauri  Jeff
+		Actor: Alexander Flex
+		Actor: Amini Bejan
+		Actor: Bautista Angeleito
+		Actor: Betsch Sebastien
+		Actor: Centauri Jeff
+		Actor: Ching Sean
+		Actor: Dronet Dragon
+		Actor: Dwonzh Lawrence
+		Actor: Estrada Orlando
+		Actor: Foster Damian
+		Actor: Knight Lamar
+		Actor: Lam Jeff
+		Actor: Lew James
+		Actor: Lovell Trey
+		Actor: Lyons Jacob 'Cujo'
+		Actor: McCoy Andre
+		Actor: Mercado Jo Eric
+		Actor: Tucker Todd
+		Actor: Villa Edwin
+		Actor: Zmed Adrian
+		Actor: null Betellan
+		Actor: Blackridge Brandy
+		Actor: Gotslak Maranne
+		Actor: Jason Chona
+		Actor: Lee Uri
+		Actor: Moore Stephanie
+		Actor: Park Lisa
+ID: 568519 NAME: The Lost Samurai YEAR: 2004
+		Director: Whiteside  Dean
+		Actor: Ikeuchi Hiroyuki
+		Actor: Mita Shinichi
+		Actor: Sekiguchi Takashi
+		Actor: Tsuchiya Shukou
+		Actor: West Jai
+ID: 406269 NAME: Samurai YEAR: 1965
+		Director: Okamoto  Kihachi
+		Actor: Amamoto Eisei
+		Actor: Ehara Tatsuyoshi
+		Actor: Fujita Susumu
+		Actor: Hasegawa Hiroshi
+		Actor: Hirata Akihiko
+		Actor: Ichikawa Chsha
+		Actor: Ichikawa Koraizo
+		Actor: Inaba Yoshio
+		Actor: It Ynosuke
+		Actor: Iwamoto Hiroshi
+		Actor: Kirino Nadao
+		Actor: Kobayashi Keiju
+		Actor: Kurosawa Toshio
+		Actor: Kusakawa Naoya
+		Actor: Matsumoto Koshiro
+		Actor: Mifune Toshir
+		Actor: Mukai Junichir
+		Actor: Nakamaru Tadao
+		Actor: Nakamura Shikaku
+		Actor: Nihei Masanari
+		Actor: Ogawa Yasuz
+		Actor: Otsude Shiro
+		Actor: Sawamura Ikio
+		Actor: Sekida Y
+		Actor: Shimura Takashi
+		Actor: Suzuki Kazuo
+		Actor: Tajima Yoshifumi
+		Actor: Terashima Mitsugu
+		Actor: Tokita Fujio
+		Actor: Tsutsumi Yasuhisa
+		Actor: Tgin Chtar
+		Actor: Tno Eijir
+		Actor: Aratama Michiyo
+		Actor: Sugimura Haruko
+		Actor: Tamura Nami
+		Actor: Yachigusa Kaoru
+ID: 255552 NAME: Kenjutsu: The Art of the Samurai Vol. 11 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 1327651 NAME: Samurai ny yku YEAR: null
+ID: 944989 NAME: Samurai, Bushid, ugoku vandamu YEAR: null
+		Actor: Hino Satoshi
+		Actor: Nara Tru
+		Actor: Oosaka Chikara
+		Actor: Osuka Jun
+		Actor: Toriumi Kosuke
+		Actor: Wakamoto Norio
+		Actor: Asano Masumi
+		Actor: Got Saori
+		Actor: Ito Shizuka
+		Actor: Katou Emiri
+		Actor: Kugimiya Rie
+		Actor: Nabatame Hitomi
+		Actor: Nakajima Saki
+		Actor: Nakao Eri
+		Actor: Satou Rina
+		Actor: Shiraishi Ryoko
+		Actor: Takahashi Mikako
+		Actor: Tanaka Rie
+		Actor: Yahagi Sayuri
+ID: 246339 NAME: Kenjutsu: The Art of the Samurai Vol. 16 YEAR: 2005
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 681920 NAME: zora no samurai YEAR: 1976
+		Director: Maruyama  Seiji
+		Actor: Fujioka Hiroshi
+		Actor: Shigaki Taro
+		Actor: Shimada Junshi
+		Actor: Tanba Tetsur
+ID: 245065 NAME: Kenjutsu: The Art of the Samurai Vol. 20 YEAR: 2006
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 278072 NAME: I, Samurai YEAR: 2006
+		Director: Dickinson  Patrick
+		Actor: Graham-Dixon Andrew
+ID: 602142 NAME: Yukimura Sanada, the Most Frightening Samurai for the First Shogun Ieyasu YEAR: 1998
+		Actor: Kurata Tetsuo
+ID: 1415730 NAME: The Night of the Samurai YEAR: 1967
+		Director: Hellstrm  Gunnar
+		Actor: Andelius Anders
+		Actor: Cangey Dick
+		Actor: Conrad Robert
+		Actor: David Thayer
+		Actor: Dhiegh Khigh
+		Actor: Fujikawa Jerry
+		Actor: Golden Mickey
+		Actor: Hubbard John
+		Actor: Martin Ross
+		Actor: Stevens Paul
+		Actor: West Red
+		Actor: Betts Jane
+		Actor: Funai Helen
+		Actor: Germaine Elizabeth
+		Actor: Mathews Carole
+		Actor: Tsu Irene
+		Actor: Ward Candy
+ID: 473678 NAME: Samurai Spirits YEAR: 1993
+		Actor: Inage T.
+		Actor: Sakai Takayuki
+		Actor: Usui Masaki
+		Actor: Yano Eiji
+		Actor: Ikoma Harumi
+ID: 1469 NAME: Afro Samurai: Resurrection YEAR: 2009
+		Director: Kizaki  Fuminori
+		Actor: Bennett Jeff
+		Actor: Blum Steve
+		Actor: Bullock S. Scott
+		Actor: Eagles Greg
+		Actor: Gordon Zachary
+		Actor: Hamill Mark
+		Actor: Jackson Samuel L.
+		Actor: LaMarr Phil
+		Actor: Lowenthal Yuri
+		Actor: O'Brien Liam
+		Actor: Richardson Kevin Michael
+		Actor: null RZA
+		Actor: Wittenberg Dave
+		Actor: DeLisle Grey
+		Actor: Liu Lucy
+		Actor: Winter Ariel
+ID: 990912 NAME: The Samurai YEAR: 1994
+		Director: Berry  Dennis
+		Actor: Akin Philip
+		Actor: Arrowsmith Terry
+		Actor: Byrnes Jim
+		Actor: Ito Robert
+		Actor: Kanagawa Hiro
+		Actor: Kirsch Stan
+		Actor: McHattie Stephen
+		Actor: Paul Adrian
+		Actor: Tomita Tamlyn
+ID: 1215773 NAME: The Samurai's Journey: Part 3 YEAR: 2003
+		Director: Grinder  Paul
+		Actor: Chan Jason
+		Actor: Magasiva Pua
+		Actor: McFarland Grant
+		Actor: McMillan Glenn
+		Actor: Tuominen Adam
+		Actor: Vargas Jorge
+		Actor: Young Dene
+		Actor: Browne Katrina
+		Actor: Devine Katrina
+		Actor: Martin Sally
+ID: 418119 NAME: Samurai Shodown YEAR: 1994
+		Actor: Bosco Steve
+		Actor: Ford Neal
+		Actor: Fowler Dennis C.
+		Actor: Greenfield Matt
+		Actor: Issac Christopher
+		Actor: Krohn Aaron
+		Actor: Lawrence Milton
+		Actor: Matthews Brian
+		Actor: Mungle Rob
+		Actor: Scroggins Drew
+		Actor: Stoll Kurt
+		Actor: Amerson Carol
+		Actor: Angus Jan
+		Actor: Curtis Wendee
+		Actor: Grant Tiffany
+		Actor: Jenkins Kathleen M.
+		Actor: Lee Wendee
+		Actor: Rae Marcy
+		Actor: Reyes Lorraine
+		Actor: Yates Kimberly
+ID: 946421 NAME: Kya no samurai sberu YEAR: null
+		Actor: St. Peter Paul
+ID: 338755 NAME: Lady Samurai YEAR: 2007
+		Director: DeLude  Adrian
+		Actor: Beard Tanner
+		Actor: Braden Stacy
+		Actor: Branden Tracy
+		Actor: Busey Gary
+		Actor: DeRizzo Dion
+		Actor: null Dion
+		Actor: Lee Conan
+		Actor: Lister Tommy 'Tiny'
+		Actor: Matthews Keilan
+		Actor: McGee Scott
+		Actor: Miano Robert
+		Actor: Peters Robert Anthony
+		Actor: Pittman John
+		Actor: Quartaroli Peter
+		Actor: Wallace III Lee
+		Actor: West Marcus
+		Actor: Arland Kimberly
+		Actor: Beaune Hallie
+		Actor: Brooks J. Cynthia
+		Actor: Kreyling Kristina
+		Actor: Pollard Melissa
+		Actor: Scripps Libby
+		Actor: Spross Silvia
+ID: 293065 NAME: Kenjutsu: The Art of the Samurai Vol. 5 YEAR: 2004
+		Director: Tarver  Dwayne
+		Actor: Tarver Dwayne
+ID: 676087 NAME: Virtue: The Way of the Modern Samurai YEAR: 2007
+		Director: Courtemanche  H. Jarrod
+		Actor: Courtemanche Jason
+		Actor: De Biase Jeff
+		Actor: Phillips Jeffrey
+		Actor: Quint Brian
+		Actor: Aquino Ivory
+ID: 1355534 NAME: Das Schwert des Samurai YEAR: null
+		Director: Siebert  Werner
+		Actor: Feist Thomas
+		Actor: Guillaume Michel
+		Actor: Klaus Wilfried
+		Actor: Le Binh
+		Actor: Odendahl Florian
+		Actor: Rutz Stefan
+		Actor: Schreier Hartmut
+		Actor: Tanabe Toru
+		Actor: Amft Diana
+		Actor: Baumgartner Monika
+		Actor: Hein Bianca
+		Actor: Rath Elisabeth
+ID: 273240 NAME: Jose Lopez + Mariachi Samurai YEAR: 2008
+		Director: Solis  Omar
+ID: 1232806 NAME: Kar samurai YEAR: 2009
+		Director: Takemoto  Noboru
+		Actor: Aiba Hiroki
+		Actor: Horikawa Ry
+		Actor: Ibuki Goro
+		Actor: Matsuzaka Tori
+		Actor: Nagashima Yichi
+		Actor: Nishi Rintarou
+		Actor: Sohma Keisuke
+		Actor: Suzuki Shgo
+		Actor: Tchika Kichi
+		Actor: Morita Suzuka
+		Actor: Pak Romi
+		Actor: Takanashi Rin
+
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 3
+> Renting the movie id 1232806
+COMMITED RENTAL TRANS...
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 2
+> Fast Searching for the movie 'desparado'
+ID: 1385912 NAME: Spiderman vs. Desparado YEAR: null
+		Director: Anzilotti  Cosmo
+		Director: Bakshi  Ralph
+		Director: Geronimi  Clyde
+		Director: Harriton  Chuck
+		Director: Marcus  Sid
+		Director: Morrow  Gray
+		Director: Patterson  Ray
+		Director: Simmons  Grant
+		Actor: Cowan Bernard
+		Actor: Harvey Tom
+		Actor: Kligman Paul
+		Actor: Soles Paul
+		Actor: Dixon Peg
+
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 2
+> Renting the movie id 1385912
+COMMITED RENTAL TRANS...
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 1
+> Renting the movie id 914423
+COMMITED RENTAL TRANS...
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 0
+> Fast Searching for the movie 'happening'
+ID: 1287609 NAME: Verb: That's What's Happening YEAR: null
+ID: 1009981 NAME: It's Happening YEAR: 1968
+		Actor: Allison Keith
+		Actor: Correro Jr. Joe
+		Actor: Weller Freddy
+		Actor: Rogers Keith
+ID: 290554 NAME: It's All Happening YEAR: 1963
+		Director: Sharp  Don
+		Actor: Barry John
+		Actor: Beeby Bruce
+		Actor: Boulter John
+		Actor: Bresslaw Bernard
+		Actor: Cartwright Bill
+		Actor: Cast Edward
+		Actor: Chandler Jeffrey
+		Actor: Clyde Valley Stompers The
+		Actor: Conway Russ
+		Actor: Dawes Anthony
+		Actor: De Little Johnny
+		Actor: Dean Robert
+		Actor: Faulkner Keith
+		Actor: Francis Dai
+		Actor: Goolden Richard
+		Actor: Green Philip
+		Actor: Hudd Walter
+		Actor: Kallman Dick
+		Actor: Love Geoff
+		Actor: Medwin Michael
+		Actor: Mercer Tony
+		Actor: Parker Bryan
+		Actor: Pelly Anthony
+		Actor: Stardust Alvin
+		Actor: Steele Tommy
+		Actor: Tate John
+		Actor: Thompson Michael
+		Actor: Waine Gordon
+		Actor: Williams Danny
+		Actor: Clegg Barbara
+		Actor: Deene Carol
+		Actor: Douglas Angela
+		Actor: Harvey Jean
+		Actor: Henfrey Janet
+		Actor: McCutcheon Gillian
+		Actor: Russell Iris
+		Actor: Russell Marigold
+		Actor: Ryan Marion
+		Actor: Ward Abril
+ID: 684237 NAME: What's Happening to Me? YEAR: 1986
+ID: 791011 NAME: Nothing Happening YEAR: null
+		Director: Judge  Mike
+		Actor: Judge Mike
+ID: 668098 NAME: What's Happening! The Beatles in the U.S.A. YEAR: 1964
+		Director: Maysles  Albert
+		Director: Maysles  David
+		Actor: 'K' Murray the
+		Actor: Beatles The
+		Actor: Epstein Brian
+		Actor: Evans Mal
+		Actor: Harrison George
+		Actor: Lennon Cynthia
+ID: 36927 NAME: A Happening in Central Park YEAR: 1968
+		Director: Scheerer  Robert
+		Actor: Streisand Barbra
+ID: 1163288 NAME: Ski ryokou no happening YEAR: null
+		Actor: Ginga Banj
+		Actor: Tsuji Shigeru
+		Actor: Yanami Jji
+		Actor: Horie Mitsuko
+		Actor: Matsushima Minori
+		Actor: Miyazaki Keiko
+		Actor: Tsukase Noriko
+ID: 1165051 NAME: It's All Happening YEAR: 1967
+		Director: Miller  Marc
+		Actor: Ashford David
+		Actor: Caesar John
+		Actor: Caffrey Sean
+		Actor: Carlin John
+		Actor: Carter David
+		Actor: Francis Raymond
+		Actor: Garth David
+		Actor: Hale Glyn
+		Actor: Jordan Patrick
+		Actor: Ross Alex
+		Actor: Soskin Henry
+		Actor: Howells Ursula
+		Actor: Kay Barbara
+		Actor: O'Neil Colette
+ID: 1526955 NAME: What's Happening to America YEAR: 1968
+		Actor: Newman Edwin
+ID: 1028920 NAME: What's Happening to Me? YEAR: 1988
+		Director: Rafkin  Alan
+		Actor: Bradley Tom
+		Actor: Nemes Scott
+		Actor: Shandling Garry
+		Actor: Tucci Michael
+		Actor: Willson Paul
+		Actor: Birkett Bernadette
+		Actor: Cheek Molly
+		Actor: Fields Holly
+ID: 604889 NAME: What's Happening? YEAR: 1967
+		Director: Branca  Antonello
+		Actor: Corso Gregory
+		Actor: Ginsberg Allen
+		Actor: Kraushar Leon
+		Actor: Lichtenstein Roy
+		Actor: Mogubgub Fred
+		Actor: Rauschenberg Robert
+		Actor: Warhol Andy
+		Actor: Benois Marie
+ID: 559928 NAME: The Incredible Happenings of Avery Goodman YEAR: 2007
+		Director: McCormick  Brandon
+		Actor: Babiarz Gary
+		Actor: Beelner Aaron
+		Actor: Blair Richard
+		Actor: Brannon Danny
+		Actor: Cohen Brian R.
+		Actor: Curran John
+		Actor: Davis Patrick
+		Actor: Jackson Dwayne
+		Actor: Johns Greg
+		Actor: McDowell Randy
+		Actor: Mercure Hayes
+		Actor: Pacer Bill
+		Actor: Renneker L.J.
+		Actor: Roach John
+		Actor: Wilkerson Billy
+		Actor: Williams Dale
+ID: 639377 NAME: Unexpected Happenings YEAR: 2007
+		Director: Stone  Miri
+		Actor: Illes Ruth
+		Actor: Spencer Shay
+ID: 970961 NAME: Gadzooks! It's All Happening YEAR: 1965
+		Actor: David Alan
+		Actor: Holmes Christine
+ID: 995601 NAME: Family vs. What's Happening YEAR: null
+		Actor: Berry Fred
+		Actor: Broderick James
+		Actor: Dawson Richard
+		Actor: Frank Gary
+		Actor: Nelson Haywood
+		Actor: Rubinstein John
+		Actor: Thomas Ernest
+		Actor: Wood Gene
+		Actor: Baxter Meredith
+		Actor: Cummings Quinn
+		Actor: Hemphill Shirley
+		Actor: Spencer Danielle
+ID: 1249796 NAME: Strange Things Are Happening YEAR: null
+		Director: Kneitel  Seymour
+		Actor: Beck Jackson
+		Actor: Mercer Jack
+		Actor: Questel Mae
+ID: 144431 NAME: Empire Me: New Worlds Are Happening! YEAR: 2009
+		Director: Poet  Paul
+		Actor: Jelinek Robert
+ID: 1500927 NAME: What's Happening Now! YEAR: 1985
+		Director: Liberti-Kennedy  Gail
+		Director: Milligan  Mike
+		Director: Grigg  Ginger
+		Director: Barnette  Neema
+		Director: Brown  Gary
+		Director: Csiki  Tony
+		Director: Elterman  Judi
+		Director: Fischer-Doak  Pat
+		Director: Washington  Art
+		Director: Priest  Bob
+		Director: Singletary  Tony
+		Director: Smith  Arlando
+		Director: Rosenzweig  Joel
+		Director: Shimokawa  Gary
+ID: 651039 NAME: You Can't Say That! What's Happening to Free Speech with John Stossel YEAR: 2000
+		Director: Goodman  Roger
+		Actor: Stossel John
+ID: 1239376 NAME: Paranormal Happenings YEAR: 2009
+ID: 235337 NAME: I Can't Believe This Is Happening to Me! YEAR: 1995
+		Director: Shear  Eliot
+		Director: Holman  Eric
+ID: 259374 NAME: It's What's Happening, Baby! YEAR: 1965
+		Director: Shear  Barry
+		Actor: 'K' Murray the
+		Actor: Berry Jan
+		Actor: Charles Ray
+		Actor: Clark Dave
+		Actor: Cosby Bill
+		Actor: Davidson Lenny
+		Actor: Drifters The
+		Actor: Franklin Melvin
+		Actor: Gaye Marvin
+		Actor: Gourdine Anthony
+		Actor: Green Karl
+		Actor: Hatfield Bobby
+		Actor: Hopwood Keith
+		Actor: Huxley Rick
+		Actor: Jackson Chuck
+		Actor: Jones Tom
+		Actor: Kendricks Eddie
+		Actor: Leckenby Derek
+		Actor: Lewis Gary
+		Actor: Mathis Johnny
+		Actor: Medley Bill
+		Actor: Moore Warren
+		Actor: Noone Peter
+		Actor: Rivers Johnny
+		Actor: Robinson Smokey
+		Actor: Rogers Bobby
+		Actor: Ruffin David
+		Actor: Smith Mike
+		Actor: Tarplin Marvin
+		Actor: Torrence Dean
+		Actor: West Payton Denis
+		Actor: White Ronnie
+		Actor: Whitwam Barry
+		Actor: Williams Otis
+		Actor: Williams Paul
+		Actor: Ashford Rosalind
+		Actor: Ballard Florence
+		Actor: Bennett Estelle
+		Actor: Kelley Betty
+		Actor: LaBelle Patti
+		Actor: Reeves Martha
+		Actor: Ross Diana
+		Actor: Spector Ronnie
+		Actor: Talley Nedra
+		Actor: Wells Mary
+		Actor: Wilson Mary
+ID: 632102 NAME: What's Happening to the News YEAR: 2007
+ID: 1301631 NAME: Happening YEAR: 1968
+		Director: Frankel  Cyril
+		Actor: Cummings Bill
+		Actor: Damon Stuart
+		Actor: Gaunt William
+		Actor: Gough Michael
+		Actor: MacGowran Jack
+		Actor: Nicholls Anthony
+		Actor: Taylor Grant
+		Actor: Bastedo Alexandra
+ID: 580681 NAME: The Happening YEAR: 1967
+		Director: Silverstein  Elliot
+		Actor: Askew Luke
+		Actor: Berle Milton
+		Actor: Homolka Oskar
+		Actor: James Clifton
+		Actor: Kruschen Jack
+		Actor: Kuhl James Randolph
+		Actor: Maharis George
+		Actor: Parks Michael
+		Actor: Quinn Anthony
+		Actor: Roche Eugene
+		Actor: Walker Jr. Robert
+		Actor: Dunaway Faye
+		Actor: Hyer Martha
+ID: 1506553 NAME: What's Happening!! YEAR: 1976
+		Director: Simon  Danny
+		Director: Rafkin  Alan
+		Director: Richards  Ron
+		Director: Shea  Jack
+		Director: Scanlan  Joseph L.
+		Director: Steinmetz  Dennis
+		Director: Yorkin  Bud
+		Director: Foster  Bill
+		Director: Csiki  Tony
+		Director: Bernhardi  Lee
+		Director: Hardwick  Mary
+ID: 1018077 NAME: Jools Holland's Happening YEAR: 1990
+		Director: Wild  Bob
+		Director: Chilvers  Phil
+ID: 278775 NAME: Happenings Around Town: The Second Season YEAR: 2008
+ID: 1042288 NAME: Harriet's Happenings YEAR: 1978
+		Director: Claxton  William F.
+		Actor: Bull Richard
+		Actor: Eisenmann Ike
+		Actor: Gilbert Jonathan
+		Actor: Hagen Kevin
+		Actor: Hillerman John
+		Actor: Laborteaux Matthew
+		Actor: Labyorteaux Patrick
+		Actor: Landon Michael
+		Actor: Moody King
+		Actor: Olsen Merlin
+		Actor: Pitti Carl
+		Actor: Anderson Melissa Sue
+		Actor: Arngrim Alison
+		Actor: Beach Laurie
+		Actor: Foster Ruth
+		Actor: Gilbert Melissa
+		Actor: Grassle Karen
+		Actor: Greenbush Lindsay
+		Actor: Greenbush Sidney
+		Actor: MacGregor Scottie
+		Actor: Munro Maggie
+		Actor: O'Brien Stacey
+		Actor: Parady Hersha
+		Actor: Pera Lisa
+		Actor: Turnbaugh Brenda
+		Actor: Turnbaugh Wendi
+ID: 544124 NAME: The Happening YEAR: 2005
+		Director: Lpez Retamero  David
+ID: 690157 NAME: From Hippie to Happening YEAR: null
+		Actor: Deyette Alison
+		Actor: Mai Jeannie
+ID: 1299174 NAME: What's Happening Down There? YEAR: null
+		Actor: Alazraqui Carlos
+		Actor: Almeida Kevin
+		Actor: Bennett Jeff
+		Actor: Davidson Hugh
+		Actor: Gardner Josh
+		Actor: Gil Arturo
+		Actor: Girardi Peter
+		Actor: Kimmel Jonathan
+		Actor: Potenza Frank
+		Actor: Ray Jonah
+		Actor: Snyder Dana
+		Actor: Williams Gary Anthony
+		Actor: Voronina Irina
+ID: 793852 NAME: It's a Totally Happening Life YEAR: 1992
+		Director: Lang  Richard
+		Actor: Costanzo Robert
+		Actor: Dillon Seth
+		Actor: Eckhouse James
+		Actor: Green Brian Austin
+		Actor: Kiely Mark
+		Actor: Licon Jeffrey
+		Actor: Perry Luke
+		Actor: Priestley Jason
+		Actor: Tata Joe E.
+		Actor: Toji Marcus
+		Actor: Ziering Ian
+		Actor: Barron Dana
+		Actor: Carteris Gabrielle
+		Actor: Doherty Shannen
+		Actor: Dowse Denise
+		Actor: Garth Jennie
+		Actor: Potter Carol
+		Actor: Spelling Tori
+		Actor: Urseth Bonnie
+ID: 548016 NAME: The Happening YEAR: 2008
+		Director: Shyamalan  M. Night
+		Actor: Appel Peter
+		Actor: Aptacy Frank
+		Actor: Bailey Jr. Robert
+		Actor: Biscardi Michael
+		Actor: Bitonti Carmen
+		Actor: Bizik Robert
+		Actor: Bowyer Chris
+		Actor: Breen James
+		Actor: Breslin Spencer
+		Actor: Brown Anthony C.
+		Actor: Bullard Keith
+		Actor: Burkett Lee
+		Actor: Castro Don
+		Actor: Chemerka Bill
+		Actor: Chen Lyman
+		Actor: Chew Rich
+		Actor: Collison Frank
+		Actor: Craft Alex
+		Actor: Danoff Adam
+		Actor: de la Fuente Joel
+		Actor: Debac Stphane
+		Actor: Den Dekker Michael
+		Actor: Devon Tony
+		Actor: Doherty Sid
+		Actor: Emmert Alexander
+		Actor: Fazio Robert
+		Actor: Fischman Ruben
+		Actor: Foster Rick
+		Actor: Glick Marc H.
+		Actor: Graves Richard
+		Actor: Hagen Thomas M.
+		Actor: Harding Derege
+		Actor: Heywood Wes
+		Actor: Hyland Edward James
+		Actor: Jacobson Mark
+		Actor: Kershner Basil
+		Actor: Klaszky Steven J.
+		Actor: Kraycik Michael J.
+		Actor: Leguizamo John
+		Actor: Lenzi Robert
+		Actor: Lombardi Roberto
+		Actor: Lyle Art
+		Actor: McClarin Curtis
+		Actor: McMullin Chris
+		Actor: Myers Ken
+		Actor: O'Halloran Brian
+		Actor: O'Shea Eoin
+		Actor: Ottavino John
+		Actor: Ovalle Mauricio
+		Actor: Penberthy Kirk
+		Actor: Pendelton Charles
+		Actor: Prantil Nikki
+		Actor: Pricskett Mark
+		Actor: Quinlan Michael
+		Actor: Riviezzo Vincent
+		Actor: Rocco Sam
+		Actor: Romero Jordan
+		Actor: Ruck Alan
+		Actor: Runkle Kurt
+		Actor: Samuels Ben
+		Actor: Saxton Charlie
+		Actor: Schanamann Chuck
+		Actor: Schoon Adam
+		Actor: Schultz Armand
+		Actor: Shusta Bill
+		Actor: Shyamalan M. Night
+		Actor: Singer Stephen
+		Actor: Smith Eugene
+		Actor: Smith Greg
+		Actor: Strong Jeremy
+		Actor: Thouvenin Cyrille
+		Actor: Tornatore Joseph
+		Actor: Troost Scott
+		Actor: Uhrich Jared
+		Actor: Van Kooy Alex
+		Actor: Van Wert Dan
+		Actor: Villani Joseph
+		Actor: Wahlberg Mark
+		Actor: Washington Ukee
+		Actor: Wilson Brian Anthony
+		Actor: Wilson Mike
+		Actor: Womack Cornell
+		Actor: Wood Greg
+		Actor: Wooten John
+		Actor: Yannick Scott
+		Actor: Zona Stosh
+		Actor: Brimfield Ashley
+		Actor: Buckley Betty
+		Actor: Burke Sophie
+		Actor: Clark Victoria
+		Actor: Connell Chelsea
+		Actor: Connell Leslie
+		Actor: Connolly Kristen
+		Actor: Deschanel Zooey
+		Actor: Driscoll Mary Ellen
+		Actor: Ellington Farris
+		Actor: Ellis Jann
+		Actor: Folland Alison
+		Actor: Furst Lisa
+		Actor: Goode Leilani
+		Actor: Habberstad Allie
+		Actor: Hariani Babita
+		Actor: Hart Kathy
+		Actor: Hobel Mara
+		Actor: Law Traci
+		Actor: Lee Nicole
+		Actor: Levine Shayna
+		Actor: Mazaika Megan
+		Actor: O'Malley Kerry
+		Actor: Sampson Christina
+		Actor: Sanchez Ashlyn
+		Actor: Sokerka Nancy
+		Actor: Steffen Samantha
+		Actor: Sugarman Whitney
+		Actor: Taylor Alicia
+		Actor: Villani Catrina
+		Actor: Villanova Kimberly
+		Actor: Wieder Megan Rose
+		Actor: Wiener Jennifer
+		Actor: Yorks Julia
+ID: 902051 NAME: Knights and Daze/Holiday Happening/Jailbird Jon YEAR: null
+		Director: Brain  Dave
+		Director: Davis  Vincent
+		Director: West  James
+		Actor: Berger Gregg
+		Actor: Huge Thom
+		Actor: Morris Howard
+		Actor: Music Lorenzo
+		Actor: Welker Frank
+		Actor: Jackson Victoria
+		Actor: MacNeille Tress
+ID: 994464 NAME: Happening YEAR: 1965
+		Actor: Soles Paul
+		Actor: Clarkson Adrienne
+ID: 1041934 NAME: Ghostbuster Dan Aykroyd on Haunted Happenings! YEAR: 1985
+		Actor: Aykroyd Dan
+		Actor: Aykroyd Peter
+		Actor: Coffey Chip
+		Actor: Hawes Jason
+		Actor: Wilson Grant
+ID: 1333438 NAME: Why Is This Happening to Me? YEAR: 2008
+ID: 249932 NAME: Happening in Wei YEAR: 1969
+		Director: Sachs  Gunter
+ID: 970713 NAME: Happening Now YEAR: 2007
+		Director: Snyder  Peter B.
+		Actor: Scott Jon
+		Actor: Skinner Jane
+ID: 1253919 NAME: It's All Happening YEAR: 1987
+		Director: Ancock  Jeremy
+		Actor: Ashton Al
+		Actor: Atkins Dave
+		Actor: Blakely John
+		Actor: Burford Ian
+		Actor: Champion Bill
+		Actor: Chandler Robin
+		Actor: Ellis Martyn
+		Actor: Elton Hugh
+		Actor: Fancy Brett
+		Actor: Ford Alan
+		Actor: Henry Patrick
+		Actor: Hogg Ian
+		Actor: Jones Harry
+		Actor: Maguire Leonard
+		Actor: McGann Joe
+		Actor: Persaud Stephen
+		Actor: Reed Bunny
+		Actor: Shorter Ken
+		Actor: Sullivan Chris
+		Actor: Watkins Michael
+		Actor: Cabayo Ena
+		Actor: Emmanuel Alphonsia
+		Actor: Shelling Susanna
+ID: 1418390 NAME: This Is Not Happening YEAR: 2001
+		Director: Manners  Kim
+		Actor: Duchovny David
+		Actor: Patrick Robert
+		Actor: Pileggi Mitch
+		Actor: Ross Randy
+		Actor: Scott Judson Earney
+		Actor: Thinnes Roy
+		Actor: Thomas Eddie Kaye
+		Actor: Trichter Judd
+		Actor: White Bernard
+		Actor: Anderson Gillian
+		Actor: Gish Annabeth
+		Actor: Koskoff Sarah
+		Actor: Warren Arlene
+		Actor: Witt Roz
+ID: 767585 NAME: SWAT's Happening YEAR: 2000
+		Actor: Batiste David
+		Actor: Blessing Jack
+		Actor: Buckman Phil
+		Actor: Gray Daniel
+		Actor: Harper Hill
+		Actor: Hodge Aldis
+		Actor: Jennings Brent
+		Actor: Russell T.E.
+		Actor: Secor Kyle
+		Actor: Tanner Antwon
+		Actor: Underwood Blair
+		Actor: Warren Michael
+		Actor: Bush Nicole
+		Actor: Davis Viola
+		Actor: Lo Janet
+		Actor: Spencer Octavia
+		Actor: Taylor Tamara
+		Actor: Union Gabrielle
+ID: 966181 NAME: It's All Happening YEAR: null
+		Actor: Blackham Michael
+		Actor: Harper Gerald
+		Actor: Laurimore Jon
+		Actor: Wray Gillian
+ID: 1179252 NAME: Minato matsuri no happening YEAR: null
+		Director: Kobayashi  Kazuhiko
+		Actor: Chiba Shigeru
+		Actor: Gri Daisuke
+		Actor: Kameyama Sukekiyo
+		Actor: Mizushima Y
+		Actor: Nanba Keiichi
+		Actor: Nojima Akio
+		Actor: Fuchizaki Yuriko
+		Actor: Fukami Rica
+		Actor: Kishiro Sakurako
+		Actor: Mita Yko
+		Actor: Shimazu Saeko
+		Actor: Takashima Gara
+		Actor: Tominaga Mna
+ID: 934712 NAME: News War: What's Happening with the News - Part 3 YEAR: null
+		Actor: Bergman Lowell
+		Actor: Lyman Will
+ID: 1412578 NAME: Mean Things Happening YEAR: 1993
+ID: 540646 NAME: This Keeps Happening YEAR: 2009
+		Director: Angle  Drew
+		Actor: Goode Alex
+		Actor: Salzwedel Ryan
+		Actor: Sugarman Michael
+		Actor: Sugimoto Dan
+		Actor: Fleck Cardi
+		Actor: Flint Morgan
+		Actor: Kibbler Elise
+ID: 913614 NAME: This Can't Be Happening at MacDonald Hall YEAR: 2010
+		Director: Glassbourg  Michael
+		Actor: Trudeau Justin
+ID: 951749 NAME: Happening for Lulu YEAR: 1968
+		Actor: null Lulu
+ID: 1436146 NAME: Bewitched: Divided He Falls/What's Happening!!: Rerun Gets Married YEAR: 2002
+		Director: Leddy  Bruce
+		Actor: Berry Fred
+		Actor: Ribeiro Alfonso
+		Actor: Vogt Paul
+ID: 254783 NAME: Hapless Happenings YEAR: 1916
+		Actor: Aubrey Jimmy
+ID: 528157 NAME: The Two Names of a Testimony About the Execution of a Happening and a Suitcase Full of Broken Records YEAR: 2007
+		Director: Adam  Ozan
+ID: 19290 NAME: A Happening in Hamelin YEAR: 1968
+		Actor: Rubinstein Paulette
+ID: 453356 NAME: Something's Happening YEAR: 1967
+		Director: Beatty  Edgar
+		Actor: Ali Muhammad
+		Actor: Bar General Herschey
+		Actor: Franzoni Carl
+		Actor: Mintz Elliot
+		Actor: Paulekas Vito
+
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 0
+> Renting the movie id 453356
+ROLLED BACK RENTAL TRANS...true 1 0
 
  *** Please enter one of the following commands *** 
 > search <movie title>

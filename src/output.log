@@ -8,8 +8,137 @@
 > quit
 HELLO joe danger!
 REMAINING RENTALS: 0
-> Renting the movie id 914423
+> Switching to plan 1
+newID=1 newMax=1 oldID=4 oldMax=4 oldDelta=0 currentRented=4
+PLAN NOT UPDATED TO !!1
+Please return some movies
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 0
+> Returning the movie id 989354
+COMMITED RETURN TRANS...
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 1
+> Switching to plan 1
+newID=1 newMax=1 oldID=4 oldMax=4 oldDelta=1 currentRented=3
+PLAN NOT UPDATED TO !!1
+Please return some movies
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 1
+> Switching to plan 2
+newID=2 newMax=2 oldID=4 oldMax=4 oldDelta=1 currentRented=3
+PLAN NOT UPDATED TO !!2
+Please return some movies
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 1
+> Switching to plan 3
+newID=3 newMax=3 oldID=4 oldMax=4 oldDelta=1 currentRented=3
+PLAN UPDATED TO !!3
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 0
+> Renting the movie id 989354
 ROLLED BACK RENTAL TRANS...true 1 0
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 0
+> Returning the movie id 1385912
+COMMITED RETURN TRANS...
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 1
+> Switching to plan 2
+newID=2 newMax=2 oldID=3 oldMax=3 oldDelta=1 currentRented=2
+PLAN UPDATED TO !!2
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 0
+> Renting the movie id 989354
+ROLLED BACK RENTAL TRANS...true 1 0
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 0
+> Switching to plan 3
+newID=3 newMax=3 oldID=2 oldMax=2 oldDelta=0 currentRented=2
+PLAN UPDATED TO !!3
+
+ *** Please enter one of the following commands *** 
+> search <movie title>
+> plan [<plan id>]
+> rent <movie id>
+> return <movie id>
+> fastsearch <movie title>
+> quit
+HELLO joe danger!
+REMAINING RENTALS: 1
+> Renting the movie id 989354
+COMMITED RENTAL TRANS...
 
  *** Please enter one of the following commands *** 
 > search <movie title>

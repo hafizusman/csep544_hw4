@@ -140,6 +140,12 @@ public class Query {
             "WHERE R.movieid = ?";
     private PreparedStatement getRentalStatusCountStatement;
 
+    private static final String RETURN_RENTAL_SQL =
+            "UPDATE RENTALS " +
+            "SET status=" + RENTAL_STATUS_CLOSED + " " +
+            "WHERE customerid=? AND movieid=?";
+    private PreparedStatement returnRentalStatement;
+
 
     public Query(String configFilename) {
         this.configFilename = configFilename;
@@ -212,6 +218,7 @@ public class Query {
         updatePlanStatement = customerConn.prepareStatement(UPDATE_PLAN_SQL);
         updateRentalStatement = customerConn.prepareStatement(UPDATE_RENTAL_SQL);
         getRentalStatusCountStatement = customerConn.prepareStatement(GET_RENTAL_STATUS_COUNT_SQL);
+        returnRentalStatement = customerConn.prepareStatement(RETURN_RENTAL_SQL);
     }
 
 
@@ -496,6 +503,27 @@ public class Query {
 
     public void transaction_return(int cid, int mid) throws Exception {
 	    /* return the movie mid by the customer cid */
+        beginTransaction();
+
+        boolean is_valid_movie = isValidMovie(mid);
+        int remaining_rentals_before = getRemainingRentals(cid);
+
+        returnRentalStatement.clearParameters();
+        returnRentalStatement.setInt(1, cid);
+        returnRentalStatement.setInt(2, mid);
+        returnRentalStatement.executeUpdate();
+
+        int remaining_rentals_after = getRemainingRentals(cid);
+
+        if (is_valid_movie == false
+            || (remaining_rentals_after - 1) != remaining_rentals_before) {
+            rollbackTransaction();
+            System.out.println("ROLLED BACK RETURN TRANS..." + is_valid_movie + " " + remaining_rentals_before + " " + remaining_rentals_after);
+        }
+        else {
+            commitTransaction();
+            System.out.println("COMMITED RETURN TRANS...");
+        }
     }
 
     public void transaction_fastSearch(int cid, String movie_title)
